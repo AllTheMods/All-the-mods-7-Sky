@@ -11,7 +11,7 @@
   "toughness": 0.0,
   "knockbackResistance": 0.0,
   "curios": true,
-  "capacity": 36000000,
+  "capacity": 4800000,
   "usage": 720,
   "speedVertical": 0.92,
   "accelVertical": 0.155,
