@@ -191,17 +191,6 @@ onEvent('recipes', e => {
       crusherEnergy = 6000;
       inputIngredient = `#forge:ores/${input}`;
       crusherOutput = `${oreOverride[input] ?? 'alltheores'}:raw_${input}`;
-      // override until ATO iridium is available
-      if (crusherOutput === 'ftbic:raw_iridium') crusherOutput = 'ftbic:iridium_chunk';
-      crusherSecondaries.push({
-        chance: 0.33,
-        output: Ingredient.of(crusherOutput)
-      })
-      furnaceOutput = crusherOutput;
-      furnaceSecondaries.push({
-        chance: 0.50,
-        output: Ingredient.of(furnaceOutput)
-      })
 
       e.remove({id: `immersiveengineering:crafting/hammercrushing_${input}`});
       e.shapeless(crusherOutput, [inputIngredient, '#alltheores:ore_hammers'])
@@ -700,8 +689,6 @@ onEvent('recipes', e => {
     'allthemodium:mek_processing/allthemodium/ingot/from_dust_smelting',
     'allthemodium:mek_processing/vibranium/ingot/from_dust_smelting',
     'allthemodium:mek_processing/unobtainium/ingot/from_dust_smelting',
-    'mekanism:compat/byg/combining/brimstone_gold_ore_from_raw',
-    'mekanism:compat/byg/combining/blue_gold_ore_from_raw',
     'ftbic:shaped/bronze_dust',
     'ftbic:shaped/enderium_dust',
     'ftbic:shaped/enderium_dust_2',
