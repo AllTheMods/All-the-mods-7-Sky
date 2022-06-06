@@ -35,6 +35,46 @@
     {
       "item": "minecraft:amethyst_shard",
       "emc": 4096
+    },
+    {
+      "item": "alltheores:aluminum_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:zinc_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:tin_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:lead_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:platinum_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "alltheores:nickel_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:osmium_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:silver_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:iridium_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 256
     }
   ]
 }
