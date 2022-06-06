@@ -75,6 +75,102 @@
     {
       "item": "minecraft:glowstone_dust",
       "emc": 256
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:bone",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:leather",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:feather",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:granite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:diorite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:deepslate",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:tuff",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:dripstone_block",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:dirt",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:oak_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:spruce_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:birch_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:jungle_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:acacia_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dark_oak_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:crimson_stem",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:warped_stem",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:quartz",
+      "emc": 512
     }
   ]
 }
