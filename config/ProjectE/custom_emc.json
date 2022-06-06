@@ -511,6 +511,106 @@
     {
       "item": "minecraft:grass_block",
       "emc": 1
+    },
+    {
+      "item": "minecraft:white_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:orange_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:magenta_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:light_blue_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:yellow_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:lime_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:pink_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:light_gray_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:black_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:red_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:green_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:brown_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:blue_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:purple_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:cyan_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:blackstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:netherrack",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:mycelium",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:cake",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "emc": 8192
     }
   ]
 }
