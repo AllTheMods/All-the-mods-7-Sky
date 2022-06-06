@@ -1,8 +1,40 @@
 {
   "entries": [
     {
-      "item": "{tag:\"#forge\"}",
-      "emc": 0
+      "item": "minecraft:coal",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:redstone",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:diamond",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:emerald",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "emc": 4096
     }
   ]
 }
