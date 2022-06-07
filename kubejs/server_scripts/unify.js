@@ -8,7 +8,6 @@ onEvent('recipes', e => {
     vibranium: 'allthemodium',
     unobtainium: 'allthemodium',
     iesnium: 'occultism',
-    iridium: 'ftbic',
   }
 
   let craftOverride = {
