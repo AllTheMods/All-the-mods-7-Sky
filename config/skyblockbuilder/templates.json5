@@ -1,0 +1,18 @@
+{
+  "spawns": {
+    "default": [
+      [ 6, 3, 5 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "default",
+      "desc": "",
+      "file": "default.nbt",
+      "spawns": "default",
+      "direction": "south"
+    }
+  ]
+}
