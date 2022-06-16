@@ -48,21 +48,7 @@ onEvent(`recipes`, e => {
     e.custom({
       type: `exnihilosequentia:hammer`,
       input: Ingredient.of(input).toJson(),
-      lootTable: {
-        type: `minecraft:block`,
-        pools: [{
-          rolls: 1,
-          entries: [{
-            type: `minecraft:item`,
-            name: output,
-            functions: [{
-              function: `minecraft:set_count`,
-              count: count
-            }]
-          }],
-          conditions: []
-        }]
-      }
+      results: [Item.of(output).withCount(count).toResultJson()]
     })
   }
 
@@ -101,7 +87,6 @@ onEvent(`recipes`, e => {
   sieve(`diamond`, 0.2, `minecraft:gravel`, `mysticalagriculture:prosperity_shard`, null)
   sieve(`diamond`, 0.1, `minecraft:gravel`, `ars_nouveau:mana_gem`, null)
   sieve(`iron`, 0.25, `#minecraft:sand`, `minecraft:ink_sac`, true)
-  sieve(`diamond`, 0.1, `minecraft:gravel`, `kubejs:piece_osmium`, null)
   sieve(`diamond`, 0.05, `minecraft:gravel`, `mekanism:fluorite_gem`, null)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`flint`, 0.09, `minecraft:sand`, `mana-and-artifice:vinteum_dust`, null)
@@ -113,10 +98,11 @@ onEvent(`recipes`, e => {
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
 
   //Nether sieve
-  sieve(`diamond`, 0.2, exRack, `appliedenergistics2:fluix_crystal_seed`, null)
-  sieve(`diamond`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
+  sieve(`netherite`, 0.2, exRack, `appliedenergistics2:fluix_crystal_seed`, null)
+  sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
   sieve(`diamond`, 0.2, exRack, `minecraft:netherite_scrap`, null)
   sieve(`diamond`, 0.15, exRack, `create:rose_quartz`, null)
+  sieve(`netherite`, 0.15, exRack, `ae2:certus_quartz_crystal`, null)
   sieve(`iron`, 0.2, exRack, `minecraft:quartz`, null)
   sieve(`iron`, 0.15, `#forge:soul_sand`, `mysticalagriculture:soulium_dust`, null)
 
@@ -132,15 +118,13 @@ onEvent(`recipes`, e => {
   hhammer(`allthecompressed:sand_block_1x`, exDust, 9)
   hhammer(`allthecompressed:netherrack_block_1x`, exRack, 9)
   hhammer(`allthecompressed:endstone_block_1x`, exEnd, 9)
-  hhammer(`compressium:diorite_1`, `exnihilosequentia:crushed_diorite`, 9)
-  hhammer(`compressium:granite_1`, `exnihilosequentia:crushed_granite`, 9)
-  hhammer(`compressium:andesite_1`, `exnihilosequentia:crushed_andesite`, 9)
 
   crushEm(exDust, `#minecraft:sand`)
   crushEm(exRack, `#forge:netherrack`)
   crushEm(exEnd, `#forge:end_stones`)
 
   e.remove({id:`/exnihilosequentia:ens_raw/`})
+  e.remove({id:`exnihilomekanism:ens_raw_osmium`})  
   
   pieces.forEach(name => {
     e.shaped(`alltheores:raw_${name}`, [
@@ -151,3 +135,4 @@ onEvent(`recipes`, e => {
     })
   })
 })
+
