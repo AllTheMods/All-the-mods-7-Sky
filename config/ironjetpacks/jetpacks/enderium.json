@@ -2,7 +2,7 @@
   "name": "enderium",
   "disable": false,
   "tier": 5,
-  "color": "11928C ",
+  "color": "11928C",
   "armorPoints": 4,
   "enchantability": 15,
   "craftingMaterial": "tag:forge:ingots/enderium",
