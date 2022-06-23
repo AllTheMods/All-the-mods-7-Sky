@@ -42,6 +42,9 @@
     // Minimum: 0
     "radius": 50,
     
+    // The radius of chunks where to apply spawn protection. In this area, only op players can avoid this.
+    "spawnProtectionRadius": 0,
+    
     "Height": {
     
       // If the spawn height type is set to "range", this offset will be used to slightly move the spawn height in any direction.
@@ -93,8 +96,6 @@
       "allow_list": true,
       "elements": [
         "minecraft:fortress"
-        "minecraft:endcity"
-
       ]
     }
   },
