@@ -87,7 +87,6 @@ onEvent(`recipes`, e => {
   sieve(`diamond`, 0.2, `minecraft:gravel`, `mysticalagriculture:prosperity_shard`, null)
   sieve(`diamond`, 0.1, `minecraft:gravel`, `ars_nouveau:mana_gem`, null)
   sieve(`iron`, 0.25, `#minecraft:sand`, `minecraft:ink_sac`, true)
-  sieve(`diamond`, 0.05, `minecraft:gravel`, `mekanism:fluorite_gem`, null)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`flint`, 0.09, `minecraft:sand`, `mana-and-artifice:vinteum_dust`, null)
   sieve(`iron`, 0.1, `#forge:gravel`, `thermal:apatite`, null)
