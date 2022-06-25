@@ -136,6 +136,10 @@ onEvent(`recipes`, e => {
   e.shaped('minecraft:raw_copper', ['PP', 'PP'], {
     P: 'exnihilosequentia:copper_pieces',
 })
+
+  e.shaped('alltheores:raw_osmium', ['PP', 'PP'], {
+    P: 'exnihilomekanism:osmium_pieces',
+})
   
   pieces.forEach(name => {
     e.shaped(`alltheores:raw_${name}`, [
