@@ -85,14 +85,10 @@ onEvent(`recipes`, e => {
   //Params: Mesh, Drop chance, Input item, Output item, Waterlogged.
   //Overworld sieve
   sieve(`diamond`, 0.2, `minecraft:gravel`, `mysticalagriculture:prosperity_shard`, null)
-  sieve(`diamond`, 0.1, `minecraft:gravel`, `ars_nouveau:mana_gem`, null)
+  sieve(`flint`, 0.15, 'minecraft:oak_leaves', 'myrtrees:rubberwood_sapling', null)
   sieve(`iron`, 0.25, `#minecraft:sand`, `minecraft:ink_sac`, true)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`flint`, 0.09, `minecraft:sand`, `mana-and-artifice:vinteum_dust`, null)
-  sieve(`iron`, 0.1, `#forge:gravel`, `thermal:apatite`, null)
-  sieve(`iron`, 0.1, `#forge:gravel`, `thermal:cinnabar`, null)
-  sieve(`iron`, 0.1, `#forge:gravel`, `thermal:niter`, null)
-  sieve(`iron`, 0.1, `#forge:gravel`, `thermal:sulfur`, null)
   sieve(`emerald`, 0.25, `#forge:gravel`, `forbidden_arcanus:arcane_crystal`, null)
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
 
