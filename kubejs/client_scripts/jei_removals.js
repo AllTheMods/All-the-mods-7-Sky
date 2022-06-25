@@ -29,6 +29,7 @@ onEvent('jei.hide.items', e => {
     'immersiveengineering:stick_steel',
     'immersiveengineering:stick_aluminum',
     'ftbic:silicon',
+    'twilightforest:uncrafting_table'
   ])
 
   ftbicMetals.forEach(metal => {
@@ -95,4 +96,10 @@ onEvent('jei.hide.items', e => {
   hideStuff('mysticalagriculture', 'seeds', maDisabledSeeds)
   hideStuff('mysticalagriculture', 'essence', maDisabledSeeds)
   //#endregion
+})
+
+
+onEvent('jei.remove.categories', event => {
+  //removes the uncrafting tab
+  event.remove('twilightforest:uncrafting')
 })
