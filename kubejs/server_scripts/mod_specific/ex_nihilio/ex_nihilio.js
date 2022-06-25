@@ -124,6 +124,18 @@ onEvent(`recipes`, e => {
 
   e.remove({id:`/exnihilosequentia:ens_raw/`})
   e.remove({id:`exnihilomekanism:ens_raw_osmium`})  
+
+  e.shaped('minecraft:raw_iron', ['PP', 'PP'], {
+    P: 'exnihilosequentia:iron_pieces',
+})
+
+  e.shaped('minecraft:raw_gold', ['PP', 'PP'], {
+    P: 'exnihilosequentia:gold_pieces',
+})
+
+  e.shaped('minecraft:raw_copper', ['PP', 'PP'], {
+    P: 'exnihilosequentia:copper_pieces',
+})
   
   pieces.forEach(name => {
     e.shaped(`alltheores:raw_${name}`, [
