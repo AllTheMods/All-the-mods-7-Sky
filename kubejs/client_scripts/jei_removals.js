@@ -1,6 +1,5 @@
 onEvent('jei.hide.items', e => {
   //#region consts
-  let refined = ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor']
   let typeFirst = ['mekanism', 'immersiveengineering']
 
   //#endregion
@@ -19,10 +18,6 @@ onEvent('jei.hide.items', e => {
   }
   //#endregion
 
-  colors.forEach(color => {
-    refined.forEach(machine => e.hide([`refinedstorage:${color}_${machine}`]))
-  })
-
   e.hide([
     /extrastorage:disk_.+/,
     /extrastorage:block_.+/,
@@ -33,9 +28,6 @@ onEvent('jei.hide.items', e => {
     'immersiveengineering:stick_iron',
     'immersiveengineering:stick_steel',
     'immersiveengineering:stick_aluminum',
-    'silentgear:iron_rod',
-    'moreminecarts:chunkrodite',
-    'moreminecarts:chunkrodite_block',
     'ftbic:silicon',
   ])
 
@@ -47,6 +39,11 @@ onEvent('jei.hide.items', e => {
   ftbicAlloys.forEach(metal => hideMetal('ftbic', metal, ['ingot', 'dust', 'nugget', 'block', 'gear', 'plate', 'rod']));
   vanillaMetals.forEach(metal => hideMetal('ftbic', metal, ['dust', 'gear', 'plate', 'rod']));
   hideMetal('ftbic', 'copper', ['nugget']);
+
+  sequentiaMetals.forEach(metal => {
+    e.hide(`exnihiliosequentia:${metal}_ingot`);
+    e.hide(`exnihiliosequentia:raw_${metal}`);
+  });
 
   //#region hideMetal
   hideMetal('immersiveengineering', 'copper', ['ingot', 'ore', 'dust', 'nugget', 'storage', 'slab_storage'])
@@ -71,6 +68,13 @@ onEvent('jei.hide.items', e => {
   hideMetal('thermal', 'lead', ['ingot', 'ore', 'dust', 'nugget', 'block'])
   hideMetal('thermal', 'silver', ['ingot', 'ore', 'dust', 'nugget', 'block'])
   hideMetal('thermal', 'nickel', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'signalum', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'enderium', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'electrum', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'invar', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'bronze', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'constantan', ['ingot', 'ore', 'dust', 'nugget', 'block'])
+  hideMetal('thermal', 'lumium', ['ingot', 'ore', 'dust', 'nugget', 'block'])
   //#endregion
   //#region hideStuff
   hideStuff('thermal', 'dust', ['iron', 'gold'])
