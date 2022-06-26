@@ -1,6 +1,7 @@
 //priority: 1000
 onEvent('tags.blocks', e => {
   e.add('allthemodium:other_te_whitelist', ['mekanism:teleporter'])
+  e.add('minecraft:mineable/shovel',['snad:snad','snad:red_snad','snad:suol_snad'])
   })
 
 onEvent('tags.items', e => {
