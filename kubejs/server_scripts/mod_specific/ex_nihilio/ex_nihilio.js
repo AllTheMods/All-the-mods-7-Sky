@@ -108,8 +108,8 @@ onEvent(`recipes`, e => {
   hammer(`#minecraft:logs`, `thermal:sawdust`)
 
   //Heavy hammer
-  hhammer(`allthecompressed:cobblestone_block_1x`, `minecraft:gravel`, 9)
-  hhammer(`allthecompressed:gravel_block_1x`, `minecraft:sand`, 9)
+  hammer(`allthecompressed:cobblestone_block_1x`, `allthecompressed:gravel_block_1x`)
+  hammer(`allthecompressed:gravel_block_1x`, `allthecompressed:sand_block_1x`)
   hhammer(`allthecompressed:sand_block_1x`, exDust, 9)
   hhammer(`allthecompressed:netherrack_block_1x`, exRack, 9)
   hhammer(`allthecompressed:endstone_block_1x`, exEnd, 9)
