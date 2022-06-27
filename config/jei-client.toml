@@ -56,10 +56,10 @@
 [IngredientList]
 	#Max number of rows shown
 	#Range: 1 ~ 100
-	MaxRows = 16
+	MaxRows = 100
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 15
 	#Horizontal alignment of the ingredient grid inside the available area
 	#Allowed Values: LEFT, CENTER, RIGHT
 	HorizontalAlignment = "RIGHT"
@@ -75,10 +75,10 @@
 [BookmarkList]
 	#Max number of rows shown
 	#Range: 1 ~ 100
-	MaxRows = 99
+	MaxRows = 16
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 15
+	MaxColumns = 9
 	#Horizontal alignment of the ingredient grid inside the available area
 	#Allowed Values: LEFT, CENTER, RIGHT
 	HorizontalAlignment = "LEFT"
