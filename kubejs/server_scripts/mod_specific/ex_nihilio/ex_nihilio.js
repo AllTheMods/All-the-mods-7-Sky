@@ -94,6 +94,7 @@ onEvent(`recipes`, e => {
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
   sieve(`netherite`, 0.2, 'minecraft:basalt', 'ae2:sky_dust', null)
   sieve(`netherite`, 0.2, 'minecraft:basalt', 'minecraft:amethyst_shard', null)
+  sieve(`netherite`, 0.2, 'minecraft:basalt', 'fluxnetworks:flux_dust', null)
 
   //Nether sieve
   sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
