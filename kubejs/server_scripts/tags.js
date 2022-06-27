@@ -15,7 +15,8 @@ onEvent('tags.items', e => {
   e.add('misctags:farmland/tier1', ['mysticalagriculture:inferium_farmland', '#misctags:farmland/tier2'])
   e.add('misctags:immersive_engineering_hammer', 'immersiveengineering:hammer')
   e.add('misctags:immersive_engineering_wirecutter', 'immersiveengineering:wirecutter')
-
+  e.add('forge:soul_sand', 'minecraft:soul_sand')
+  
   e.add('forge:ores/inferium',['mysticalagradditions:nether_inferium_ore','mysticalagradditions:end_inferium_ore'])
 
   e.add('forge:raw_ores/iridium', 'ftbic:iridium_chunk');
