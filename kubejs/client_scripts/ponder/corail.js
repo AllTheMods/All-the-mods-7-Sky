@@ -33,7 +33,7 @@ onEvent("ponder.registry", event => {
         const zpiglin = scene.world.createEntity("zombified_piglin", pos4top)
         scene.idle(9)
         scene.world.modifyEntity(zombie, (e) => {
-            e.asKJS().kill();
+            e.discard();
         })
         scene.idle(1)
         const drowned = scene.world.createEntity("drowned", pos1top)
@@ -61,7 +61,7 @@ onEvent("ponder.registry", event => {
         })
         scene.idle(10)
         scene.world.modifyEntity(wskellie, (e) => {
-            e.kill();
+            e.discard();
         })
         scene.text(60, "This has a rare chance to drop Grave's Dust", [1.5, 1, 1.5]).placeNearTarget()
         scene.world.createItemEntity(centerTop, util.vector.of(-0.06, 0.4, -0.06), "tombstone:grave_dust")
@@ -71,7 +71,7 @@ onEvent("ponder.registry", event => {
         })
         scene.idle(10)
         scene.world.modifyEntity(hoglin, (e) => {
-            e.asKJS().kill();
+            e.discard();
         })
         scene.text(60, "And a rarer chance to drop Essence of Undeath", [3.5, 1, 3.5]).placeNearTarget()
         scene.world.createItemEntity(centerTop, util.vector.of(0.06, 0.4, 0.06), "tombstone:essence_of_undeath")
