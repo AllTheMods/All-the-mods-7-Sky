@@ -1,6 +1,8 @@
 //priority: 1000
 onEvent('tags.blocks', e => {
   e.add('allthemodium:other_te_whitelist', ['mekanism:teleporter'])
+  e.add('minecraft:mineable/shovel',['snad:snad','snad:red_snad','snad:suol_snad'])
+  e.add('minecraft:mineable/pickaxe',['cobblefordays:tier_1','cobblefordays:tier_2','cobblefordays:tier_3','cobblefordays:tier_4','cobblefordays:tier_5'])
   })
 
 onEvent('tags.items', e => {

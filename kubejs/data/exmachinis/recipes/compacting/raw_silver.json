@@ -1,0 +1,12 @@
+{
+  "type": "exmachinis:compacting",
+  "input": {
+    "ingredient": {
+      "item": "exnihilosequentia:silver_pieces"
+    },
+    "count": 4
+  },
+  "output": {
+    "item": "alltheores:raw_silver"
+  }
+}
