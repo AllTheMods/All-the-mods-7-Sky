@@ -84,16 +84,18 @@ onEvent(`recipes`, e => {
 
   //Params: Mesh, Drop chance, Input item, Output item, Waterlogged.
   //Overworld sieve
-  sieve(`diamond`, 0.2, `minecraft:gravel`, `mysticalagriculture:prosperity_shard`, null)
-  sieve(`flint`, 0.15, 'minecraft:oak_leaves', 'myrtrees:rubberwood_sapling', null)
-  sieve(`iron`, 0.25, `#minecraft:sand`, `minecraft:ink_sac`, true)
+  sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
+  sieve(`flint`, 0.3, 'minecraft:oak_leaves', 'myrtrees:rubberwood_sapling', null)
+  sieve(`flint`, 0.2, 'minecraft:oak_leaves', 'integrateddynamics:menril_sapling', null)
+  sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`flint`, 0.09, `minecraft:sand`, `mana-and-artifice:vinteum_dust`, null)
-  sieve(`emerald`, 0.25, `#forge:gravel`, `forbidden_arcanus:arcane_crystal`, null)
+  sieve(`emerald`, 0.25, `#minecraft:sand`, `forbidden_arcanus:arcane_crystal`, null)
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
+  sieve(`netherite`, 0.2, 'minecraft:basalt', 'ae2:sky_dust', null)
+  sieve(`netherite`, 0.2, 'minecraft:basalt', 'minecraft:amethyst_shard', null)
 
   //Nether sieve
-  sieve(`netherite`, 0.2, exRack, `appliedenergistics2:fluix_crystal_seed`, null)
   sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
   sieve(`diamond`, 0.2, exRack, `minecraft:netherite_scrap`, null)
   sieve(`diamond`, 0.15, exRack, `create:rose_quartz`, null)
