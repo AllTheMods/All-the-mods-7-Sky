@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "item": "exnihilosequentia:crushed_end_stone"
+  },
+  "result": {
+    "item": "exnihilosequentia:platinum_pieces"
+  },
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.075,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "diamond"
+    }
+  ]
+}
