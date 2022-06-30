@@ -26,11 +26,11 @@
     },
     {
       "item": "minecraft:diamond",
-      "emc": 4096
+      "emc": 0
     },
     {
       "item": "minecraft:emerald",
-      "emc": 8192
+      "emc": 0
     },
     {
       "item": "minecraft:amethyst_shard",
@@ -82,7 +82,7 @@
     },
     {
       "item": "minecraft:ender_pearl",
-      "emc": 1024
+      "emc": 512
     },
     {
       "item": "minecraft:bone",
