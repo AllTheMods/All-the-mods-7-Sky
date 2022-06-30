@@ -4,6 +4,8 @@ onEvent('recipes', e => {
   e.remove({id: 'projecte:collector_mk2'})
   e.remove({id: 'projecte:collector_mk3'})
   e.remove({id: 'projecte:watch_of_flowing_time'})
+  e.remove({id: 'projecte:conversions/gold_ingot_to_diamond'})
+  e.remove({id: 'projecte:conversions/diamond_to_gold_ingot'})
 
   e.remove({id: 'projecte:philosophers_stone_alt'})
   e.remove({id: 'projecte:philosophers_stone'})
