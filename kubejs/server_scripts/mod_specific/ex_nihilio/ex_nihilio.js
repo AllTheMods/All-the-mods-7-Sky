@@ -78,23 +78,30 @@ onEvent(`recipes`, e => {
   heat(`botania:blaze_block`, 8)
   heat(`alltheores:uranium_block`, 20)
   heat(`minecraft:magma_block`, 3)
-  heat(`minecraft:fire`, 4)
-  heat(`minecraft:lava`, 5)
+  heat(`minecraft:lava`, 4)
+  heat(`minecraft:fire`, 5)
   heat(`mekanism:superheating_element`, 60)
+  heat('projecte:dark_matter_block', 100)
 
   //Params: Mesh, Drop chance, Input item, Output item, Waterlogged.
   //Overworld sieve
+  sieve(`diamond`, 0.2, `#minecraft:sand`, 'powah:uraninite_raw_poor', null)
   sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
-  sieve(`flint`, 0.3, 'minecraft:oak_leaves', 'myrtrees:rubberwood_sapling', null)
-  sieve(`flint`, 0.2, 'minecraft:oak_leaves', 'integrateddynamics:menril_sapling', null)
   sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`flint`, 0.09, `minecraft:sand`, `mana-and-artifice:vinteum_dust`, null)
   sieve(`emerald`, 0.25, `#minecraft:sand`, `forbidden_arcanus:arcane_crystal`, null)
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
+
+  //Basalt
   sieve(`netherite`, 0.2, 'minecraft:basalt', 'ae2:sky_dust', null)
   sieve(`netherite`, 0.2, 'minecraft:basalt', 'minecraft:amethyst_shard', null)
-  sieve(`netherite`, 0.2, 'minecraft:basalt', 'fluxnetworks:flux_dust', null)
+  sieve(`netherite`, 0.35, 'minecraft:basalt', 'fluxnetworks:flux_dust', null)
+  sieve(`netherite`, 0.2, 'minecraft:basalt', 'forbidden_arcanus:rune', null)
+
+  //Oak Leaves
+  sieve(`flint`, 0.3, '#minecraft:leaves', 'myrtrees:rubberwood_sapling', null)
+  sieve(`flint`, 0.2, '#minecraft:leaves', 'integrateddynamics:menril_sapling', null)
 
   //Nether sieve
   sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
