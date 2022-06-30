@@ -150,7 +150,21 @@
           "minecraft:deep_cold_ocean",
           "minecraft:deep_frozen_ocean",
           "minecraft:deep_lukewarm_ocean",
-          "minecraft:deep_ocean"
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:stony_shore",
+          "minecraft:snowy_beach",
+          "minecraft:beach",
+          "minecraft:frozen_peaks",
+          "minecraft:frozen_river",
+          "minecraft:ice_spikes",
+          "minecraft:snowy_plains
+          "minecraft:snowy_slopes",
+          "minecraft:snowy_taiga",
+          "minecraft:swamp"
         ]
       },
       "minecraft:the_nether": {
