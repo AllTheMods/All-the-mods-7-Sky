@@ -374,7 +374,6 @@ onEvent('recipes', e => {
       outputs.push(Item.of(`${craftOverride[metal] ?? 'alltheores'}:${metal}_dust`).withChance(2.0))
       if (metal in thermalSecondaries) {
         extraItem = thermalSecondaries[metal]
-        console.log(extraItem)
         if (extraItem.includes('thermal')) {
           outputs.push(Item.of(extraItem).withChance(0.1))
         } else {
@@ -388,7 +387,6 @@ onEvent('recipes', e => {
       outputs.push(Item.of(`${craftOverride[metal] ?? 'alltheores'}:${metal}_dust`).withChance(1.25))
       if (metal in thermalSecondaries) {
         extraItem = thermalSecondaries[metal]
-        console.log(extraItem)
         if (extraItem.includes('thermal')) {
           outputs.push(Item.of(extraItem).withChance(0.05))
         } else {

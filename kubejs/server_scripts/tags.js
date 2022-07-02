@@ -34,6 +34,8 @@ onEvent('tags.items', e => {
   e.add('forge:rods/metal', atmMetals.map(metal => `allthemodium:${metal}_rod`));
   e.add('forge:rods/all_metal', '#forge:rods/metal');
 
+  e.add('exnihilosequentia:pebbles', /exnihilosequentia:.*_pebble/)
+
   e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
 })
 onEvent('tags.blocks', e => {
