@@ -48,8 +48,6 @@ onEvent('recipes', e => {
   essenceCircle('allthemodium:allthemodium_nugget', 'allthemodium')
   essenceCircle('allthemodium:vibranium_nugget', 'vibranium')
   essenceCircle('allthemodium:unobtainium_nugget', 'unobtainium')
-  essenceCircle('6x silentgear:azure_silver_ingot', 'azure_silver')
-  essenceCircle('6x silentgear:crimson_iron_ingot', 'crimson_iron')
 
   //#region CROPS
   //Tier 1 Crops
@@ -108,9 +106,7 @@ onEvent('recipes', e => {
     'spider',
     'tin',
     'zinc',
-    'zombie',
-    'crimson_iron',
-    'azure_silver'
+    'zombie'
   ], 2500, '#misctags:farmland/tier3', 2)
   //Tier 4 Crops
   tier([
