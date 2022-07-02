@@ -18,6 +18,7 @@ onEvent('tags.items', e => {
   e.add('forge:soul_sand', 'minecraft:soul_sand')
   
   e.add('forge:ores/inferium',['mysticalagradditions:nether_inferium_ore','mysticalagradditions:end_inferium_ore'])
+  e.add('exnihilosequentia:pieces', 'exnihilomekanism:osmium_pieces');
 
   e.add('forge:raw_ores/iridium', 'ftbic:iridium_chunk');
   e.remove('forge:silicon', 'ftbic:silicon')
