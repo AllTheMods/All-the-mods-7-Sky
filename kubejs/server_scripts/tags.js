@@ -36,6 +36,7 @@ onEvent('tags.items', e => {
   e.add('forge:rods/all_metal', '#forge:rods/metal');
 
   e.add('exnihilosequentia:pebbles', /exnihilosequentia:.*_pebble/)
+  e.add('exnihilosequentia:pieces', 'kubejs:cobalt_pieces')
 
   e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
 })

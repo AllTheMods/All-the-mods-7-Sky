@@ -105,8 +105,8 @@ onEvent(`recipes`, e => {
 
   //Nether sieve
   sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
-  sieve(`diamond`, 0.2, exRack, `minecraft:netherite_scrap`, null)
   sieve(`diamond`, 0.15, exRack, `create:rose_quartz`, null)
+  sieve(`diamond`, 0.2, exRack, `kubejs:cobalt_pieces`, null)
   sieve(`netherite`, 0.15, exRack, `ae2:certus_quartz_crystal`, null)
   sieve(`iron`, 0.2, exRack, `minecraft:quartz`, null)
   sieve(`iron`, 0.15, `#forge:soul_sand`, `mysticalagriculture:soulium_dust`, null)
@@ -146,6 +146,10 @@ onEvent(`recipes`, e => {
 
   e.shaped('alltheores:raw_osmium', ['PP', 'PP'], {
     P: 'exnihilomekanism:osmium_pieces',
+})
+
+e.shaped('tconstruct:raw_cobalt', ['PP', 'PP'], {
+  P: 'kubejs:cobalt_pieces',
 })
   
   pieces.forEach(name => {
