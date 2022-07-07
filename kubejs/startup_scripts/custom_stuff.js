@@ -1,6 +1,5 @@
 onEvent('item.registry', e => {
-	e.create('piece_osmium').displayName('Osmium Ore Piece')
-	e.create('chunk_osmium').displayName('Osmium Ore Chunk')
+	e.create('cobalt_pieces').displayName('Cobalt Pieces')
 })
 
 onEvent('block.registry', e => {
