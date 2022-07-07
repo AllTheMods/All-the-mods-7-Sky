@@ -7,7 +7,7 @@
   "enchantability": 18,
   "craftingMaterial": "tag:forge:ingots/electrum",
   "rarity": 0,
-  "capacity": 10000000,
+  "capacity": 2000000,
   "usage": 160,
   "speedVertical": 0.61,
   "accelVertical": 0.13,
