@@ -42,8 +42,8 @@ onEvent('jei.hide.items', e => {
   hideMetal('ftbic', 'copper', ['nugget']);
 
   sequentiaMetals.forEach(metal => {
-    e.hide(`exnihiliosequentia:${metal}_ingot`);
-    e.hide(`exnihiliosequentia:raw_${metal}`);
+    e.hide(`exnihilosequentia:${metal}_ingot`);
+    e.hide(`exnihilosequentia:raw_${metal}`);
   });
 
   //#region hideMetal
