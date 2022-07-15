@@ -10,7 +10,7 @@
       "mesh": "diamond"
     },
     {
-      "chance": 0.01,
+      "chance": 0.05,
       "mesh": "netherite"
     }
   ],
