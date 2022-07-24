@@ -89,7 +89,6 @@ onEvent(`recipes`, e => {
   sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
   sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
-  sieve(`flint`, 0.09, `minecraft:sand`, `mana-and-artifice:vinteum_dust`, null)
   sieve(`emerald`, 0.25, `#minecraft:sand`, `forbidden_arcanus:arcane_crystal`, null)
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
 
@@ -122,7 +121,7 @@ onEvent(`recipes`, e => {
   hammer(`allthecompressed:gravel_block_1x`, `allthecompressed:sand_block_1x`)
   hhammer(`allthecompressed:sand_block_1x`, exDust, 9)
   hhammer(`allthecompressed:netherrack_block_1x`, exRack, 9)
-  hhammer(`allthecompressed:endstone_block_1x`, exEnd, 9)
+  hhammer(`allthecompressed:end_stone_block_1x`, exEnd, 9)
 
   crushEm(exDust, `#minecraft:sand`)
   crushEm(exRack, `#forge:netherrack`)
