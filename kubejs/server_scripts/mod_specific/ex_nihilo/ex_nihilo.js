@@ -3,17 +3,6 @@ onEvent(`recipes`, e => {
   const exDust = `exnihilosequentia:dust`
   const exRack = `exnihilosequentia:crushed_netherrack`
   const exEnd = `exnihilosequentia:crushed_end_stone`
-  
-  const pieces = [
-    `lead`,
-    `nickel`,
-    `silver`,
-    `tin`,
-    `aluminum`,
-    `platinum`,
-    `uranium`,
-    `zinc`,
-  ]
 
   function sieve(mesh, chance, input, result, wlog) {
     e.custom({
@@ -85,7 +74,8 @@ onEvent(`recipes`, e => {
 
   //Params: Mesh, Drop chance, Input item, Output item, Waterlogged.
   //Overworld sieve
-  sieve(`diamond`, 0.2, `#minecraft:sand`, 'powah:uraninite_raw', null) sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
+  sieve(`diamond`, 0.2, `#minecraft:sand`, 'powah:uraninite_raw', null) 
+  sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
   sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
   sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`emerald`, 0.25, `#minecraft:sand`, `forbidden_arcanus:arcane_crystal`, null)
@@ -130,33 +120,54 @@ onEvent(`recipes`, e => {
   e.remove({id:`/exnihilosequentia:ens_raw/`})
   e.remove({id:`exnihilomekanism:ens_raw_osmium`})  
 
-  e.shaped('minecraft:raw_iron', ['PP', 'PP'], {
-    P: 'exnihilosequentia:iron_pieces',
-})
+  const pieces = {
+    'iron': {'raw':'minecraft','piece':'exnihilosequentia'},
+    'gold': {'raw':'minecraft','piece':'exnihilosequentia'},
+    'copper': {'raw':'minecraft','piece':'exnihilosequentia'},
+    'lead': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'nickel': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'silver': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'tin': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'aluminum': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'platinum': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'uranium': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'zinc': {'raw':'alltheores','piece':'exnihilosequentia'},
+    'osmium': {'raw':'alltheores','piece':'exnihilomekanism'},
+    'cobalt': {'raw':'tconstruct','piece':'kubejs'}
+}
 
-  e.shaped('minecraft:raw_gold', ['PP', 'PP'], {
-    P: 'exnihilosequentia:gold_pieces',
-})
-
-  e.shaped('minecraft:raw_copper', ['PP', 'PP'], {
-    P: 'exnihilosequentia:copper_pieces',
-})
-
-  e.shaped('alltheores:raw_osmium', ['PP', 'PP'], {
-    P: 'exnihilomekanism:osmium_pieces',
-})
-
-e.shaped('tconstruct:raw_cobalt', ['PP', 'PP'], {
-  P: 'kubejs:cobalt_pieces',
-})
-  
-  pieces.forEach(name => {
-    e.shaped(`alltheores:raw_${name}`, [
+  Object.entries(pieces).forEach(([name, mods]) => {
+    // 2x2 Table Crafting
+    e.shaped(`${mods.raw}:raw_${name}`, [
       `aa`,
       `aa`
     ], {
-      a: `exnihilosequentia:${name}_pieces`
-    })
+      a: `${mods.piece}:${name}_pieces`
+    }).id(`kubejs:raw_${name}_from_piece`)
+
+    // Thermal Press
+    if (Platform.isLoaded('thermal_expansion')) {
+      e.custom({
+        'type':'thermal:press',
+        'ingredients':[
+          {'item':`${mods.piece}:${name}_pieces`, 'count':4},
+          {'item':'thermal:press_packing_2x2_die'}
+        ],
+        'result':[{'item':`${mods.raw}:raw_${name}`}],
+        'energy':400
+      }).id(`kubejs:thermal/press/raw_${name}_from_piece`)
+    }
+
+    // IE Press
+    if (Platform.isLoaded('immersiveengineering')) {
+      e.custom({
+        'type':'immersiveengineering:metal_press',
+        'mold':'immersiveengineering:mold_packing_4',
+        'result':{'item':`${mods.raw}:raw_${name}`},
+        'input':{'count':4,'base_ingredient':{'item':`${mods.piece}:${name}_pieces`}},
+        'energy':2400
+      }).id(`kubejs:immersiveengineering/press/raw_${name}_from_piece`)
+    }
   })
 })
 
