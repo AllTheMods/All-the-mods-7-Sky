@@ -1,0 +1,34 @@
+{
+    "type": "spirit:soul_transmutation",
+    "entityInput": "#forge:slimes",
+    "consumesActivator": false,
+    "itemInputs": [
+        {
+            "item": "tconstruct:ender_congealed_slime"
+        },
+        {
+            "item": "minecraft:ender_pearl"
+        },
+        {
+            "item": "tconstruct:ender_congealed_slime"
+        },
+        {
+            "item": "minecraft:end_stone"
+        },
+        {
+            "item": "tconstruct:ender_congealed_slime"
+        },
+        {
+            "item": "minecraft:ender_pearl"
+        },
+        {
+            "item": "tconstruct:ender_congealed_slime"
+        },
+        {
+            "item": "minecraft:end_stone"
+        }
+    ],
+    "entityOutput": "tconstruct:ender_slime",
+    "duration": 60,
+    "shouldSummonMob": true
+}
