@@ -116,9 +116,11 @@ onEvent(`recipes`, e => {
   crushEm(exRack, `#forge:netherrack`)
   crushEm(exEnd, `#forge:end_stones`)
 
-  e.remove({id:`minecraft:ens_ancient_debris`})  
+  e.remove({id:`minecraft:ens_ancient_debris`})
   e.remove({id:`/exnihilosequentia:ens_raw/`})
-  e.remove({id:`exnihilomekanism:ens_raw_osmium`})  
+  e.remove({id:`exnihilomekanism:ens_raw_osmium`})
+
+  e.replaceInput({id:'exnihilothermal:ens_basalz_doll'},'#forge:dust/obsidian','#forge:dusts/obsidian')
 
   const pieces = {
     'iron': {'raw':'minecraft','piece':'exnihilosequentia'},
