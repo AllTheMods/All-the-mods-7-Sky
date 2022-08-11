@@ -1,0 +1,34 @@
+{
+    "type": "spirit:soul_transmutation",
+    "entityInput": "#forge:slimes",
+    "consumesActivator": false,
+    "itemInputs": [
+        {
+            "item": "minecraft:clay"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:clay"
+        },
+        {
+            "item": "minecraft:grass_block"
+        },
+        {
+            "item": "minecraft:clay"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:clay"
+        },
+        {
+            "item": "minecraft:grass_block"
+        }
+    ],
+    "entityOutput": "tconstruct:terracube",
+    "duration": 60,
+    "shouldSummonMob": true
+}

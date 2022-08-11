@@ -1,0 +1,34 @@
+{
+    "type": "spirit:soul_transmutation",
+    "entityInput": "#forge:slimes",
+    "consumesActivator": false,
+    "itemInputs": [
+        {
+            "item": "tconstruct:sky_congealed_slime"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "tconstruct:sky_congealed_slime"
+        },
+        {
+            "item": "minecraft:grass_block"
+        },
+        {
+            "item": "tconstruct:sky_congealed_slime"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "tconstruct:sky_congealed_slime"
+        },
+        {
+            "item": "minecraft:grass_block"
+        }
+    ],
+    "entityOutput": "tconstruct:sky_slime",
+    "duration": 60,
+    "shouldSummonMob": true
+}
