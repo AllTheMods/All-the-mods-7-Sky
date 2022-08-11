@@ -10,7 +10,7 @@
 	images: [
 		{
 			x: 0.5d
-			y: -3.5d
+			y: -4.0d
 			width: 2.0d
 			height: 2.0d
 			rotation: 0.0d
@@ -94,7 +94,31 @@
 		}
 		{
 			x: 0.5d
-			y: -5.5d
+			y: -6.0d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/food_and_farming.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -3.5d
 			width: 12.0d
 			height: 3.0d
 			rotation: 0.0d

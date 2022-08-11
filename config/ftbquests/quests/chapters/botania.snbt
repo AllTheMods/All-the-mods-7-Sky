@@ -13,6 +13,18 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -1.0d
+		y: -2.5d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Botania"
@@ -23,21 +35,27 @@
 					"botania:elven_unlock": 1b
 				}
 			}
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: 5.0d
 			shape: "gear"
 			description: [
 				"Welcome to &aBotania&f!"
 				""
-				"Please refer to the &eLexica Botania &fin your &eEccentric Tome &ffor additional help with the mod."
 			]
 			size: 1.5d
 			id: "3712DD92B446BB60"
-			tasks: [{
-				id: "19EDC9AB3FA57442"
-				type: "checkmark"
-				title: "Botania"
-			}]
+			tasks: [
+				{
+					id: "19EDC9AB3FA57442"
+					type: "checkmark"
+					title: "Botania"
+				}
+				{
+					id: "1DEED7641D1FC4F6"
+					type: "item"
+					item: "botania:lexicon"
+				}
+			]
 			rewards: [
 				{
 					id: "0D7AFF3EB96D520A"
@@ -53,8 +71,8 @@
 		}
 		{
 			title: "Petal Apothecary"
-			x: 0.0d
-			y: -1.5d
+			x: 0.5d
+			y: 3.5d
 			shape: "rsquare"
 			description: ["The &ePetal Apothecary&f will allow you to make all of the Generating and Functional Flowers you need."]
 			min_required_dependencies: 1
@@ -75,8 +93,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: 0.5d
+			y: 2.0d
 			shape: "rsquare"
 			description: ["This flower will help you make the basic materials that are widely used in &aBotania"]
 			dependencies: ["61F484F59906F87C"]
@@ -93,8 +111,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.5d
+			x: 0.5d
+			y: 0.5d
 			dependencies: ["56934B657C4AC28D"]
 			id: "06490F2A5130591F"
 			tasks: [
@@ -116,8 +134,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
+			x: 2.0d
+			y: -1.0d
 			shape: "rsquare"
 			description: ["An early-game way of taking &bmana &ffrom flowers and pools to sending to other pools or devices."]
 			dependencies: ["06490F2A5130591F"]
@@ -134,8 +152,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
+			x: -1.0d
+			y: -1.0d
 			shape: "rsquare"
 			description: ["This is used to store &bmana&f."]
 			dependencies: ["06490F2A5130591F"]
@@ -153,8 +171,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: 3.5d
 			description: ["This flower is capable of converting other materials, check JEI for more info."]
 			dependencies: ["56934B657C4AC28D"]
 			optional: true
@@ -166,8 +184,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -7.5d
+			x: 0.5d
+			y: -2.5d
 			dependencies: [
 				"79A00580861BF4EF"
 				"3CD64FEC8723FC0E"
@@ -215,8 +233,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -6.0d
+			x: 0.5d
+			y: -1.0d
 			shape: "rsquare"
 			description: ["The main tool of &aBotania&f, will be used throughout the entire mod."]
 			dependencies: ["06490F2A5130591F"]
@@ -232,8 +250,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -7.5d
+			x: 2.0d
+			y: -2.5d
 			shape: "rsquare"
 			dependencies: ["0DA91D4082835694"]
 			dependency_requirement: "all_started"
@@ -251,8 +269,8 @@
 		}
 		{
 			title: "Mobile Mana"
-			x: -1.5d
-			y: -7.5d
+			x: -1.0d
+			y: -2.5d
 			description: ["These two items will allow you to cart around manapools to bring to your &aBotania &fdevices."]
 			dependencies: [
 				"79A00580861BF4EF"
@@ -280,8 +298,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -6.0d
+			x: -2.5d
+			y: -1.0d
 			dependencies: ["79A00580861BF4EF"]
 			id: "07F8C82BE1F59772"
 			tasks: [{
@@ -291,8 +309,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -6.0d
+			x: -4.0d
+			y: -1.0d
 			dependencies: ["07F8C82BE1F59772"]
 			id: "2E729F64453B2526"
 			tasks: [{
@@ -302,8 +320,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -7.5d
+			x: 3.5d
+			y: -2.5d
 			dependencies: ["1D61112306592F4A"]
 			id: "570666B5CD7C1F30"
 			tasks: [{
@@ -318,8 +336,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -7.5d
+			x: 5.0d
+			y: -2.5d
 			dependencies: ["570666B5CD7C1F30"]
 			id: "230A8F65742B0F1F"
 			tasks: [
@@ -364,8 +382,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -15.0d
+			x: 3.5d
+			y: -10.0d
 			dependencies: ["798CCF9CC7B4D89E"]
 			id: "14FA99EC2C685D2C"
 			tasks: [{
@@ -375,8 +393,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -15.0d
+			x: 5.0d
+			y: -10.0d
 			dependencies: ["14FA99EC2C685D2C"]
 			id: "4B900F3D10F9A035"
 			tasks: [{
@@ -386,8 +404,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -15.0d
+			x: 0.5d
+			y: -10.0d
 			dependencies: ["14FA99EC2C685D2C"]
 			id: "4E43EE26073C6A0E"
 			tasks: [{
@@ -397,8 +415,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -17.5d
+			x: 7.5d
+			y: -9.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -415,8 +433,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -9.0d
+			x: 2.0d
+			y: -4.0d
 			dependencies: ["0DA91D4082835694"]
 			dependency_requirement: "all_started"
 			optional: true
@@ -488,8 +506,8 @@
 		}
 		{
 			icon: "botania:gaia_pylon"
-			x: 3.0d
-			y: -13.5d
+			x: 3.5d
+			y: -8.5d
 			shape: "rsquare"
 			dependencies: [
 				"2BF9857C4C142158"
@@ -517,8 +535,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -12.0d
+			x: 2.0d
+			y: -7.0d
 			shape: "rsquare"
 			dependencies: ["362B99CB9BEA0AD8"]
 			id: "2E2F8FEF5843A526"
@@ -543,8 +561,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -12.0d
+			x: 3.5d
+			y: -7.0d
 			dependencies: ["2E2F8FEF5843A526"]
 			id: "4E99613ABC04B4A2"
 			tasks: [
@@ -577,8 +595,8 @@
 		}
 		{
 			icon: "botania:terra_plate"
-			x: 3.0d
-			y: -9.0d
+			x: 3.5d
+			y: -4.0d
 			shape: "rsquare"
 			dependencies: [
 				"1D61112306592F4A"
@@ -611,8 +629,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -10.5d
+			x: 2.0d
+			y: -5.5d
 			dependencies: ["629EE96E4C033EF3"]
 			id: "362B99CB9BEA0AD8"
 			tasks: [{
@@ -622,8 +640,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -18.5d
+			x: 7.0d
+			y: -6.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -636,8 +654,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -18.5d
+			x: 8.0d
+			y: -6.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -650,8 +668,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -17.5d
+			x: 8.5d
+			y: -5.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -664,8 +682,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -16.5d
+			x: 8.0d
+			y: -4.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -678,8 +696,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -16.5d
+			x: 7.0d
+			y: -4.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -692,8 +710,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -17.5d
+			x: 6.5d
+			y: -5.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["4E43EE26073C6A0E"]
@@ -706,8 +724,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -18.5d
+			x: 8.0d
+			y: -10.0d
 			shape: "octagon"
 			dependencies: ["0C790F258BE961F5"]
 			hide: true
@@ -723,8 +741,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -17.5d
+			x: 8.5d
+			y: -9.0d
 			shape: "octagon"
 			dependencies: ["0C790F258BE961F5"]
 			hide: true
@@ -740,8 +758,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -16.5d
+			x: 8.0d
+			y: -8.0d
 			shape: "octagon"
 			dependencies: ["0C790F258BE961F5"]
 			hide: true
@@ -757,8 +775,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -16.5d
+			x: 7.0d
+			y: -8.0d
 			shape: "octagon"
 			dependencies: ["0C790F258BE961F5"]
 			hide: true
@@ -774,8 +792,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -17.5d
+			x: 6.5d
+			y: -9.0d
 			shape: "octagon"
 			dependencies: ["0C790F258BE961F5"]
 			hide: true
@@ -794,8 +812,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -18.5d
+			x: 7.0d
+			y: -10.0d
 			shape: "octagon"
 			dependencies: ["0C790F258BE961F5"]
 			hide: true
@@ -811,8 +829,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -9.0d
+			x: 0.5d
+			y: -4.0d
 			dependencies: ["0DA91D4082835694"]
 			dependency_requirement: "all_started"
 			optional: true
@@ -877,8 +895,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -10.5d
+			x: 5.0d
+			y: -5.5d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3712DD92B446BB60"]
@@ -890,8 +908,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -10.5d
+			x: 0.5d
+			y: -5.5d
 			dependencies: [
 				"29C1DE4F8181245E"
 				"362B99CB9BEA0AD8"
@@ -946,8 +964,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -12.0d
+			x: 0.5d
+			y: -7.0d
 			dependencies: [
 				"26CEA22DFE2EA442"
 				"232DB435CB1AD8B3"
@@ -1002,8 +1020,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -13.5d
+			x: 0.5d
+			y: -8.5d
 			dependencies: ["791833D833932ACF"]
 			id: "232DB435CB1AD8B3"
 			tasks: [{
@@ -1013,8 +1031,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -13.5d
+			x: 2.0d
+			y: -8.5d
 			shape: "rsquare"
 			description: ["This unfortunately does not have a factory version yet."]
 			dependencies: ["4E99613ABC04B4A2"]
@@ -1026,8 +1044,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -4.5d
+			x: 2.0d
+			y: 0.5d
 			dependencies: ["319B5F2C82917939"]
 			id: "6A331F83B906CDCD"
 			tasks: [{
@@ -1041,8 +1059,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -15.0d
+			x: 2.0d
+			y: -10.0d
 			dependencies: ["232DB435CB1AD8B3"]
 			id: "2BF9857C4C142158"
 			tasks: [{
@@ -1052,8 +1070,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -13.5d
+			x: -1.0d
+			y: -8.5d
 			dependencies: ["4E43EE26073C6A0E"]
 			id: "1EEC40A8EBBE8AD7"
 			tasks: [{
@@ -1064,8 +1082,8 @@
 		}
 		{
 			title: "Portable Mana"
-			x: -3.0d
-			y: -7.5d
+			x: -2.5d
+			y: -2.5d
 			dependencies: ["79A00580861BF4EF"]
 			id: "221C83EAA6F5F4CD"
 			tasks: [{
@@ -1084,8 +1102,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -12.0d
+			x: 5.0d
+			y: -7.0d
 			dependencies: [
 				"4E99613ABC04B4A2"
 				"25E8314BF1013492"
@@ -1115,8 +1133,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -9.0d
+			x: -2.5d
+			y: -4.0d
 			dependencies: ["221C83EAA6F5F4CD"]
 			id: "3575DDE164C0BE2E"
 			tasks: [{
@@ -1135,8 +1153,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -10.5d
+			x: -2.5d
+			y: -5.5d
 			dependencies: ["3575DDE164C0BE2E"]
 			id: "2E6127D4C3CB04B4"
 			tasks: [{
@@ -1155,8 +1173,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -12.0d
+			x: -2.5d
+			y: -7.0d
 			dependencies: ["2E6127D4C3CB04B4"]
 			id: "1653E7DA8A28A8DA"
 			tasks: [{
@@ -1176,8 +1194,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -9.0d
+			x: -4.0d
+			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: ["1D61112306592F4A"]
 			id: "659FC2991F2BB6E2"
@@ -1197,8 +1215,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -10.5d
+			x: -4.0d
+			y: -5.5d
 			dependencies: ["659FC2991F2BB6E2"]
 			id: "73CCE831A67A2006"
 			tasks: [{
@@ -1217,8 +1235,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -12.0d
+			x: -4.0d
+			y: -7.0d
 			dependencies: ["73CCE831A67A2006"]
 			id: "357AB76BF927C1D2"
 			tasks: [{
@@ -1239,8 +1257,8 @@
 		}
 		{
 			title: "Mana Manipulation"
-			x: -1.5d
-			y: -4.5d
+			x: -1.0d
+			y: 0.5d
 			dependencies: ["79A00580861BF4EF"]
 			optional: true
 			id: "56FB5D1715C4CD71"
@@ -1258,8 +1276,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -13.5d
+			x: 5.0d
+			y: -8.5d
 			dependencies: ["4E99613ABC04B4A2"]
 			optional: true
 			id: "16F516863CF22B1D"
@@ -1312,8 +1330,8 @@
 		}
 		{
 			title: "Got Flowers?"
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: 5.0d
 			shape: "rsquare"
 			description: ["The &eFloral Fertilizer&f can be used to grow more &eMystical Flowers&f, similar to bonemeal growing grass."]
 			dependencies: ["3712DD92B446BB60"]
@@ -1325,8 +1343,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -13.5d
+			x: -2.5d
+			y: -8.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"25E8314BF1013492"
@@ -1343,8 +1361,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -15.0d
+			x: -2.5d
+			y: -10.0d
 			dependencies: ["34CF6E512C24A866"]
 			optional: true
 			id: "24149340F6FA293C"
@@ -1356,8 +1374,8 @@
 		}
 		{
 			title: "Corporeal Network"
-			x: -1.5d
-			y: -15.0d
+			x: -1.0d
+			y: -10.0d
 			dependencies: ["34CF6E512C24A866"]
 			optional: true
 			id: "41BDC96AAF43E330"
@@ -1380,8 +1398,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -13.5d
+			x: -4.0d
+			y: -8.5d
 			dependencies: ["34CF6E512C24A866"]
 			optional: true
 			id: "1B993E056502A9EC"
@@ -1392,8 +1410,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -15.0d
+			x: -4.0d
+			y: -10.0d
 			dependencies: ["34CF6E512C24A866"]
 			optional: true
 			id: "34D62509ADE19E11"
@@ -1404,8 +1422,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.5d
+			x: 3.5d
+			y: 0.5d
 			description: ["Obtained by using a bottle in the End"]
 			hide_dependency_lines: true
 			dependencies: ["3712DD92B446BB60"]

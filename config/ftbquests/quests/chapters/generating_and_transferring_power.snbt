@@ -18,11 +18,23 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			icon: "minecraft:redstone_torch"
-			x: -3.5d
-			y: -3.0d
+			x: 0.0d
+			y: -2.0d
 			shape: "gear"
 			description: [
 				"This Chapter is dedicated to all things power related!"
@@ -45,8 +57,8 @@
 		{
 			title: "Advanced Power Generation"
 			icon: "biggerreactors:reactor_terminal"
-			x: 1.5d
-			y: 0.0d
+			x: 5.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "Getting Started with Bigger Reactors"
 			description: [
@@ -109,8 +121,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 1.5d
+			x: 0.5d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "Using the Sun"
 			description: [
@@ -133,8 +145,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 			shape: "diamond"
 			subtitle: "Using the Wind"
 			description: [
@@ -158,8 +170,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 1.5d
+			x: -4.5d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "Mekanism's Starter Power Solution"
 			description: [
@@ -183,8 +195,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.5d
+			x: -0.5d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "Have a Bee Farm?"
 			description: [
@@ -207,8 +219,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 1.5d
+			x: -5.5d
+			y: 2.5d
 			shape: "diamond"
 			description: [
 				"The RFTools Coal Generator is one of the easiest to make."
@@ -229,8 +241,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 2.0d
+			x: -5.0d
+			y: 3.0d
 			shape: "diamond"
 			subtitle: "Industrial Foregoing's Basic Power"
 			description: [
@@ -252,8 +264,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 0.0d
+			x: -5.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "Starter Power"
 			description: [
@@ -276,8 +288,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 			shape: "hexagon"
 			description: ["This section deals with power generation using renewable resources."]
 			hide_dependency_lines: true
@@ -296,8 +308,8 @@
 		}
 		{
 			title: "&9Using Pipez: &aEnergy Pipe"
-			x: -0.5d
-			y: 1.5d
+			x: 3.0d
+			y: 2.5d
 			shape: "diamond"
 			description: [
 				"These are simple pipes that can be upgraded with Pipe Upgrades."
@@ -333,8 +345,8 @@
 		}
 		{
 			title: "&9Using Mekanism:&a Basic Universal Cable"
-			x: -1.0d
-			y: 1.0d
+			x: 2.5d
+			y: 2.0d
 			shape: "diamond"
 			subtitle: "Mekanism's Energy Transfer Pipe"
 			dependencies: ["1F81EA5E45424308"]
@@ -351,8 +363,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
+			x: 2.5d
+			y: 1.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["4AB0DD227471FDBF"]
@@ -370,8 +382,8 @@
 		}
 		{
 			title: "&9Wireless Transfer: &6Quantum Entangloporter"
-			x: -1.0d
-			y: 2.0d
+			x: 2.5d
+			y: 3.0d
 			shape: "diamond"
 			subtitle: "Also works for items, gases, liquids, and heat."
 			description: [
@@ -394,8 +406,8 @@
 		}
 		{
 			title: "&9Wireless Transfer:&6 Flux Networks"
-			x: -1.5d
-			y: 1.5d
+			x: 2.0d
+			y: 2.5d
 			shape: "diamond"
 			description: [
 				"Flux Networks is a mod that pretty much covers everything to do with power."
@@ -441,8 +453,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 			shape: "diamond"
 			subtitle: "Even More Sun"
 			description: ["This upgraded Solar Generator will produce around 105.6FE/t"]
@@ -460,8 +472,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 			shape: "hexagon"
 			description: ["This section will be for storing power."]
 			hide_dependency_lines: true
@@ -479,8 +491,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 1.5d
+			x: -2.0d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "Mekanism"
 			description: [
@@ -502,8 +514,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.0d
+			x: -2.5d
+			y: 3.0d
 			shape: "diamond"
 			subtitle: "RFTools"
 			description: [
@@ -525,8 +537,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.5d
+			x: -3.0d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "Thermal Series"
 			description: [
@@ -559,8 +571,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 1.0d
+			x: -2.5d
+			y: 2.0d
 			shape: "diamond"
 			subtitle: "Integrated Dynamics"
 			description: [

@@ -6,22 +6,48 @@
 	title: "Tips \\& Tricks"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 1.0d
-		y: 1.0d
-		width: 12.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "atm:textures/tips_and_tricks.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
-	quests: [
+	images: [
 		{
 			x: 1.0d
-			y: 7.0d
+			y: -3.5d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/tips_and_tricks.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/tips_and_tricks.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -3.5d
+			y: 2.0d
 			subtitle: "Can be used as Reactor Coolant"
 			description: ["Easy item to automate infinite water. Need more water? Make another!"]
 			id: "722978AC0C1B2649"
@@ -44,8 +70,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 7.5d
+			x: -0.5d
+			y: 0.5d
 			shape: "diamond"
 			subtitle: "Honey I Shrunk Myself"
 			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
@@ -74,8 +100,8 @@
 		}
 		{
 			title: "OreSight Potions"
-			x: 3.5d
-			y: 6.0d
+			x: -1.0d
+			y: 1.0d
 			subtitle: "It's like X-Ray Vision!"
 			description: ["This potion will allow you to see the respective ore through the walls."]
 			id: "3EE9F242794CD95F"
@@ -110,8 +136,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 5.0d
+			x: -6.0d
+			y: 0.0d
 			subtitle: "When an infinite world is too small"
 			description: [
 				"It's an entire room in one block!"
@@ -140,37 +166,9 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 5.5d
-			subtitle: "The Akashic Tome's Distant Relative!"
-			description: [
-				"Stores all of the guidebooks you'll ever need!"
-				""
-				""
-			]
-			id: "5718EEFE4F50BB73"
-			tasks: [{
-				id: "523C1E77663E2287"
-				type: "item"
-				item: {
-					id: "eccentrictome:tome"
-					Count: 1b
-					tag: {
-						"eccentrictome:mods": { }
-						"eccentrictome:version": 1
-					}
-				}
-			}]
-			rewards: [{
-				id: "68A3E7700C79876A"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
 			title: "Compact Machines"
-			x: -1.5d
-			y: 6.0d
+			x: -6.0d
+			y: 1.0d
 			description: ["This item is serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."]
 			id: "73F91BF3D424B269"
 			tasks: [{
@@ -186,8 +184,8 @@
 		}
 		{
 			title: "Building Gadgets"
-			x: -1.0d
-			y: 5.5d
+			x: -5.5d
+			y: 0.5d
 			shape: "diamond"
 			description: [
 				"Some useful gadgets for building."
@@ -268,8 +266,8 @@
 		}
 		{
 			title: "Building Wands"
-			x: -2.0d
-			y: 5.5d
+			x: -6.5d
+			y: 0.5d
 			description: [
 				"Can be helpful for building."
 				""
@@ -296,8 +294,8 @@
 		}
 		{
 			title: "Tipped Out"
-			x: 1.0d
-			y: 5.5d
+			x: -3.5d
+			y: 0.5d
 			shape: "gear"
 			subtitle: "Complete all of the tips!"
 			hide_dependency_lines: true
@@ -306,7 +304,6 @@
 				"7EC8814940C4C3D7"
 				"3EE9F242794CD95F"
 				"594540768120A627"
-				"5718EEFE4F50BB73"
 				"73F91BF3D424B269"
 				"0F75D7B9F4FF2459"
 				"2A2E3D020B1F5126"
@@ -324,8 +321,8 @@
 		}
 		{
 			title: "X-Ray Charms"
-			x: 3.5d
-			y: 5.0d
+			x: -1.0d
+			y: 0.0d
 			description: [
 				"OreSight Potions can be used to craft Charms!"
 				""
@@ -365,8 +362,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: -3.5d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "And Other Useful Items!"
 			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
@@ -384,40 +381,8 @@
 			}]
 		}
 		{
-			icon: "minecraft:iron_ore"
-			x: 3.0d
-			y: 5.5d
-			shape: "diamond"
-			subtitle: "The 1.18 Changes"
-			description: [
-				"If you've played MC in previous versions, it's important to know that Ore Generation has changed as well as max build level."
-				""
-				"Make sure to check out the \"World Gen\" tab in the ore's recipe to see the Y level the ore generates!"
-				""
-				""
-			]
-			id: "7732A4AE58D1315E"
-			tasks: [{
-				id: "599B3277CC40D052"
-				type: "checkmark"
-				title: "Ore Generation"
-			}]
-			rewards: [
-				{
-					id: "259A40A2BD1763AA"
-					type: "item"
-					item: "minecraft:raw_copper"
-				}
-				{
-					id: "4ACA4C826FB02CE1"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 0.5d
-			y: 7.5d
+			x: -1.5d
+			y: 0.5d
 			subtitle: "A Simple Magnet!"
 			id: "3FC002E5A6C08DCC"
 			tasks: [{
@@ -434,6 +399,34 @@
 				type: "xp"
 				xp: 10
 			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: [
+				"The rending gale if you are unfamiliar is a method of creative flight! it requires small amounts of emc to run"
+				""
+				"For EMC before a transmutation table, we recommend redstone/glowstone, or a klein star which is the battery of this mod, you can fill these in a projectE relay!"
+			]
+			id: "25E585C8AE7430DC"
+			tasks: [
+				{
+					id: "1E0446C02381B91A"
+					type: "item"
+					item: {
+						id: "projecte:swiftwolf_rending_gale"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "6E2C6FF70F097FA5"
+					type: "item"
+					item: "projecte:relay_mk1"
+				}
+			]
 		}
 	]
 }

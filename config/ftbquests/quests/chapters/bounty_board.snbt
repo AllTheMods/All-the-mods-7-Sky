@@ -7,23 +7,49 @@
 	icon: "minecraft:zombie_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 3.0d
-		y: -8.0d
-		width: 12.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "atm:textures/bounty.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 0.5d
+			y: -7.5d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/bounty.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/bounty.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "&l&9Overworld Bounty:&r&e Zombies"
-			x: -4.0d
-			y: -0.5d
+			x: -6.5d
+			y: 0.5d
 			subtitle: "Kill 5 Zombies"
 			id: "2B05A29C62676EB2"
 			tasks: [{
@@ -49,8 +75,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -6.5d
+			y: -1.0d
 			dependencies: ["2B05A29C62676EB2"]
 			id: "444ACE285311ECB4"
 			tasks: [{
@@ -76,8 +102,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -3.5d
+			x: -6.5d
+			y: -2.5d
 			dependencies: ["444ACE285311ECB4"]
 			id: "146232B8504789C1"
 			tasks: [{
@@ -103,8 +129,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -5.0d
+			x: -6.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["146232B8504789C1"]
 			size: 1.5d
@@ -145,8 +171,8 @@
 		}
 		{
 			title: "&l&9Overworld Bounty:&r&e Skeles"
-			x: -2.0d
-			y: -0.5d
+			x: -4.5d
+			y: 0.5d
 			subtitle: "Kill 5 Skeles"
 			id: "42822B1E8A53D051"
 			tasks: [{
@@ -172,8 +198,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: -4.5d
+			y: -1.0d
 			dependencies: ["42822B1E8A53D051"]
 			id: "4748831E75A840BE"
 			tasks: [{
@@ -199,8 +225,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -4.5d
+			y: -2.5d
 			dependencies: ["4748831E75A840BE"]
 			id: "410E0DD607CB3469"
 			tasks: [{
@@ -226,8 +252,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -5.0d
+			x: -4.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["410E0DD607CB3469"]
 			size: 1.5d
@@ -268,8 +294,8 @@
 		}
 		{
 			title: "&l&9Overworld Bounty:&r&e Creepers"
-			x: 0.0d
-			y: -0.5d
+			x: -2.5d
+			y: 0.5d
 			subtitle: "Kill 5 Creepers"
 			id: "77FC692AC94D2EEF"
 			tasks: [{
@@ -295,8 +321,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: -2.5d
+			y: -1.0d
 			dependencies: ["77FC692AC94D2EEF"]
 			id: "65BBA5C0DAEEC31F"
 			tasks: [{
@@ -322,8 +348,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: -2.5d
+			y: -2.5d
 			dependencies: ["65BBA5C0DAEEC31F"]
 			id: "76A29816F19E33A2"
 			tasks: [{
@@ -349,8 +375,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -5.0d
+			x: -2.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["76A29816F19E33A2"]
 			size: 1.5d
@@ -391,8 +417,8 @@
 		}
 		{
 			title: "The Bounty Board"
-			x: 3.0d
-			y: 2.0d
+			x: 0.5d
+			y: 3.0d
 			subtitle: "Killing All The Things"
 			description: [
 				"Here you'll find all of the rewards you can get by slaying enemies."
@@ -436,8 +462,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 4.5d
+			x: -1.0d
+			y: 5.5d
 			size: 1.5d
 			id: "728BE1816DA23DC0"
 			tasks: [{
@@ -455,8 +481,8 @@
 			}]
 		}
 		{
-			x: 3.0000000000000004d
-			y: 4.5d
+			x: 0.5d
+			y: 5.5d
 			size: 1.5d
 			id: "09C82CDDA800D8C9"
 			tasks: [{
@@ -474,8 +500,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 4.5d
+			x: 2.0d
+			y: 5.5d
 			size: 1.5d
 			id: "08D1CC753F6B4283"
 			tasks: [{
@@ -493,8 +519,8 @@
 			}]
 		}
 		{
-			x: 4.550000000000001d
-			y: 6.0d
+			x: 2.0500000000000007d
+			y: 7.0d
 			subtitle: "This isn't even my final form."
 			size: 1.5d
 			id: "56DA46DC82F6665D"
@@ -521,8 +547,8 @@
 			]
 		}
 		{
-			x: 1.5500000000000003d
-			y: 6.0d
+			x: -0.9499999999999993d
+			y: 7.0d
 			subtitle: "Not the Guardian of Gaia Online btw"
 			size: 1.5d
 			id: "5825492F8B874CF2"
@@ -549,8 +575,8 @@
 		}
 		{
 			title: "Kill the Trader Villager and His Annoying Llamas"
-			x: 3.0500000000000003d
-			y: 6.0d
+			x: 0.5500000000000007d
+			y: 7.0d
 			subtitle: "\"This is Personal\" - AlfredGG"
 			size: 1.5d
 			optional: true
@@ -603,8 +629,8 @@
 		}
 		{
 			icon: "tconstruct:enderman_head"
-			x: 10.0d
-			y: -0.5d
+			x: 7.5d
+			y: 0.5d
 			subtitle: "Kill 5 Endermen"
 			id: "17F3AC15ADCFB175"
 			tasks: [{
@@ -631,8 +657,8 @@
 		}
 		{
 			icon: "tconstruct:enderman_head"
-			x: 10.0d
-			y: -2.0d
+			x: 7.5d
+			y: -1.0d
 			dependencies: ["17F3AC15ADCFB175"]
 			id: "2916F873A4DA84E8"
 			tasks: [{
@@ -658,8 +684,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -3.5d
+			x: 7.5d
+			y: -2.5d
 			dependencies: ["2916F873A4DA84E8"]
 			id: "2AAF57D1D8AB6BF8"
 			tasks: [{
@@ -685,8 +711,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -5.0d
+			x: 7.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["2AAF57D1D8AB6BF8"]
 			size: 1.5d
@@ -728,8 +754,8 @@
 		{
 			title: "&l&9Overworld Bounty:&r&e Spiders"
 			icon: "minecraft:spider_eye"
-			x: 2.0d
-			y: -0.5d
+			x: -0.5d
+			y: 0.5d
 			subtitle: "Kill 5 Spiders"
 			id: "1F18B64C84C8809D"
 			tasks: [{
@@ -754,8 +780,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["1F18B64C84C8809D"]
 			id: "283CA6DB77D5D2EB"
 			tasks: [{
@@ -781,8 +807,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -3.5d
+			x: -0.5d
+			y: -2.5d
 			dependencies: ["283CA6DB77D5D2EB"]
 			id: "63A1F25DF658928A"
 			tasks: [{
@@ -808,8 +834,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -5.0d
+			x: -0.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["63A1F25DF658928A"]
 			size: 1.5d
@@ -850,8 +876,8 @@
 		}
 		{
 			icon: "tconstruct:blaze_head"
-			x: 6.0d
-			y: -0.5d
+			x: 3.5d
+			y: 0.5d
 			subtitle: "Kill 5 Blazes"
 			id: "6141DE779232C8AA"
 			tasks: [{
@@ -877,8 +903,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 3.5d
+			y: -1.0d
 			dependencies: ["6141DE779232C8AA"]
 			id: "4F48A4839B549C92"
 			tasks: [{
@@ -904,8 +930,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -3.5d
+			x: 3.5d
+			y: -2.5d
 			dependencies: ["4F48A4839B549C92"]
 			id: "6C9BC3A699E57162"
 			tasks: [{
@@ -931,8 +957,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -5.0d
+			x: 3.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["6C9BC3A699E57162"]
 			size: 1.5d
@@ -972,8 +998,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.5d
 			subtitle: "Kill 5 Witches"
 			id: "5AC497F76A086A5C"
 			tasks: [{
@@ -999,8 +1025,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.0d
 			dependencies: ["5AC497F76A086A5C"]
 			id: "6E4FD0B568BEB3F9"
 			tasks: [{
@@ -1030,8 +1056,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -3.5d
+			x: 1.5d
+			y: -2.5d
 			dependencies: ["6E4FD0B568BEB3F9"]
 			id: "2D136FCDA92C92AC"
 			tasks: [{
@@ -1076,8 +1102,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
+			x: 1.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["2D136FCDA92C92AC"]
 			size: 1.5d
@@ -1111,8 +1137,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -0.5d
+			x: 5.5d
+			y: 0.5d
 			subtitle: "Kill 5 Wither Skeles"
 			id: "3371F9248D403664"
 			tasks: [{
@@ -1138,8 +1164,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 5.5d
+			y: -1.0d
 			dependencies: ["3371F9248D403664"]
 			id: "738E94C4CFB05D11"
 			tasks: [{
@@ -1165,8 +1191,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -3.5d
+			x: 5.5d
+			y: -2.5d
 			dependencies: ["738E94C4CFB05D11"]
 			id: "65CE9117B923C0DB"
 			tasks: [{
@@ -1198,8 +1224,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -5.0d
+			x: 5.5d
+			y: -4.0d
 			shape: "pentagon"
 			dependencies: ["65CE9117B923C0DB"]
 			size: 1.5d

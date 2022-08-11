@@ -7,6 +7,18 @@
 	icon: "industrialforegoing:common_black_hole_unit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.5d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Industrial Foregoing"
@@ -17,8 +29,8 @@
 					"patchouli:book": "industrialforegoing:industrial_foregoing"
 				}
 			}
-			x: 0.0d
-			y: 0.0d
+			x: -3.5d
+			y: -3.0d
 			shape: "gear"
 			description: ["Welcome to &aIndustrial Foregoing&f!"]
 			size: 1.5d
@@ -34,8 +46,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: -0.5d
+			y: -3.0d
 			description: [
 				"Extracts latex from logs."
 				""
@@ -55,8 +67,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -3.0d
 			shape: "rsquare"
 			dependencies: ["55820773BDD5319D"]
 			id: "6E616DB197387C86"
@@ -72,8 +84,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: -2.0d
+			y: -4.5d
 			dependencies: ["6E616DB197387C86"]
 			optional: true
 			id: "33532408B21A5378"
@@ -90,8 +102,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 1.5d
+			y: -3.0d
 			dependencies: ["321FA7348E532F4E"]
 			id: "6FF04DD735346BED"
 			tasks: [{
@@ -107,8 +119,8 @@
 		}
 		{
 			title: "Item \\& Fluid Transport"
-			x: 1.5d
-			y: 1.5d
+			x: -2.0d
+			y: -1.5d
 			dependencies: ["6E616DB197387C86"]
 			id: "339DF320DDCAD98B"
 			tasks: [
@@ -139,8 +151,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 0.5d
+			y: -3.0d
 			dependencies: ["0EC2053B191C55C6"]
 			id: "321FA7348E532F4E"
 			tasks: [{
@@ -219,8 +231,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 2.5d
+			y: -3.0d
 			dependencies: ["6FF04DD735346BED"]
 			id: "0EA9E52B67B533DF"
 			tasks: [{
@@ -235,8 +247,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
+			x: 4.0d
+			y: -3.0d
 			shape: "rsquare"
 			dependencies: ["0EA9E52B67B533DF"]
 			id: "690CFF61CE787D43"
@@ -254,8 +266,8 @@
 		}
 		{
 			title: "Common Black Hole Storage"
-			x: 9.5d
-			y: -1.5d
+			x: 6.0d
+			y: -4.5d
 			dependencies: ["690CFF61CE787D43"]
 			id: "163BEB03C415E187"
 			tasks: [
@@ -277,8 +289,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 1.5d
+			x: 4.0d
+			y: -1.5d
 			dependencies: ["690CFF61CE787D43"]
 			id: "57C4A0BAE739E903"
 			tasks: [{
@@ -288,8 +300,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.0d
+			x: 5.5d
+			y: -3.0d
 			dependencies: ["690CFF61CE787D43"]
 			id: "1823CC81D613892B"
 			tasks: [{
@@ -305,8 +317,8 @@
 		}
 		{
 			title: "Pink Slime \\& Liquid Meat"
-			x: 10.5d
-			y: 0.0d
+			x: 7.0d
+			y: -3.0d
 			shape: "rsquare"
 			dependencies: ["1823CC81D613892B"]
 			id: "0E8647B8EB4AAC41"
@@ -380,8 +392,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: 1.0d
+			x: 5.0d
+			y: -2.0d
 			dependencies: ["690CFF61CE787D43"]
 			id: "616CFD4078D67B51"
 			tasks: [{
@@ -398,8 +410,8 @@
 		}
 		{
 			title: "Conveyor Insertion \\& Extraction"
-			x: 9.8d
-			y: 1.2999999999999998d
+			x: 6.300000000000001d
+			y: -1.7000000000000002d
 			dependencies: ["616CFD4078D67B51"]
 			id: "3027584AA6138E6D"
 			tasks: [
@@ -423,8 +435,8 @@
 		}
 		{
 			title: "Other Conveyor Upgrades"
-			x: 8.8d
-			y: 2.3d
+			x: 5.300000000000001d
+			y: -0.7000000000000002d
 			dependencies: ["616CFD4078D67B51"]
 			optional: true
 			id: "06094615950AC062"
@@ -464,8 +476,8 @@
 		}
 		{
 			title: "Fluids"
-			x: 9.0d
-			y: -2.5d
+			x: 5.5d
+			y: -5.5d
 			dependencies: ["690CFF61CE787D43"]
 			optional: true
 			id: "427C3AFC0FF131CD"
@@ -489,8 +501,8 @@
 		}
 		{
 			title: "Blocks"
-			x: 8.5d
-			y: -3.5d
+			x: 5.0d
+			y: -6.5d
 			dependencies: ["690CFF61CE787D43"]
 			optional: true
 			id: "2CCFEE98FE3B2E97"
@@ -514,8 +526,8 @@
 		}
 		{
 			title: "Animals"
-			x: 6.0d
-			y: -2.5d
+			x: 2.5d
+			y: -5.5d
 			dependencies: ["690CFF61CE787D43"]
 			optional: true
 			id: "485AFAE5BBEF2FC7"
@@ -544,8 +556,8 @@
 		}
 		{
 			title: "Plants"
-			x: 6.5d
-			y: -3.5d
+			x: 3.0d
+			y: -6.5d
 			dependencies: ["690CFF61CE787D43"]
 			optional: true
 			id: "6C001E18093FC037"
@@ -569,8 +581,8 @@
 		}
 		{
 			title: "Bio Power"
-			x: 5.5d
-			y: -1.5d
+			x: 2.0d
+			y: -4.5d
 			dependencies: ["690CFF61CE787D43"]
 			optional: true
 			id: "540B857F043C24D5"
@@ -594,8 +606,8 @@
 		}
 		{
 			title: "Other Machines"
-			x: 7.5d
-			y: -4.0d
+			x: 4.0d
+			y: -7.0d
 			dependencies: ["690CFF61CE787D43"]
 			optional: true
 			id: "3E6706BC4C318A40"
@@ -618,8 +630,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 3.0d
+			y: -2.0d
 			dependencies: ["690CFF61CE787D43"]
 			id: "4C366515E3CCB0B2"
 			tasks: [{
@@ -629,8 +641,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 3.0d
+			x: 4.0d
+			y: 0.0d
 			shape: "rsquare"
 			dependencies: ["57C4A0BAE739E903"]
 			id: "3514E9C1A8C7400C"
@@ -646,8 +658,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 3.0d
+			x: 7.0d
+			y: 0.0d
 			shape: "rsquare"
 			dependencies: [
 				"3514E9C1A8C7400C"
@@ -666,8 +678,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 4.0d
+			x: 1.0d
+			y: 1.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "22702838FC507A2E"
@@ -678,8 +690,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.0d
+			x: 1.0d
+			y: -1.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "0D2DD9AA960843A3"
@@ -690,8 +702,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: 2.5d
+			y: 0.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "0AD768E4CC10358C"
@@ -702,8 +714,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: 2.0d
+			y: -1.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "605A5AC65BC7E864"
 			tasks: [{
@@ -713,8 +725,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 1.5d
+			y: 0.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "377F505175DFB790"
@@ -725,8 +737,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: -0.5d
+			y: 0.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "45DA9A3DA47AF2F0"
@@ -738,8 +750,8 @@
 		}
 		{
 			title: "Simple Black Hole Storage"
-			x: 5.5d
-			y: 4.0d
+			x: 2.0d
+			y: 1.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "0B7E3FD8B8CB04A2"
 			tasks: [
@@ -756,8 +768,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 4.0d
+			x: 0.0d
+			y: 1.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "224C07AC71C5F40E"
@@ -768,8 +780,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 0.5d
+			y: 0.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "29C9EBD333E59A35"
@@ -780,8 +792,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 0.0d
+			y: -1.0d
 			dependencies: ["3514E9C1A8C7400C"]
 			optional: true
 			id: "1684D52FDAAC894B"
@@ -792,8 +804,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 0.0d
+			x: 8.5d
+			y: -3.0d
 			dependencies: ["0E8647B8EB4AAC41"]
 			id: "408203C29BAABA44"
 			tasks: [{
@@ -808,8 +820,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 0.0d
+			x: 10.0d
+			y: -3.0d
 			dependencies: [
 				"408203C29BAABA44"
 				"0BCCDE24D378F260"
@@ -822,8 +834,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 4.5d
+			x: 7.5d
+			y: 1.5d
 			dependencies: ["0BCCDE24D378F260"]
 			id: "418E57E34FFC19E1"
 			tasks: [
@@ -846,8 +858,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 4.5d
+			x: 6.5d
+			y: 1.5d
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2E8E292ED596A104"
 			tasks: [{
@@ -857,8 +869,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 6.0d
+			x: 7.0d
+			y: 3.0d
 			description: [
 				"Suggestion:"
 				"Use some sort of wither-proof glass."
@@ -949,8 +961,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 11.0d
+			x: 7.0d
+			y: 8.0d
 			dependencies: ["7B4AF35313D7D779"]
 			id: "0F8FE6692717AA6A"
 			tasks: [{
@@ -960,8 +972,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 7.5d
+			x: 7.0d
+			y: 4.5d
 			dependencies: ["7E39FB9F3E973009"]
 			id: "7B4AF35313D7D779"
 			tasks: [{
@@ -976,8 +988,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 4.0d
+			x: 9.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			id: "1D5895CD14AB88EF"
 			tasks: [
@@ -994,8 +1006,8 @@
 			]
 		}
 		{
-			x: 13.0d
-			y: 3.0d
+			x: 9.5d
+			y: 0.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "65C5D30F48B77D20"
@@ -1011,8 +1023,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: 9.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "7DC044EFFDC208D7"
@@ -1028,8 +1040,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 0.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "014262BDF1BBA54D"
@@ -1045,8 +1057,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 2.0d
+			x: 10.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "5186CB4CD85B530C"
@@ -1062,8 +1074,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 4.0d
+			x: 10.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "287B47E27EBC2C18"
@@ -1074,8 +1086,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 3.0d
+			x: 11.5d
+			y: 0.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "776EE1F5C4565146"
@@ -1091,8 +1103,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 4.0d
+			x: 11.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "3AFDE3396861A944"
@@ -1103,8 +1115,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 4.0d
+			x: 12.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "4A8C60412E59E971"
@@ -1115,8 +1127,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 4.0d
+			x: 13.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "2DC012EF21FB359E"
@@ -1127,8 +1139,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 3.0d
+			x: 12.5d
+			y: 0.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "272E27EFE40C913A"
@@ -1144,8 +1156,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 3.0d
+			x: 13.5d
+			y: 0.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "7CB4D47ABC295B92"
@@ -1156,8 +1168,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 3.0d
+			x: 14.5d
+			y: 0.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "15551AC6C68E12E0"
@@ -1168,8 +1180,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 2.0d
+			x: 11.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "393A7BA6768A3F56"
@@ -1185,8 +1197,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 2.0d
+			x: 12.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "1BF511A13DF35C3A"
@@ -1202,8 +1214,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 13.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "38FF05B6A26DB2EC"
@@ -1219,8 +1231,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 4.0d
+			x: 14.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "06F84E2C484FAC5B"
@@ -1231,8 +1243,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 2.0d
+			x: 14.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "4F3EF1574F31A7E2"
@@ -1243,8 +1255,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 2.0d
+			x: 15.0d
+			y: -1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "2782EA80C1C74EBD"
@@ -1255,8 +1267,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 4.0d
+			x: 15.0d
+			y: 1.0d
 			dependencies: ["0BCCDE24D378F260"]
 			optional: true
 			id: "34AA079FFAFC64BD"
@@ -1267,8 +1279,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -1.5d
+			x: 7.0d
+			y: -4.5d
 			dependencies: ["0E8647B8EB4AAC41"]
 			id: "65C147F5282E8FCD"
 			tasks: [{
@@ -1278,8 +1290,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -3.0d
+			x: 7.0d
+			y: -6.0d
 			dependencies: ["65C147F5282E8FCD"]
 			id: "41E8550FC36ABCA5"
 			tasks: [
@@ -1381,8 +1393,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 10.5d
+			x: 6.0d
+			y: 7.5d
 			dependencies: ["7B4AF35313D7D779"]
 			optional: true
 			id: "60719C4317D39E5A"
@@ -1393,8 +1405,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 9.5d
+			x: 5.5d
+			y: 6.5d
 			dependencies: ["7B4AF35313D7D779"]
 			optional: true
 			id: "3A97E99FEC78E9C2"
@@ -1405,8 +1417,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 8.5d
+			x: 5.0d
+			y: 5.5d
 			dependencies: ["7B4AF35313D7D779"]
 			optional: true
 			id: "7342B2669D96C509"
@@ -1417,8 +1429,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 10.5d
+			x: 8.0d
+			y: 7.5d
 			dependencies: ["7B4AF35313D7D779"]
 			id: "28B3591BFC0FA08B"
 			tasks: [{
@@ -1428,8 +1440,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 8.5d
+			x: 9.0d
+			y: 5.5d
 			dependencies: ["7B4AF35313D7D779"]
 			id: "30BEF473F5C25983"
 			tasks: [
@@ -1446,8 +1458,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 9.5d
+			x: 8.5d
+			y: 6.5d
 			dependencies: ["7B4AF35313D7D779"]
 			id: "4F846973EFB95FA5"
 			tasks: [{

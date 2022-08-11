@@ -7,6 +7,18 @@
 	icon: "create:large_cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: 0.0d
@@ -472,30 +484,12 @@
 		{
 			x: 13.5d
 			y: 5.0d
-			dependencies: ["7A43D2A2632BEA9B"]
+			dependencies: ["1DA6B8B2DCC97809"]
 			id: "2244A1B11D7D6E11"
 			tasks: [{
 				id: "4BE77A9A3F878072"
 				type: "item"
 				item: "create:flywheel"
-			}]
-		}
-		{
-			x: 12.0d
-			y: 4.0d
-			description: [
-				"The &n&5Furnace Engine&r must be placed on a Furnace or Blast Furnace. The Blast Furnace will be more efficient."
-				""
-				"You must also connect it to a &n&5Flywheel&r. Place them one block apart to have them connect."
-				""
-				"The heat created by the furnaces will spin the Flywheel, creating rotational force with very high stress capacity."
-			]
-			dependencies: ["1DA6B8B2DCC97809"]
-			id: "7A43D2A2632BEA9B"
-			tasks: [{
-				id: "4E4C808C70D08946"
-				type: "item"
-				item: "create:furnace_engine"
 			}]
 		}
 		{

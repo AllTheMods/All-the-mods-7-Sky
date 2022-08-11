@@ -7,26 +7,35 @@
 	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: 0.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: -7.0d
-			y: -2.0d
+			title: "The Infuser"
+			x: -7.625d
+			y: -3.5d
 			shape: "gear"
 			subtitle: "The Starting Machine"
 			description: [
-				"The Metallurgic Infuser is used to craft core crafting components throughout Mekanism."
 				""
-				"The machine works by infusing a material (middle-left slot) with an \"infuser\" (far-left slot)."
 				""
-				"This is also how you get Steel Ingots."
 			]
-			dependencies: ["0650996C7818ADB5"]
+			dependencies: ["59B3C2AF620547E0"]
 			size: 1.5d
 			id: "162CE44400A63575"
 			tasks: [{
-				id: "28277BA9F319240D"
-				type: "item"
-				item: "mekanism:metallurgic_infuser"
+				id: "3E7CBA49DB8CA3E5"
+				type: "checkmark"
 			}]
 			rewards: [
 				{
@@ -49,8 +58,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
+			x: -4.125d
+			y: -3.5d
 			subtitle: "Breaks Raw Ores into Dusts"
 			description: [
 				"This machine works like a Macerator or Pulverizer, and will break ores down into dusts."
@@ -86,8 +95,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -0.5d
+			x: -7.625d
+			y: -2.0d
 			subtitle: "Really Only Good For 2 Things"
 			description: [
 				"The machine creates two really strong ingots: Refined Glowstone and Refined Obsidian."
@@ -115,8 +124,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: 0.375d
+			y: -3.5d
 			subtitle: "It Crushes Things."
 			description: ["This machine crushes ores into their \"dirty\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot."]
 			dependencies: ["6C25D42C36175BF4"]
@@ -146,8 +155,8 @@
 			]
 		}
 		{
-			x: -8.125d
-			y: 3.125d
+			x: -8.75d
+			y: 1.625d
 			shape: "hexagon"
 			subtitle: "A bigger robot friend."
 			description: [
@@ -177,8 +186,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 7.0d
+			x: 2.875d
+			y: 5.5d
 			shape: "diamond"
 			subtitle: "It has a BUCKET MODE!"
 			description: [
@@ -207,8 +216,8 @@
 			]
 		}
 		{
-			x: -8.125d
-			y: 1.875d
+			x: -8.75d
+			y: 0.375d
 			shape: "hexagon"
 			subtitle: "A Mini-Robot To Accompany You On Your Travels"
 			hide_dependency_lines: false
@@ -237,8 +246,8 @@
 			]
 		}
 		{
-			x: -6.875d
-			y: 3.125d
+			x: -7.5d
+			y: 1.625d
 			shape: "hexagon"
 			subtitle: "Requires Hydrogen to Work!"
 			hide_dependency_lines: true
@@ -264,8 +273,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 7.0d
+			x: -1.125d
+			y: 5.5d
 			shape: "diamond"
 			subtitle: "Upgrading to Factories"
 			description: ["This item upgrades a base machine to a Basic Factory machine."]
@@ -292,8 +301,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 7.75d
+			x: -0.625d
+			y: 6.25d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["07AD45DCF9EE3C2E"]
@@ -317,8 +326,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 8.25d
+			x: -1.125d
+			y: 6.75d
 			shape: "diamond"
 			dependencies: ["493FAE3A6088518E"]
 			id: "3E30EC9CA875A1F9"
@@ -341,8 +350,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 7.75d
+			x: -1.625d
+			y: 6.25d
 			shape: "diamond"
 			dependencies: ["3E30EC9CA875A1F9"]
 			id: "220C38510116BF36"
@@ -365,8 +374,8 @@
 			]
 		}
 		{
-			x: -8.125d
-			y: 4.375d
+			x: -8.75d
+			y: 2.875d
 			shape: "hexagon"
 			subtitle: "Wireless Power, Gases, Fluids, Everything."
 			description: [
@@ -402,8 +411,8 @@
 			]
 		}
 		{
-			x: -2.5000000000000004d
-			y: 7.0d
+			x: -3.125d
+			y: 5.5d
 			shape: "diamond"
 			subtitle: "Storing Power"
 			description: ["This block stores power, and can also be used to charge items."]
@@ -430,8 +439,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 7.800000000000001d
+			x: -2.625d
+			y: 6.300000000000001d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["09408C6DCAC90318"]
@@ -455,8 +464,8 @@
 			]
 		}
 		{
-			x: -2.5000000000000004d
-			y: 8.3d
+			x: -3.125d
+			y: 6.800000000000001d
 			shape: "diamond"
 			dependencies: ["10909A87C1953F7C"]
 			id: "1DA058C68CF437DC"
@@ -479,8 +488,8 @@
 			]
 		}
 		{
-			x: -3.0000000000000004d
-			y: 7.800000000000001d
+			x: -3.625d
+			y: 6.300000000000001d
 			shape: "diamond"
 			dependencies: ["1DA058C68CF437DC"]
 			id: "7AF982B6D8FD6C03"
@@ -503,8 +512,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -3.5d
+			x: -8.125d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "The Basic Alloy for Crafting Items"
 			description: ["Infusing Iron with Redstone in a Metallurgic Infuser will get you one of these."]
@@ -530,8 +539,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -4.5d
+			x: -8.125d
+			y: -6.0d
 			shape: "hexagon"
 			dependencies: ["166971866A9234C7"]
 			id: "7940E814260C556F"
@@ -554,8 +563,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -5.5d
+			x: -8.125d
+			y: -7.0d
 			shape: "hexagon"
 			dependencies: ["7940E814260C556F"]
 			id: "019D5A05A2134C7E"
@@ -578,8 +587,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: -3.5d
+			x: -7.125d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "The Basic Control Circuit"
 			description: ["Infusing Osmium with Redstone in a Metallurgic Infuser will create you one of these."]
@@ -605,8 +614,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: -4.5d
+			x: -7.125d
+			y: -6.0d
 			shape: "hexagon"
 			dependencies: [
 				"0498A578D0EC3254"
@@ -632,8 +641,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: -5.5d
+			x: -7.125d
+			y: -7.0d
 			shape: "hexagon"
 			dependencies: [
 				"6D7CABCFB50D8B0D"
@@ -659,8 +668,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -6.5d
+			x: -7.625d
+			y: -8.0d
 			shape: "hexagon"
 			dependencies: [
 				"347C16F0F7CFAACF"
@@ -686,8 +695,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 2.0d
+			x: -0.125d
+			y: 0.5d
 			shape: "pentagon"
 			description: [
 				"Infusing Iron with Coal or Charcoal in a Metallurgic Infuser will give you Enriched Iron."
@@ -726,8 +735,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 4.0d
+			x: -4.125d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "For Transferring Power"
 			description: [""]
@@ -754,8 +763,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 5.0d
+			x: -3.625d
+			y: 3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["23F165DEAD225B10"]
@@ -779,8 +788,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 5.5d
+			x: -4.125d
+			y: 4.0d
 			shape: "diamond"
 			dependencies: ["618ECDB3FB534A8A"]
 			id: "7553689BC9202E14"
@@ -803,8 +812,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 5.0d
+			x: -4.625d
+			y: 3.5d
 			shape: "diamond"
 			dependencies: ["7553689BC9202E14"]
 			id: "32E093F004E8CAC6"
@@ -827,8 +836,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: -2.125d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "For Transferring Fluids"
 			dependencies: ["1B6DDF50D00CBB31"]
@@ -854,8 +863,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 5.0d
+			x: -1.625d
+			y: 3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["2EF4DD5CC254CC80"]
@@ -879,8 +888,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
+			x: -2.125d
+			y: 4.0d
 			shape: "diamond"
 			dependencies: ["1A72F7DA24E1BB09"]
 			id: "5B3FDF651D845DF1"
@@ -903,8 +912,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 5.0d
+			x: -2.625d
+			y: 3.5d
 			shape: "diamond"
 			dependencies: ["5B3FDF651D845DF1"]
 			id: "01C3B23461807007"
@@ -927,8 +936,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 4.0d
+			x: -0.125d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "For Transferring Gasses"
 			dependencies: ["1B6DDF50D00CBB31"]
@@ -954,8 +963,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: 1.875d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "For Transferring Items"
 			dependencies: ["1B6DDF50D00CBB31"]
@@ -981,8 +990,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 4.0d
+			x: 3.875d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "For Transferring Heat"
 			dependencies: ["1B6DDF50D00CBB31"]
@@ -1008,8 +1017,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: 0.375d
+			y: 3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4434D7B66521D69A"]
@@ -1033,8 +1042,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 5.5d
+			x: -0.125d
+			y: 4.0d
 			shape: "diamond"
 			dependencies: ["768F9EBD3E115CA6"]
 			id: "6424D99CBA76895B"
@@ -1057,8 +1066,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
+			x: -0.625d
+			y: 3.5d
 			shape: "diamond"
 			dependencies: ["6424D99CBA76895B"]
 			id: "546F7FF099D2696E"
@@ -1081,8 +1090,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 5.0d
+			x: 2.375d
+			y: 3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["5B681BC43371CC5C"]
@@ -1106,8 +1115,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 5.5d
+			x: 1.875d
+			y: 4.0d
 			shape: "diamond"
 			dependencies: ["30B3469DAA8D5A0A"]
 			id: "46AB23E922C51517"
@@ -1130,8 +1139,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 1.375d
+			y: 3.5d
 			shape: "diamond"
 			dependencies: ["46AB23E922C51517"]
 			id: "6C8431C216A66C1F"
@@ -1154,8 +1163,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: 4.375d
+			y: 3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["531E3FF1F2865C67"]
@@ -1179,8 +1188,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 5.5d
+			x: 3.875d
+			y: 4.0d
 			shape: "diamond"
 			dependencies: ["7522F2DC9038ED92"]
 			id: "55E2F8C6A71E7328"
@@ -1203,8 +1212,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 5.0d
+			x: 3.375d
+			y: 3.5d
 			shape: "diamond"
 			dependencies: ["55E2F8C6A71E7328"]
 			id: "5E2F9E27E6B4DF74"
@@ -1227,8 +1236,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -0.5d
+			x: -6.625d
+			y: -2.0d
 			shape: "pentagon"
 			dependencies: ["195729280394ABFB"]
 			id: "31B73D16C0199785"
@@ -1256,8 +1265,8 @@
 			]
 		}
 		{
-			x: -8.0d
-			y: -0.5d
+			x: -8.625d
+			y: -2.0d
 			shape: "pentagon"
 			dependencies: ["195729280394ABFB"]
 			id: "58445E5B3957ACC8"
@@ -1281,8 +1290,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -2.0d
+			x: -1.125d
+			y: -3.5d
 			subtitle: "It makes Clumps."
 			description: [
 				"This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, then through a smelter to be turned to an ingot."
@@ -1321,8 +1330,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -2.0d
+			x: -5.625d
+			y: -3.5d
 			subtitle: "Mekanism's Powered Furnace"
 			description: [
 				"This machine smelts items."
@@ -1356,8 +1365,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: -2.625d
+			y: -3.5d
 			subtitle: "Time to Break It Down"
 			description: [
 				"The Electrolytic Separator (big fancy name) is used to separate chemicals from certain liquids and gases."
@@ -1393,8 +1402,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -4.0d
+			x: -2.625d
+			y: -5.5d
 			subtitle: "Burn Gases into Power!"
 			description: [
 				"This generator can burn both Hydrogen and Ethylene to produce power."
@@ -1428,8 +1437,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -2.0d
+			x: 4.375d
+			y: -3.5d
 			subtitle: "Turns 3 Raw Ore into 8 Ore Shards"
 			description: [
 				"This machine is the next step to your Ore Processing Factory. Add this to the left of your Purification Chamber to build on to your current ore factory!"
@@ -1463,8 +1472,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -4.0d
+			x: 4.875d
+			y: -5.5d
 			subtitle: "The Chemical Combiner"
 			description: [
 				"This machine combines two gases to create a new gas."
@@ -1493,8 +1502,8 @@
 		}
 		{
 			title: "Thermal Evaporation Plant"
-			x: 5.0d
-			y: -3.0d
+			x: 4.375d
+			y: -4.5d
 			subtitle: "Water turns into Brine!"
 			description: [
 				"To get Hydrogen Chloride for our machines, we'll need to first create &aBrine&r."
@@ -1551,8 +1560,8 @@
 		}
 		{
 			title: "The Start of a Tier 4 Ore Factory"
-			x: 8.0d
-			y: -2.0d
+			x: 7.375d
+			y: -3.5d
 			description: [
 				"We will need to add 3 more machines to our current setup."
 				""
@@ -1590,8 +1599,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -3.5d
+			x: 6.875d
+			y: -5.0d
 			description: [
 				"To make Sulfuric Acid, you'll need to create &aWater Vapor&r."
 				""
@@ -1618,8 +1627,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: -3.5d
+			x: 7.875d
+			y: -5.0d
 			description: [
 				"Okay, let's start with making Sulfur Dioxide first."
 				""
@@ -1660,8 +1669,8 @@
 		}
 		{
 			title: "Heating Up our Brine Production"
-			x: 4.5d
-			y: -4.0d
+			x: 3.875d
+			y: -5.5d
 			subtitle: "Hot Brine here. Get Your Hot Brine here."
 			description: [
 				"The Thermal Evaporation Plant multi-block produces Brine based on the internal temperature."
@@ -1694,8 +1703,8 @@
 		}
 		{
 			title: "Custom Portals!"
-			x: -9.375d
-			y: 3.125d
+			x: -10.0d
+			y: 1.625d
 			shape: "hexagon"
 			subtitle: "Teleportation at its finest."
 			description: [
@@ -1741,8 +1750,8 @@
 			]
 		}
 		{
-			x: -9.375d
-			y: 1.875d
+			x: -10.0d
+			y: 0.375d
 			shape: "hexagon"
 			subtitle: "Portable Battery Pack"
 			description: [
@@ -1773,8 +1782,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 9.5d
+			x: -0.125d
+			y: 8.0d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
@@ -1798,8 +1807,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 10.0d
+			x: 0.375d
+			y: 8.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
@@ -1823,8 +1832,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 9.5d
+			x: -1.125d
+			y: 8.0d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
@@ -1848,8 +1857,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 10.0d
+			x: -0.625d
+			y: 8.5d
 			shape: "diamond"
 			subtitle: "shhhhh... too loud...."
 			hide_dependency_lines: true
@@ -1874,8 +1883,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 10.5d
+			x: -0.125d
+			y: 9.0d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
@@ -1899,8 +1908,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 9.5d
+			x: 0.875d
+			y: 8.0d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
@@ -1924,8 +1933,8 @@
 			]
 		}
 		{
-			x: -9.375d
-			y: 4.375d
+			x: -10.0d
+			y: 2.875d
 			shape: "hexagon"
 			subtitle: "Mekanism's Wrench"
 			description: ["This item is used to configure many of the items in Mekanism, from changing pipes to \"Pull or Push\" or rotating machines."]
@@ -1953,8 +1962,8 @@
 		}
 		{
 			title: "Water Source"
-			x: -2.0d
-			y: -3.0d
+			x: -2.625d
+			y: -4.5d
 			subtitle: "The All-Mighty Infinite Water Source"
 			description: [
 				"To start breaking down water, we'll need a water source. The Kitchen Sink provides infinite water, and can easily be set up to pump out water."
@@ -1984,8 +1993,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 7.800000000000004d
+			x: 3.375d
+			y: 6.300000000000004d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["6DB1AAAD926486BC"]
@@ -2009,8 +2018,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 8.300000000000004d
+			x: 2.875d
+			y: 6.800000000000004d
 			shape: "diamond"
 			dependencies: ["30F8BA43B1BB9035"]
 			id: "5F94483E05D2F528"
@@ -2033,8 +2042,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 7.800000000000004d
+			x: 2.375d
+			y: 6.300000000000004d
 			shape: "diamond"
 			dependencies: ["5F94483E05D2F528"]
 			id: "712CB147B5873121"
@@ -2057,8 +2066,8 @@
 			]
 		}
 		{
-			x: 1.5000000000000053d
-			y: 7.0d
+			x: 0.8750000000000053d
+			y: 5.5d
 			shape: "diamond"
 			subtitle: "Storing All That Gas"
 			description: ["This block stores gases."]
@@ -2083,8 +2092,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 7.800000000000004d
+			x: 1.375d
+			y: 6.300000000000004d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["41EB0C570FC54F43"]
@@ -2108,8 +2117,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 8.300000000000004d
+			x: 0.875d
+			y: 6.800000000000004d
 			shape: "diamond"
 			dependencies: ["1162544BA1B2B0F3"]
 			id: "4C4B1602E2AFC314"
@@ -2132,8 +2141,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 7.800000000000004d
+			x: 0.375d
+			y: 6.300000000000004d
 			shape: "diamond"
 			dependencies: ["4C4B1602E2AFC314"]
 			id: "0C0D0B80B3FA26F2"
@@ -2156,8 +2165,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 2.5d
+			x: 8.375d
+			y: 1.0d
 			shape: "octagon"
 			subtitle: "Produces about 17.6FE/t"
 			description: ["Generates power from the sun!"]
@@ -2184,41 +2193,8 @@
 			]
 		}
 		{
-			x: -8.875d
-			y: -1.975d
-			shape: "octagon"
-			subtitle: "Basic Power Gen"
-			description: [
-				"The Heat Generator has 2 modes to generate power:"
-				""
-				"&9Passive:&r Surrounding the generator with lava source or flowing blocks creates passive power by creating heat. Place one lava source block on top, and let it flow over the sides. Make sure to connect pipes first!"
-				""
-				"&9Active:&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power."
-			]
-			dependencies: ["6F62B5510FA881CD"]
-			size: 1.25d
-			id: "0650996C7818ADB5"
-			tasks: [{
-				id: "7BA12BAB8271E170"
-				type: "item"
-				item: "mekanismgenerators:heat_generator"
-			}]
-			rewards: [
-				{
-					id: "7072D079156C2A44"
-					type: "item"
-					item: "alltheores:osmium_ingot"
-				}
-				{
-					id: "6D2DD795F34A4177"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 10.5d
-			y: 4.0d
+			x: 9.875d
+			y: 2.5d
 			shape: "octagon"
 			description: ["This generator will burn Bio Fuel into energy. It produces around 140FE/t."]
 			hide_dependency_lines: true
@@ -2244,8 +2220,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 4.0d
+			x: 8.375d
+			y: 2.5d
 			shape: "octagon"
 			description: [
 				"If you're wondering if it is worth making this upgrade, the answer is yes."
@@ -2274,8 +2250,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: 2.5d
+			x: 9.875d
+			y: 1.0d
 			shape: "octagon"
 			subtitle: "Generates Power from the Wind"
 			description: [
@@ -2306,79 +2282,8 @@
 			]
 		}
 		{
-			title: "&dMekanism&r"
-			icon: {
-				id: "mekanism:creative_energy_cube"
-				Count: 1b
-				tag: {
-					mekData: {
-						EnergyContainers: [{
-							Container: 0b
-							stored: "18446744073709551615.9999"
-						}]
-					}
-				}
-			}
-			x: -13.0d
-			y: -2.0d
-			shape: "square"
-			subtitle: "The Start of Your Own Factory"
-			description: [
-				"Mekanism is a tech mod that will change the way you play Minecraft."
-				""
-				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
-				""
-				"This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more."
-			]
-			size: 2.0d
-			id: "58B125BD4876054C"
-			tasks: [{
-				id: "2362792C3ABCDBA5"
-				type: "checkmark"
-				title: "Mekanism"
-			}]
-			rewards: [
-				{
-					id: "7D519C36EA3CF356"
-					type: "item"
-					item: "alltheores:raw_osmium"
-				}
-				{
-					id: "1C5A7C0402C237DD"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "Osmium"
-			x: -10.5d
-			y: -2.0d
-			subtitle: "The Base Crafting Ingot"
-			dependencies: ["58B125BD4876054C"]
-			id: "6F62B5510FA881CD"
-			tasks: [{
-				id: "52967F83338A3AC3"
-				type: "item"
-				item: "alltheores:osmium_ingot"
-			}]
-			rewards: [
-				{
-					id: "52CF295425D3C2B9"
-					type: "item"
-					item: "alltheores:raw_osmium"
-					random_bonus: 1
-				}
-				{
-					id: "75AA096A6B99BFA3"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: -2.0d
+			x: 2.375d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "Tier 2 Ore Factory"
 			description: [
@@ -2413,8 +2318,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: 5.875d
+			y: -3.5d
 			subtitle: "Tier 3 Ore Factory"
 			description: [
 				"So now, you should have 5 machines ready to go to process your ores. Are you ready to make it even more complicated?"
@@ -2442,8 +2347,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -1.9500000000000002d
+			x: 15.375d
+			y: -3.45d
 			shape: "diamond"
 			size: 1.5d
 			id: "1C86908F5A1FABC0"
@@ -2466,8 +2371,8 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: -4.199999999999999d
+			x: 13.875d
+			y: -5.699999999999999d
 			shape: "square"
 			size: 1.5d
 			id: "03CAD4948ECF0B0F"
@@ -2495,8 +2400,8 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: -2.7d
+			x: 13.875d
+			y: -4.2d
 			shape: "square"
 			size: 1.5d
 			id: "5EC325720523801E"
@@ -2524,8 +2429,8 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: -1.2000000000000002d
+			x: 13.875d
+			y: -2.7d
 			shape: "square"
 			size: 1.5d
 			id: "544B230E7DC944CA"
@@ -2553,8 +2458,8 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: 0.30000000000000004d
+			x: 13.875d
+			y: -1.2000000000000002d
 			shape: "square"
 			size: 1.5d
 			id: "77235CDC61136465"
@@ -2582,8 +2487,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -4.125d
+			y: -4.5d
 			description: [
 				"Combines gases, solid items, and liquids to produce an item and by-product."
 				""
@@ -2617,8 +2522,8 @@
 		}
 		{
 			title: "Bio Fuel"
-			x: 1.0d
-			y: -3.0d
+			x: 0.375d
+			y: -4.5d
 			description: ["The Crusher can also break down natural substances into Bio Fuel!"]
 			dependencies: ["7AE502EDB73BD57A"]
 			id: "3B43DB1A6B0A7B44"
@@ -2643,8 +2548,8 @@
 		}
 		{
 			title: "Substrates"
-			x: 1.0d
-			y: -4.0d
+			x: 0.375d
+			y: -5.5d
 			description: [
 				"When Bio Fuel is combined with Water and Hydrogen in a &aPressurized Reaction Chamber&r it creates Substrates. It also creates Ethylene as a by-product."
 				""
@@ -2673,8 +2578,8 @@
 		}
 		{
 			title: "HDPE Pellets"
-			x: 1.0d
-			y: -5.0d
+			x: 0.375d
+			y: -6.5d
 			description: ["Combining Oxygen, Ethylene, and a Substrate in a &aPressurized Reaction Chamber&r will create an HDPE Pellet."]
 			dependencies: ["5047792C6EF6D2AD"]
 			id: "76A38CCA5816CDAD"
@@ -2699,8 +2604,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -6.0d
+			x: 0.375d
+			y: -7.5d
 			description: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
 			dependencies: ["76A38CCA5816CDAD"]
 			id: "47106CE1937C4340"
@@ -2724,8 +2629,8 @@
 			]
 		}
 		{
-			x: -6.875d
-			y: 4.375d
+			x: -7.5d
+			y: 2.875d
 			shape: "hexagon"
 			subtitle: "Mekanism's All In One Tool"
 			hide_dependency_lines: true
@@ -2752,8 +2657,8 @@
 		}
 		{
 			title: "Enriched Items"
-			x: -3.5d
-			y: -0.5d
+			x: -4.125d
+			y: -2.0d
 			subtitle: "Enrich your items first!"
 			description: [
 				"Using the Enrichment Chamber, you can enrich items to convert them into Enriched variants."
@@ -2784,8 +2689,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: -2.0d
+			x: 8.875d
+			y: -3.5d
 			subtitle: "Giving Ores a Bath"
 			description: [
 				"This machine needs water to operate, and uses the water to clean \"Ore Slurry\" into \"Clean Ore Slurry.\""
@@ -2813,8 +2718,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -2.0d
+			x: 10.375d
+			y: -3.5d
 			subtitle: "Turns Ore Slurry into Crystals"
 			description: [
 				"This machine will be #3 in your Tier 4 Ore Processing Factory."
@@ -2842,8 +2747,8 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: -2.0d
+			x: 11.875d
+			y: -3.5d
 			shape: "gear"
 			subtitle: "This is a lot, I know."
 			description: [
@@ -2869,8 +2774,8 @@
 			}]
 		}
 		{
-			x: -6.875d
-			y: 1.875d
+			x: -7.5d
+			y: 0.375d
 			shape: "hexagon"
 			description: [
 				"Standing on this item will charge up any powered item from any mod."

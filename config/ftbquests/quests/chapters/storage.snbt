@@ -7,22 +7,48 @@
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 4.5d
-		y: -8.0d
-		width: 5.0d
-		height: 5.0d
-		rotation: 0.0d
-		image: "minecraft:textures/item/chest_minecart.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 4.0d
+			y: -6.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/chest_minecart.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/chest_minecart.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: -9.0d
-			y: -1.5d
+			x: -3.9499999999999993d
+			y: -1.0d
 			subtitle: "A &olot&r more room for activities."
 			id: "4C0BDD483CCB40C4"
 			tasks: [{
@@ -39,8 +65,8 @@
 		{
 			title: "My First Drawer"
 			icon: "functionalstorage:oak_1"
-			x: -9.0d
-			y: -5.0d
+			x: -1.75d
+			y: -3.0d
 			subtitle: "Stacks on Stacks"
 			description: [
 				"Craft yourself a 1x1 drawer. This item holds a ton of stacks of 1 item."
@@ -77,8 +103,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: -4.5d
+			x: 2.75d
+			y: -3.0d
 			shape: "diamond"
 			subtitle: "Auto-Convert to blocks."
 			description: [
@@ -108,8 +134,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -5.0d
+			x: 2.25d
+			y: -3.5d
 			shape: "diamond"
 			subtitle: "The Brain of the Drawers."
 			description: [
@@ -141,8 +167,8 @@
 		}
 		{
 			title: "Ender Storage"
-			x: 2.5d
-			y: -1.5d
+			x: 5.5d
+			y: -1.0d
 			description: [
 				"Chests that work across dimensions."
 				""
@@ -171,33 +197,9 @@
 			}]
 		}
 		{
-			title: "Basic Storage"
-			x: 4.5d
-			y: -1.5d
-			shape: "gear"
-			description: [
-				"Welcome to the Basic Storage Chapter!"
-				""
-				"You'll find all of the basic ways to store items without power, as well as useful items for your storage needs!"
-			]
-			hide_dependency_lines: false
-			size: 2.0d
-			id: "5A94A2664BFDD7B9"
-			tasks: [{
-				id: "3E7F26D68D9A166B"
-				type: "checkmark"
-				title: "Storage"
-			}]
-			rewards: [{
-				id: "570FFAC4E65BBF46"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
 			title: "Trash Cans"
-			x: 4.5d
-			y: -3.5d
+			x: 5.5d
+			y: -3.0d
 			subtitle: "Getting Rid of The Excess"
 			description: ["A way to destroy unwanted items, liquid, and power."]
 			hide_dependency_lines: true
@@ -235,7 +237,7 @@
 		{
 			title: "Mek on the Go"
 			x: 6.5d
-			y: -1.5d
+			y: -3.0d
 			hide_dependency_lines: true
 			id: "3D5852E6D0ADF651"
 			tasks: [{
@@ -258,8 +260,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
+			x: 6.5d
+			y: -1.0d
 			description: ["Can store tons of &eenchantments&f, whilst also being able to give back different leveled enchantments."]
 			hide_dependency_lines: true
 			id: "73F94E2FECDD1DD5"
@@ -284,8 +286,8 @@
 		}
 		{
 			title: "Ender Drawers!"
-			x: -6.5d
-			y: -5.5d
+			x: 2.25d
+			y: -2.5d
 			shape: "diamond"
 			subtitle: "Dimensional Drawer.... if you will."
 			description: [
@@ -318,8 +320,8 @@
 		{
 			title: "Functional Storage"
 			icon: "functionalstorage:storage_controller"
-			x: -11.25d
-			y: -5.0d
+			x: -4.0d
+			y: -3.0d
 			shape: "square"
 			subtitle: "Storage Drawers Distant Relative"
 			description: [
@@ -341,8 +343,8 @@
 			}]
 		}
 		{
-			x: -11.25d
-			y: 2.0d
+			x: -4.0d
+			y: 1.0d
 			shape: "square"
 			subtitle: "Sophisticated Backpacks"
 			description: ["Sophisticated Backpacks offer upgradable backpacks that can also use filters to add nifty features!"]
@@ -360,8 +362,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 2.0d
+			x: -1.85d
+			y: 1.0d
 			subtitle: "The First Upgrade"
 			dependencies: ["6A2B2C5E2ADCE366"]
 			id: "0E057B7F76401421"
@@ -385,8 +387,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: 4.0d
+			x: -1.85d
+			y: 2.5d
 			subtitle: "The Base for Backpack Filters"
 			description: ["You will need these to make backpack filter upgrades."]
 			dependencies: ["6A2B2C5E2ADCE366"]
@@ -411,8 +413,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: 6.5d
+			x: -2.0d
+			y: 6.0d
 			shape: "circle"
 			subtitle: "Allows the backpack to pickup items."
 			hide_dependency_lines: true
@@ -432,8 +434,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 7.5d
+			x: -1.0d
+			y: 6.0d
 			subtitle: "More Filtering Options"
 			dependencies: ["0E0CAA31480EC0A1"]
 			hide: true
@@ -451,8 +453,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 6.5d
+			x: 0.5d
+			y: 6.0d
 			subtitle: "Adds a filter for items being pumped in or out of the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -471,8 +473,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 7.5d
+			x: 1.5d
+			y: 6.0d
 			dependencies: ["156FF8B7B724DC38"]
 			hide: true
 			optional: true
@@ -489,8 +491,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 6.5d
+			x: 6.5d
+			y: 1.0d
 			subtitle: "Magnets items into the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -509,8 +511,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 7.5d
+			x: 6.5d
+			y: 2.5d
 			dependencies: ["110D27EA86CDA62B"]
 			hide: true
 			optional: true
@@ -527,8 +529,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 6.5d
+			x: 5.5d
+			y: 3.5d
 			subtitle: "Auto-feed with food in the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -547,8 +549,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 7.5d
+			x: 5.5d
+			y: 4.5d
 			dependencies: ["5FA9BC0D8476D322"]
 			hide: true
 			optional: true
@@ -565,47 +567,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 6.5d
-			subtitle: "Compacts items in the backpack to their 2x2 recipe. "
-			hide_dependency_lines: true
-			dependencies: ["1FE052F643401232"]
-			hide: true
-			optional: true
-			id: "1CD2C6AFD788C35E"
-			tasks: [{
-				id: "0F54AF81A481180B"
-				type: "item"
-				item: "sophisticatedbackpacks:compacting_upgrade"
-			}]
-			rewards: [{
-				id: "4B5E3828A7FEE102"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: -1.5d
-			y: 7.5d
-			subtitle: "Compacts items in the backpack to their 3x3 recipe. "
-			dependencies: ["1CD2C6AFD788C35E"]
-			hide: true
-			optional: true
-			id: "5E4FE420B6D2C97F"
-			tasks: [{
-				id: "7CA41563003856B2"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
-			}]
-			rewards: [{
-				id: "18BDC6FD268F1347"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: -3.0d
-			y: 9.0d
+			x: 6.5d
+			y: 3.5d
 			subtitle: "Adds a filter for items you want to auto-delete in the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -624,8 +587,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 10.0d
+			x: 6.5d
+			y: 4.5d
 			dependencies: ["7EFBFF5D0DA018E7"]
 			hide: true
 			optional: true
@@ -642,8 +605,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 9.0d
+			x: 5.5d
+			y: 1.0d
 			subtitle: "Stocking Up"
 			description: ["Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it."]
 			hide_dependency_lines: true
@@ -663,8 +626,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 10.0d
+			x: 5.5d
+			y: 2.5d
 			dependencies: ["4B62AF0405F68041"]
 			hide: true
 			optional: true
@@ -681,8 +644,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 6.5d
+			x: 3.0d
+			y: 6.0d
 			subtitle: "Allows the backpack to be emptied."
 			description: ["Shift-Right Click an inventory to empty."]
 			hide_dependency_lines: true
@@ -702,8 +665,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 7.5d
+			x: 4.0d
+			y: 6.0d
 			dependencies: ["00DB5495C3A44999"]
 			hide: true
 			optional: true
@@ -720,8 +683,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 5.0d
+			x: 4.25d
+			y: 3.5d
 			subtitle: "Keeps the player's inventory stacked up from items in the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -740,33 +703,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.0d
-			subtitle: "I heard you like backpacks in your backpacks."
-			description: [
-				"So we got a backpack upgrade to put your backpack in your backpack."
-				""
-				"So you can have your backpack in your backpack when you need your backpack in your backpack."
-			]
-			hide_dependency_lines: true
-			dependencies: ["1FE052F643401232"]
-			hide: true
-			optional: true
-			id: "7C07D6A33F7ADB02"
-			tasks: [{
-				id: "4F04DC4226148B47"
-				type: "item"
-				item: "sophisticatedbackpacks:inception_upgrade"
-			}]
-			rewards: [{
-				id: "251C508792472ABB"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: 0.0d
-			y: 5.0d
+			x: 4.25d
+			y: 4.5d
 			subtitle: "The Backpack Cannot Die."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -785,8 +723,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 9.0d
+			x: 5.5d
+			y: 6.0d
 			subtitle: "Adds a Smelting Tab to Backpack"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -805,8 +743,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 10.0d
+			x: 6.5d
+			y: 6.0d
 			subtitle: "Auto-smelt items in the backpack."
 			dependencies: ["668C313FF46B6005"]
 			hide: true
@@ -824,8 +762,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 9.0d
+			x: -4.0d
+			y: 5.0d
 			subtitle: "Adds a smoker GUI to the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -844,8 +782,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 10.0d
+			x: -4.0d
+			y: 6.0d
 			dependencies: ["26A9F402DAE15EA2"]
 			hide: true
 			optional: true
@@ -862,8 +800,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 9.0d
+			x: -4.0d
+			y: 2.5d
 			subtitle: "Adds a blasting GUI to the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -882,8 +820,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 10.0d
+			x: -4.0d
+			y: 3.5d
 			dependencies: ["1E499F94A2A193E1"]
 			hide: true
 			optional: true
@@ -900,8 +838,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 5.0d
+			x: 4.25d
+			y: 2.5d
 			subtitle: "Adds a Crafting Table GUI to the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -920,8 +858,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 5.0d
+			x: 1.25d
+			y: 3.5d
 			subtitle: "Adds a Stonecutting GUI to the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -940,8 +878,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
+			x: -1.85d
+			y: 4.5d
 			subtitle: "Increases stack size in the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -960,8 +898,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: -0.25d
+			y: 4.5d
 			dependencies: ["7E9E03274A88347D"]
 			hide: false
 			optional: true
@@ -978,8 +916,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: 1.25d
+			y: 4.5d
 			dependencies: ["785951190FFDAA21"]
 			hide: false
 			optional: true
@@ -996,8 +934,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
+			x: 2.75d
+			y: 4.5d
 			dependencies: ["0298A17C2AAC5765"]
 			hide: false
 			optional: true
@@ -1014,8 +952,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 5.0d
+			x: 2.75d
+			y: 3.5d
 			subtitle: "Now we're jammin"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -1034,46 +972,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 9.0d
-			subtitle: "Auto-Swap to the tool that is most effective for the block you are looking at."
-			hide_dependency_lines: true
-			dependencies: ["1FE052F643401232"]
-			hide: true
-			optional: true
-			id: "615B9062FE8CCD36"
-			tasks: [{
-				id: "24165D460DCC2212"
-				type: "item"
-				item: "sophisticatedbackpacks:tool_swapper_upgrade"
-			}]
-			rewards: [{
-				id: "54802B4F6EE4412E"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: -4.5d
-			y: 10.0d
-			dependencies: ["615B9062FE8CCD36"]
-			hide: true
-			optional: true
-			id: "15CD4BFDC56E9510"
-			tasks: [{
-				id: "700D630FE0FB8B9D"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
-			}]
-			rewards: [{
-				id: "3198E65D369D203C"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: -9.0d
-			y: 5.0d
+			x: -1.85d
+			y: 3.5d
 			subtitle: "Adds a tank to the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -1092,8 +992,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 5.0d
+			x: -0.25d
+			y: 3.5d
 			subtitle: "Adds a battery to the backpack."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -1112,8 +1012,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 4.0d
+			x: -0.25d
+			y: 2.5d
 			subtitle: "Adds the ability to pump liquids from the tank upgrade."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
@@ -1132,8 +1032,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 4.0d
+			x: 1.25d
+			y: 2.5d
 			dependencies: ["6E9041744C592573"]
 			hide: false
 			optional: true
@@ -1150,8 +1050,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.0d
+			x: 2.75d
+			y: 2.5d
 			dependencies: ["56B80A7EBFE21428"]
 			hide: false
 			optional: true
@@ -1168,8 +1068,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 2.0d
+			x: 0.25d
+			y: 1.0d
 			dependencies: ["0E057B7F76401421"]
 			id: "2F9B0C642A6BE30C"
 			tasks: [{
@@ -1197,8 +1097,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 2.0d
+			x: 2.25d
+			y: 1.0d
 			dependencies: ["2F9B0C642A6BE30C"]
 			id: "45268A619787288F"
 			tasks: [{
@@ -1226,8 +1126,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
+			x: 4.25d
+			y: 1.0d
 			dependencies: ["45268A619787288F"]
 			optional: true
 			id: "67704F7341EDCC49"
@@ -1256,8 +1156,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -5.0d
+			x: 0.25d
+			y: -3.0d
 			shape: "circle"
 			description: [
 				"Used to link Drawers to a controller and to link up Ender Drawers."
@@ -1287,8 +1187,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -6.5d
+			x: -1.75d
+			y: -5.0d
 			dependencies: ["2746575C929B6C50"]
 			id: "009A4AA36AA30F7D"
 			tasks: [{
@@ -1303,8 +1203,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -7.5d
+			x: -2.25d
+			y: -6.0d
 			shape: "diamond"
 			subtitle: "x8 Storage Upgrade"
 			dependencies: ["009A4AA36AA30F7D"]
@@ -1329,8 +1229,8 @@
 			]
 		}
 		{
-			x: -10.0d
-			y: -8.0d
+			x: -2.75d
+			y: -6.5d
 			shape: "diamond"
 			subtitle: "x16 Storage Upgrade"
 			dependencies: ["485D5664A17E16DF"]
@@ -1355,8 +1255,8 @@
 			]
 		}
 		{
-			x: -9.5d
-			y: -8.5d
+			x: -2.25d
+			y: -7.0d
 			shape: "diamond"
 			subtitle: "x24 Storage Upgrade"
 			dependencies: ["3B570B3DB5F6D2CB"]
@@ -1381,8 +1281,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: -9.0d
+			x: -1.75d
+			y: -7.5d
 			shape: "diamond"
 			subtitle: "x32 Storage Upgrade"
 			dependencies: ["1B72E95569B07E18"]
@@ -1406,8 +1306,8 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: -7.5d
+			x: -1.25d
+			y: -6.0d
 			shape: "diamond"
 			subtitle: "Enables Pulling from Inventories"
 			dependencies: ["009A4AA36AA30F7D"]
@@ -1430,8 +1330,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -8.0d
+			x: -0.75d
+			y: -6.5d
 			shape: "diamond"
 			subtitle: "Enables Pushing to Inventories"
 			description: [""]
@@ -1456,8 +1356,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -8.5d
+			x: -1.25d
+			y: -7.0d
 			shape: "diamond"
 			subtitle: "Enables Collection of Items from the Ground"
 			hide_dependency_lines: true
@@ -1478,6 +1378,49 @@
 				id: "1F30ADFB8059F469"
 				type: "xp"
 				xp: 10
+			}]
+		}
+		{
+			x: -1.75d
+			y: -1.0d
+			id: "022500A4DF8B0E55"
+			tasks: [{
+				id: "417545B7B3386289"
+				type: "item"
+				item: "ironchests:iron_chest"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -1.0d
+			dependencies: ["022500A4DF8B0E55"]
+			id: "44A56B4BE1E39E2B"
+			tasks: [{
+				id: "6F8FAE2BE05105D2"
+				type: "item"
+				item: "ironchests:copper_chest"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -1.0d
+			dependencies: ["44A56B4BE1E39E2B"]
+			id: "3FE005C0E173931D"
+			tasks: [{
+				id: "26094E26ED837238"
+				type: "item"
+				item: "ironchests:gold_chest"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -1.0d
+			dependencies: ["3FE005C0E173931D"]
+			id: "03142B9629442C8E"
+			tasks: [{
+				id: "77520498463E4445"
+				type: "item"
+				item: "ironchests:diamond_chest"
 			}]
 		}
 	]

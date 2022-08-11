@@ -7,11 +7,37 @@
 	icon: "ae2:controller"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.5d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ae2:textures/item/wireless_crafting_terminal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Applied Energistics 2"
 			icon: "ae2:certus_quartz_crystal"
-			x: 0.0d
+			x: -10.0d
 			y: 0.5d
 			shape: "hexagon"
 			subtitle: "Virtual Storage System"
@@ -79,7 +105,7 @@
 		}
 		{
 			title: "First Things First"
-			x: 2.0d
+			x: -8.0d
 			y: 0.5d
 			subtitle: "Some basic machines"
 			description: [
@@ -118,7 +144,7 @@
 		}
 		{
 			icon: "ae2:sky_compass"
-			x: 4.0d
+			x: -6.0d
 			y: 0.5d
 			subtitle: "\"COMIC #42: shearching 4 bobby [Fischer]\""
 			description: [
@@ -177,7 +203,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: -7.0d
 			y: -0.5d
 			subtitle: "Plug in"
 			description: [
@@ -206,7 +232,7 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: -5.0d
 			y: -0.5d
 			description: [
 				"By default, an ME network on its own only has an internal buffer of 800AE without an ME Controller, with the controller adding an extra 8kAE per block. For large enough networks, this can be insufficient and may cause a network to power off intermittently when trying to recoup power for any connected devices."
@@ -249,7 +275,7 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: -3.0d
 			y: -0.5d
 			shape: "circle"
 			description: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
@@ -275,7 +301,7 @@
 		}
 		{
 			title: "Processors"
-			x: 6.0d
+			x: -4.0d
 			y: 0.5d
 			description: ["Once you have obtained a full set of the required &eInscriber Presses&r, it's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
 			dependencies: ["51236544BFEF487B"]
@@ -313,7 +339,7 @@
 		{
 			title: "Fluix Crystal"
 			icon: "ae2:fluix_crystal"
-			x: 3.0d
+			x: -7.0d
 			y: 1.5d
 			description: [
 				"Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network."
@@ -357,7 +383,7 @@
 		}
 		{
 			title: "Basic Cabling"
-			x: 5.0d
+			x: -5.0d
 			y: 1.5d
 			description: [
 				"To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable."
@@ -421,7 +447,7 @@
 		}
 		{
 			title: "Advanced Cabling"
-			x: 5.0d
+			x: -5.0d
 			y: 3.0d
 			shape: "diamond"
 			subtitle: "\"S.M.R.T.\""
@@ -475,7 +501,7 @@
 		}
 		{
 			title: "Terminals"
-			x: 8.0d
+			x: -2.0d
 			y: 0.5d
 			subtitle: "[Linux user joke goes here]"
 			description: [
@@ -513,7 +539,7 @@
 		}
 		{
 			title: "The Storage"
-			x: 11.0d
+			x: 1.0d
 			y: 1.5d
 			shape: "gear"
 			subtitle: "Items as a file system"
@@ -558,7 +584,7 @@
 		{
 			title: "The IO"
 			icon: "ae2:interface"
-			x: 23.5d
+			x: 13.5d
 			y: 1.5d
 			shape: "gear"
 			subtitle: "OI, OI, OI!"
@@ -600,7 +626,7 @@
 		{
 			title: "Auto-Crafting"
 			icon: "ae2:pattern_provider"
-			x: 13.0d
+			x: 3.0d
 			y: -2.5d
 			shape: "gear"
 			subtitle: "Order up"
@@ -647,7 +673,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: -1.0d
 			y: 1.5d
 			description: [
 				"The last piece of the puzzle for any large ME network is the &bME Controller&f."
@@ -682,7 +708,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: -9.0d
 			y: 1.5d
 			shape: "circle"
 			subtitle: "Does exactly what you'd expect."
@@ -712,7 +738,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: -1.0d
 			y: -0.5d
 			description: [
 				"The &bNetwork Tool&f is an important tool throughout AE2, which is used to display various details of a network on-screen such as overall power consumption and storage."
@@ -732,7 +758,7 @@
 		}
 		{
 			title: "Creating your first Storage Cell"
-			x: 14.0d
+			x: 4.0d
 			y: 1.5d
 			shape: "diamond"
 			subtitle: "The first kilobyte."
@@ -765,7 +791,7 @@
 		}
 		{
 			title: "4k Storage Component"
-			x: 15.0d
+			x: 5.0d
 			y: 2.5d
 			shape: "diamond"
 			subtitle: "x4"
@@ -795,7 +821,7 @@
 		}
 		{
 			title: "16k Storage Component"
-			x: 14.5d
+			x: 4.5d
 			y: 3.0d
 			shape: "diamond"
 			subtitle: "x4^2"
@@ -825,7 +851,7 @@
 		}
 		{
 			title: "64k Storage Component"
-			x: 15.0d
+			x: 5.0d
 			y: 3.5d
 			shape: "diamond"
 			subtitle: "x4^3"
@@ -855,7 +881,7 @@
 		}
 		{
 			title: "256k Storage Component"
-			x: 15.5d
+			x: 5.5d
 			y: 3.0d
 			shape: "diamond"
 			subtitle: "x4^4"
@@ -885,7 +911,7 @@
 		}
 		{
 			title: "Item Storage"
-			x: 16.5d
+			x: 6.5d
 			y: 1.5d
 			shape: "rsquare"
 			description: [
@@ -929,7 +955,7 @@
 		}
 		{
 			title: "Fluid Storage"
-			x: 18.5d
+			x: 8.5d
 			y: 1.5d
 			shape: "rsquare"
 			description: [
@@ -968,7 +994,7 @@
 		}
 		{
 			title: "Chemical Storage"
-			x: 20.5d
+			x: 10.5d
 			y: 1.5d
 			shape: "rsquare"
 			description: [
@@ -1004,7 +1030,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 2.0d
 			y: 2.5d
 			shape: "rsquare"
 			description: [
@@ -1033,7 +1059,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 2.0d
 			y: 0.5d
 			shape: "rsquare"
 			subtitle: "Defragmentation"
@@ -1063,7 +1089,7 @@
 			]
 		}
 		{
-			x: 22.5d
+			x: 12.5d
 			y: 0.5d
 			shape: "rsquare"
 			subtitle: "The I"
@@ -1089,7 +1115,7 @@
 			]
 		}
 		{
-			x: 24.5d
+			x: 14.5d
 			y: 0.5d
 			shape: "rsquare"
 			subtitle: "The O"
@@ -1115,7 +1141,7 @@
 			]
 		}
 		{
-			x: 22.5d
+			x: 12.5d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "GET IN"
@@ -1147,7 +1173,7 @@
 			]
 		}
 		{
-			x: 24.5d
+			x: 14.5d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "GET OUT"
@@ -1178,7 +1204,7 @@
 		}
 		{
 			title: "P2P Tunnels"
-			x: 25.5d
+			x: 15.5d
 			y: 1.5d
 			shape: "rsquare"
 			subtitle: "Cut out the middleman"
@@ -1210,7 +1236,7 @@
 			]
 		}
 		{
-			x: 23.5d
+			x: 13.5d
 			y: -0.5d
 			shape: "rsquare"
 			subtitle: "The spare chest"
@@ -1240,7 +1266,7 @@
 			]
 		}
 		{
-			x: 25.5d
+			x: 15.5d
 			y: -0.5d
 			shape: "circle"
 			description: [
@@ -1274,7 +1300,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 2.0d
 			y: 3.5d
 			shape: "circle"
 			subtitle: "ME Storage &mCells&r Drawers"
@@ -1304,7 +1330,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 3.0d
 			y: 2.5d
 			shape: "circle"
 			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
@@ -1329,7 +1355,7 @@
 			]
 		}
 		{
-			x: 17.5d
+			x: 7.5d
 			y: 2.5d
 			description: [
 				"&bPortable Cells&f function identically to regular cells in that they can they be inserted into a chest or drive and filled accordingly."
@@ -1364,7 +1390,7 @@
 			]
 		}
 		{
-			x: 23.5d
+			x: 13.5d
 			y: -2.5d
 			shape: "circle"
 			description: ["The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter. Import and Export buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum nine-slot filter, while Storage buses will go from 18 slots to a maximum of 63."]
@@ -1390,7 +1416,7 @@
 		}
 		{
 			title: "Crystal Seeds"
-			x: 1.0d
+			x: -9.0d
 			y: -0.5d
 			shape: "circle"
 			subtitle: "Crystalline aquaculture"
@@ -1425,7 +1451,7 @@
 		}
 		{
 			title: "Forgot to Mention"
-			x: 24.5d
+			x: 14.5d
 			y: 2.5d
 			shape: "rsquare"
 			subtitle: "This has a use outside of crafting cables."
@@ -1459,7 +1485,7 @@
 		{
 			title: "Patterns"
 			icon: "ae2:blank_pattern"
-			x: 14.0d
+			x: 4.0d
 			y: -3.5d
 			shape: "rsquare"
 			description: [
@@ -1501,7 +1527,7 @@
 			]
 		}
 		{
-			x: 16.0d
+			x: 6.0d
 			y: -3.5d
 			shape: "rsquare"
 			description: [
@@ -1532,7 +1558,7 @@
 			]
 		}
 		{
-			x: 15.0d
+			x: 5.0d
 			y: -2.5d
 			shape: "rsquare"
 			description: [
@@ -1562,7 +1588,7 @@
 		}
 		{
 			title: "Redstone-Controlled ME"
-			x: 17.0d
+			x: 7.0d
 			y: -2.5d
 			shape: "circle"
 			description: [
@@ -1598,7 +1624,7 @@
 			]
 		}
 		{
-			x: 19.0d
+			x: 9.0d
 			y: -2.5d
 			shape: "circle"
 			subtitle: "Automation in upgrade form!"
@@ -1628,7 +1654,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 2.0d
 			y: -3.5d
 			description: [
 				"Naturally, AE2 provides its own way to dramatically speed up crystal growth, assuming you don't happen to have Mekanism's Enrichment Chamber on hand."
@@ -1656,7 +1682,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 3.0d
 			y: -4.5d
 			shape: "rsquare"
 			subtitle: "Introducing LazierAE2!"
@@ -1688,7 +1714,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 2.0d
 			y: -1.5d
 			description: ["The &bAdvanced Inscriber&f from &dAE2Things&f addresses a couple of shortcomings with the standard AE2 inscriber, namely the restriction of inputs to be inserted one-at-a-time and the sided extraction/insertion requirement."]
 			dependencies: ["51DE3157DE3E57B8"]
@@ -1712,7 +1738,7 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 1.0d
 			y: -2.5d
 			description: [
 				"The &bCrystal Growth Chamber&f is a more compact alternative to Crystal Growth Accelerator setups such as the aforementioned, provided by the &dAE2Things&f add-on."
@@ -1741,7 +1767,7 @@
 		}
 		{
 			title: "&oDeep&r Item Storage"
-			x: 17.5d
+			x: 7.5d
 			y: 0.5d
 			shape: "rsquare"
 			subtitle: ">muh RS disks"
@@ -1784,7 +1810,7 @@
 			]
 		}
 		{
-			x: 15.0d
+			x: 5.0d
 			y: -4.5d
 			shape: "rsquare"
 			description: [
@@ -1813,7 +1839,7 @@
 			]
 		}
 		{
-			x: 17.0d
+			x: 7.0d
 			y: -4.5d
 			shape: "rsquare"
 			description: [
@@ -1842,7 +1868,7 @@
 			]
 		}
 		{
-			x: 20.5d
+			x: 10.5d
 			y: -3.5d
 			shape: "rsquare"
 			subtitle: "Compact stock-keeping"
@@ -1875,7 +1901,7 @@
 		}
 		{
 			title: "The Remaining Machines"
-			x: 19.0d
+			x: 9.0d
 			y: -4.5d
 			shape: "rsquare"
 			description: [
@@ -1918,7 +1944,7 @@
 			]
 		}
 		{
-			x: 18.0d
+			x: 8.0d
 			y: -3.5d
 			shape: "circle"
 			description: [
@@ -1948,7 +1974,7 @@
 		}
 		{
 			title: "Spatial IO"
-			x: 21.799999999999997d
+			x: 11.799999999999997d
 			y: 4.050000000000001d
 			shape: "gear"
 			description: [
@@ -1981,7 +2007,7 @@
 		}
 		{
 			title: "Spatial Pylon"
-			x: 20.0d
+			x: 10.0d
 			y: 6.0d
 			description: [
 				"The Spatial Containment Structure (SCS) consists of a cage of &bSpatial Pylons&f covering the volume you wish to enclose in a Spatial IO cell. At the absolute minimum, an SCS requires three lines of spatial pylon blocks, one for each dimension of the space being contained (length, width, height)."
@@ -2012,7 +2038,7 @@
 			]
 		}
 		{
-			x: 22.0d
+			x: 12.0d
 			y: 6.0d
 			description: ["The &bSpatial Anchor&f is a companion device from the Spatial IO lineage that simply functions as a chunk loader. When connected to an ME network, the Anchor will force-load all the chunks occupied by the ME network across all cables and devices, excluding subnetworks, as long as the network remains powered."]
 			dependencies: ["18DFB25DC48D8BF7"]
@@ -2036,7 +2062,7 @@
 			]
 		}
 		{
-			x: 18.0d
+			x: 8.0d
 			y: 6.0d
 			description: [
 				"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space."
@@ -2073,7 +2099,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 4.0d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "Download more RAM"
@@ -2110,7 +2136,7 @@
 			]
 		}
 		{
-			x: 16.0d
+			x: 6.0d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "Download more CPU cores"
@@ -2147,7 +2173,7 @@
 			]
 		}
 		{
-			x: 18.0d
+			x: 8.0d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "Download more VRAM"
@@ -2186,7 +2212,7 @@
 		{
 			title: "Cable Anchor"
 			icon: "ae2:cable_anchor"
-			x: 4.5d
+			x: -5.5d
 			y: 2.5d
 			shape: "diamond"
 			subtitle: "Under the knife"
@@ -2244,7 +2270,7 @@
 		}
 		{
 			title: "Color Applicator"
-			x: 5.5d
+			x: -4.5d
 			y: 2.5d
 			shape: "diamond"
 			description: [
@@ -2282,7 +2308,7 @@
 		}
 		{
 			title: "The... Weapons?"
-			x: 15.0d
+			x: 5.0d
 			y: 0.5d
 			shape: "square"
 			subtitle: "Too hot for the ATF"
@@ -2340,7 +2366,7 @@
 		{
 			title: "The Wireless"
 			icon: "ae2:security_station"
-			x: 7.950000000000001d
+			x: -2.049999999999999d
 			y: 4.5d
 			shape: "gear"
 			subtitle: "Exit the Wired"
@@ -2380,7 +2406,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: -0.5d
 			y: 6.0d
 			shape: "rsquare"
 			description: ["The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f. The Access Point is used to open the network to wireless access via a &ewireless terminal&f, and has a set (finite) range depending on how many &bWireless Boosters&f are inserted into the access point."]
@@ -2413,7 +2439,7 @@
 		}
 		{
 			title: "Condensed Matter"
-			x: 6.0d
+			x: -4.0d
 			y: 4.5d
 			shape: "rsquare"
 			description: [
@@ -2451,7 +2477,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 2.0d
 			y: 6.0d
 			shape: "rsquare"
 			subtitle: "This is what you're here for"
@@ -2491,7 +2517,7 @@
 		}
 		{
 			title: "AEInfinityBooster"
-			x: 14.5d
+			x: 4.5d
 			y: 6.0d
 			subtitle: "I'm not writing the Toy Story line"
 			description: ["The &dAEInfinityBooster&f add-on provides two bespoke wireless boosters allowing for infinite connectivity range, with optional cross-dimensional support."]
@@ -2525,7 +2551,7 @@
 		{
 			title: "Hyper-Condensed Matter"
 			icon: "ae2:singularity"
-			x: 4.0d
+			x: -6.0d
 			y: 4.5d
 			shape: "rsquare"
 			subtitle: "Not quite antimatter"
@@ -2568,7 +2594,7 @@
 		}
 		{
 			title: "Loosely Speaking"
-			x: 25.5d
+			x: 15.5d
 			y: -2.5d
 			shape: "circle"
 			subtitle: "The remaining two IO cards"
@@ -2602,7 +2628,7 @@
 		}
 		{
 			title: "Quantum Network Bridge"
-			x: 2.0d
+			x: -8.0d
 			y: 4.5d
 			shape: "rsquare"
 			description: [
@@ -2647,7 +2673,7 @@
 		}
 		{
 			title: "Foreword on Channels"
-			x: 7.0d
+			x: -3.0d
 			y: 1.5d
 			shape: "rsquare"
 			description: [

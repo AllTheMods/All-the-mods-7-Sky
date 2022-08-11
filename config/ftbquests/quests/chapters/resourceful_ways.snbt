@@ -6,10 +6,22 @@
 	title: "Mystical Agriculture"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: 0.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Mystical Path"
-			x: -3.0d
+			x: 5.0d
 			y: 1.5d
 			shape: "rsquare"
 			id: "6D750A38944E9B68"
@@ -40,7 +52,7 @@
 		}
 		{
 			title: "Seed for Though"
-			x: 0.0d
+			x: 8.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["1CC4F8570A7A99EB"]
@@ -52,7 +64,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: 5.0d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -65,7 +77,7 @@
 		}
 		{
 			title: "The Inferior Essence"
-			x: -2.5d
+			x: 5.5d
 			y: 0.0d
 			shape: "circle"
 			dependencies: ["1CC4F8570A7A99EB"]
@@ -77,7 +89,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: 6.0d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -89,7 +101,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: 5.5d
 			y: -2.5d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -101,7 +113,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: 5.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -113,7 +125,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: 6.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -125,7 +137,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: 5.5d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -137,7 +149,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: 5.0d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -149,7 +161,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: 6.0d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -162,7 +174,7 @@
 		}
 		{
 			title: "Circle of Souls"
-			x: -2.0d
+			x: 6.0d
 			y: 1.5d
 			shape: "rsquare"
 			description: [
@@ -198,7 +210,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: 3.0d
 			y: 0.0d
 			shape: "circle"
 			dependencies: ["7DFF18CFEB0B8DBE"]
@@ -210,7 +222,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -222,7 +234,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: -4.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -234,7 +246,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -246,7 +258,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -258,7 +270,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: 3.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -270,7 +282,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -282,7 +294,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: -4.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -294,7 +306,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -306,7 +318,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -318,7 +330,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: 3.0d
 			y: -3.5d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
@@ -330,7 +342,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -342,7 +354,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: 3.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -355,7 +367,7 @@
 		}
 		{
 			title: "Meow Meow I'm a Cow... NO!"
-			x: -5.5d
+			x: 2.5d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -367,7 +379,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -380,7 +392,7 @@
 		}
 		{
 			title: "Beep Beep I'm a Sheep"
-			x: -4.5d
+			x: 3.5d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -392,7 +404,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: 3.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -404,7 +416,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: 2.5d
 			y: 4.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -416,7 +428,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 3.5d
 			y: 4.5d
 			shape: "rsquare"
 			dependencies: ["576ABF43FCF886B7"]
@@ -428,7 +440,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: 0.5d
 			y: 0.0d
 			shape: "circle"
 			dependencies: ["576ABF43FCF886B7"]
@@ -440,7 +452,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: 1.0d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["76071C22A73A2026"]
@@ -452,7 +464,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: 3.5d
 			shape: "rsquare"
 			dependencies: ["76071C22A73A2026"]
@@ -464,7 +476,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["76071C22A73A2026"]
@@ -476,7 +488,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["76071C22A73A2026"]
@@ -488,7 +500,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: 1.0d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["76071C22A73A2026"]
@@ -500,7 +512,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: 1.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -512,7 +524,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -524,7 +536,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: 0.5d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -536,7 +548,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -548,7 +560,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: 1.0d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -560,7 +572,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -572,7 +584,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: 1.0d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -584,7 +596,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: 0.5d
 			y: -3.5d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -596,7 +608,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: 1.0d
 			y: -4.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -608,7 +620,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: 0.0d
 			y: -4.0d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -620,7 +632,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -1.5d
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -632,7 +644,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: 0.5d
 			y: -4.5d
 			shape: "diamond"
 			dependencies: ["76071C22A73A2026"]
@@ -644,7 +656,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -2.0d
 			y: 0.0d
 			shape: "circle"
 			dependencies: ["76071C22A73A2026"]
@@ -656,7 +668,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -2.5d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -668,7 +680,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -1.5d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -680,7 +692,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -2.5d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -692,7 +704,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -1.5d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -704,7 +716,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -1.5d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -716,7 +728,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -2.5d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -728,7 +740,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -2.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -740,7 +752,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -1.5d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -752,7 +764,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -2.5d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -764,7 +776,7 @@
 			}]
 		}
 		{
-			x: -12.5d
+			x: -4.5d
 			y: 0.0d
 			shape: "circle"
 			dependencies: ["5BC4250E4C9F803C"]
@@ -776,7 +788,7 @@
 			}]
 		}
 		{
-			x: -12.5d
+			x: -4.5d
 			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -788,7 +800,7 @@
 			}]
 		}
 		{
-			x: -12.5d
+			x: -4.5d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -800,7 +812,7 @@
 			}]
 		}
 		{
-			x: -12.0d
+			x: -4.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -812,7 +824,7 @@
 			}]
 		}
 		{
-			x: -13.0d
+			x: -5.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -824,7 +836,7 @@
 			}]
 		}
 		{
-			x: -13.0d
+			x: -5.0d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -836,7 +848,7 @@
 			}]
 		}
 		{
-			x: -12.5d
+			x: -4.5d
 			y: -2.5d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -848,7 +860,7 @@
 			}]
 		}
 		{
-			x: -12.0d
+			x: -4.0d
 			y: -2.0d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -860,7 +872,7 @@
 			}]
 		}
 		{
-			x: -15.0d
+			x: -7.0d
 			y: 0.0d
 			shape: "circle"
 			dependencies: ["48BF71269DEA1AB1"]
@@ -872,7 +884,7 @@
 			}]
 		}
 		{
-			x: -14.5d
+			x: -6.5d
 			y: -1.0d
 			shape: "diamond"
 			description: ["Requires a Crux (Next Quest)"]
@@ -885,7 +897,7 @@
 			}]
 		}
 		{
-			x: -15.5d
+			x: -7.5d
 			y: -1.0d
 			shape: "diamond"
 			description: ["Requires a Crux (Next Quest)"]
@@ -898,7 +910,7 @@
 			}]
 		}
 		{
-			x: -17.0d
+			x: -9.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["5DFA18E547CB4D5D"]
@@ -910,7 +922,7 @@
 			}]
 		}
 		{
-			x: -18.0d
+			x: -10.0d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["5DFA18E547CB4D5D"]
@@ -922,7 +934,7 @@
 			}]
 		}
 		{
-			x: -17.5d
+			x: -9.5d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["5DFA18E547CB4D5D"]
@@ -934,7 +946,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: 5.0d
 			y: 2.5d
 			shape: "rsquare"
 			description: ["Use this to make augments for the tiered armors."]
@@ -953,7 +965,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: 6.0d
 			y: 2.5d
 			shape: "octagon"
 			description: ["This augment allows creative flight."]
@@ -966,7 +978,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 8.0d
 			y: 0.0d
 			description: ["Note: Seeds will not drop a duplicate seed when harvested."]
 			id: "1CC4F8570A7A99EB"
@@ -977,7 +989,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 8.0d
 			y: 1.5d
 			description: ["Is required for making higher tiered essence."]
 			dependencies: ["1CC4F8570A7A99EB"]
@@ -995,7 +1007,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 8.0d
 			y: 3.0d
 			description: ["Crafting essence with infinite uses!"]
 			dependencies: ["05618FE80F2E0372"]
@@ -1007,7 +1019,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 10.5d
 			y: 0.0d
 			description: [
 				"Stacking these beneath farmland will increase the speed of crops."
@@ -1023,7 +1035,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 11.5d
 			y: 0.0d
 			dependencies: ["4821419D44F8083F"]
 			id: "7655E1C6C5E5469F"
@@ -1034,7 +1046,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 12.5d
 			y: 0.0d
 			dependencies: ["7655E1C6C5E5469F"]
 			id: "077B2D62FA7650FB"
@@ -1045,7 +1057,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 13.5d
 			y: 0.0d
 			dependencies: ["077B2D62FA7650FB"]
 			id: "06EAA74E0A10CBB6"
@@ -1056,7 +1068,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 14.5d
 			y: 0.0d
 			dependencies: ["06EAA74E0A10CBB6"]
 			id: "3E555B364FD88B43"
@@ -1067,7 +1079,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 10.5d
 			y: -1.0d
 			description: [
 				"Using this near or on crops will help the crops grow faster!"
@@ -1090,7 +1102,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 11.5d
 			y: -1.0d
 			dependencies: ["62D04566426DD979"]
 			id: "1AC3485AB2EA13E5"
@@ -1108,7 +1120,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 12.5d
 			y: -1.0d
 			dependencies: ["1AC3485AB2EA13E5"]
 			id: "69D8F6483DACD930"
@@ -1126,7 +1138,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 13.5d
 			y: -1.0d
 			dependencies: ["69D8F6483DACD930"]
 			id: "20CA94E3263FCA5E"
@@ -1144,7 +1156,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 14.5d
 			y: -1.0d
 			dependencies: ["20CA94E3263FCA5E"]
 			id: "475B63AF0E87E318"
@@ -1162,7 +1174,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 10.5d
 			y: 1.0d
 			description: [
 				"This can turn any extra seeds you have into their respective essence, at the cost of fuel."
@@ -1178,7 +1190,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 11.5d
 			y: 1.0d
 			dependencies: ["722B66145690D56B"]
 			id: "19092706A5192F5E"
@@ -1189,7 +1201,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 12.5d
 			y: 1.0d
 			dependencies: ["19092706A5192F5E"]
 			id: "7012244236825F79"
@@ -1200,7 +1212,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 13.5d
 			y: 1.0d
 			dependencies: ["7012244236825F79"]
 			id: "77EB0A0A5E5A2F32"
@@ -1211,7 +1223,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 14.5d
 			y: 1.0d
 			dependencies: ["77EB0A0A5E5A2F32"]
 			id: "1BC3146A1CDD1C79"
@@ -1222,7 +1234,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 10.5d
 			y: 2.0d
 			description: [
 				"Better than a golden apple, and a tasty snack!"
@@ -1238,7 +1250,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 11.5d
 			y: 2.0d
 			dependencies: ["1F88C697817A7680"]
 			id: "3BB3AA6C29285837"
@@ -1249,7 +1261,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 12.5d
 			y: 2.0d
 			dependencies: ["3BB3AA6C29285837"]
 			id: "5F6ACDE014A61F46"
@@ -1260,7 +1272,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 13.5d
 			y: 2.0d
 			dependencies: ["5F6ACDE014A61F46"]
 			id: "212EF8601746C500"
@@ -1271,7 +1283,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 14.5d
 			y: 2.0d
 			dependencies: ["212EF8601746C500"]
 			id: "1C4ABF4518638A82"
@@ -1282,7 +1294,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 15.5d
 			y: 2.0d
 			dependencies: ["1C4ABF4518638A82"]
 			id: "1F7591DB6D8EC1E7"
@@ -1293,7 +1305,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 10.5d
 			y: -2.0d
 			dependencies: ["1CC4F8570A7A99EB"]
 			id: "2A7E3F2CD335EAD0"
@@ -1345,7 +1357,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 11.5d
 			y: -2.0d
 			dependencies: ["2A7E3F2CD335EAD0"]
 			dependency_requirement: "all_started"
@@ -1398,7 +1410,7 @@
 			]
 		}
 		{
-			x: 4.5d
+			x: 12.5d
 			y: -2.0d
 			dependencies: ["4F137DB561F45306"]
 			dependency_requirement: "all_started"
@@ -1451,7 +1463,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 13.5d
 			y: -2.0d
 			dependencies: ["15D764CAF047EA7A"]
 			dependency_requirement: "all_started"
@@ -1504,7 +1516,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 14.5d
 			y: -2.0d
 			dependencies: ["7D43016926E77150"]
 			dependency_requirement: "all_started"
@@ -1557,7 +1569,7 @@
 			]
 		}
 		{
-			x: -17.5d
+			x: -9.5d
 			y: 0.0d
 			description: ["Used as Crux for the 3 different Allthemodium seeds"]
 			dependencies: ["2FA6B8A1C8713DE0"]
@@ -1569,7 +1581,7 @@
 			}]
 		}
 		{
-			x: -14.5d
+			x: -6.5d
 			y: -2.0d
 			shape: "hexagon"
 			description: ["Place this under the soil to allow Nether Star Seeds to grow."]
@@ -1582,7 +1594,7 @@
 			}]
 		}
 		{
-			x: -15.5d
+			x: -7.5d
 			y: -2.0d
 			shape: "hexagon"
 			description: ["Place this under the soil to allow Dragon Egg Seeds to grow."]

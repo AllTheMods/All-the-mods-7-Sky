@@ -9,18 +9,6 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -0.5d
-			y: -4.5d
-			width: 5.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "packmenu:textures/gui/logo.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
 			x: 1.1020408163265287d
 			y: -0.4999999999999929d
 			width: 1.0d
@@ -44,12 +32,36 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -1.0d
+			y: -9.0d
+			width: 150.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "atm:textures/logosmall.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [{
 		title: "Welcome to ATM7 now in the sky!"
 		icon: "allthecompressed:atm_star_block_1x"
 		x: 0.0d
-		y: -0.5d
+		y: -8.0d
 		shape: "hexagon"
 		description: [
 			"Welcome to ATM7... Now in the Sky!"

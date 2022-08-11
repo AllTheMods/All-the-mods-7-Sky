@@ -7,6 +7,18 @@
 	icon: "allthemodium:allthemodium_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
+	images: [{
+		x: 0.0d
+		y: 5.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Allthemodium Ore"
@@ -214,38 +226,6 @@
 				id: "0B2932972CD2E73E"
 				type: "item"
 				item: "ironfurnaces:vibranium_furnace"
-			}]
-		}
-		{
-			x: 3.5d
-			y: 4.5d
-			dependencies: ["44760B819EB3CA68"]
-			id: "4D24742EB7E480FD"
-			tasks: [{
-				id: "0F521F7C1D602AAD"
-				type: "item"
-				item: {
-					id: "ironjetpacks:jetpack"
-					Count: 1b
-					tag: {
-						Id: "ironjetpacks:unobtainium"
-						Throttle: 1.0d
-					}
-				}
-			}]
-			rewards: [{
-				id: "7036B8794E65EF86"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "ensorcellation:soulbound"
-						}]
-					}
-				}
 			}]
 		}
 		{
@@ -890,44 +870,6 @@
 						EntityTag: {
 							type: "productivebees:allthemodium"
 						}
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 4.5d
-			dependencies: ["61FDABF2C7CC1F9D"]
-			dependency_requirement: "one_completed"
-			id: "7BCBB65EB6EA8F12"
-			tasks: [{
-				id: "0A16EAB5D9C83810"
-				type: "item"
-				item: {
-					id: "ironjetpacks:jetpack"
-					Count: 1b
-					tag: {
-						Id: "ironjetpacks:vibranium"
-						Throttle: 1.0d
-					}
-				}
-			}]
-		}
-		{
-			x: -3.5d
-			y: 4.5d
-			dependencies: ["71A43C89EB13E9A0"]
-			dependency_requirement: "one_completed"
-			id: "5F4B250E91B22C5B"
-			tasks: [{
-				id: "20D7CAE0B1857EB4"
-				type: "item"
-				item: {
-					id: "ironjetpacks:jetpack"
-					Count: 1b
-					tag: {
-						Id: "ironjetpacks:allthemodium"
-						Throttle: 1.0d
 					}
 				}
 			}]

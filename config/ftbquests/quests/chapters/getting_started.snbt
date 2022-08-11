@@ -5,13 +5,12 @@
 	filename: "getting_started"
 	title: "Getting Started"
 	icon: "minecraft:furnace"
-	always_invisible: true
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -6.0d
-			y: -2.5d
+			x: -8.0d
+			y: -4.0d
 			width: 1.5d
 			height: 1.5d
 			rotation: 45.0d
@@ -22,12 +21,48 @@
 			corner: false
 		}
 		{
-			x: -6.0d
-			y: 2.5d
+			x: -8.0d
+			y: 1.5d
 			width: 1.5d
 			height: 1.5d
 			rotation: 45.0d
 			image: "minecraft:textures/block/crafting_table_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/waypoint_home.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "immersiveengineering:textures/block/wooden_device/craftingtable.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -39,15 +74,20 @@
 			title: "&9Getting Started!"
 			icon: "minecraft:crafting_table"
 			x: -8.0d
-			y: 0.0d
+			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Welcome to All The Mods 7"
+			subtitle: "Welcome to All The Mods 7 To the Sky, if you played the original (or any skyblock ever) most of what you have to do should be self explanatory up until ATM metals, but if not, dont fear! these quests are here to guide you through"
 			description: [
 				""
-				"WIP chapter, so disabled for now"
+				"Some of the quests in this chapter have ingame video-stlye ponder tutorials! they will be given as rewards for the items they correspond with, ran out of saplings? emergency saplings top right of the guide!"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.0d
 			id: "22C568A17B5D1B46"
+			tasks: [{
+				id: "29CD23D3C0D3DA7E"
+				type: "checkmark"
+			}]
 			rewards: [{
 				id: "4B7A57FC6018E1C7"
 				type: "item"
@@ -56,15 +96,16 @@
 			}]
 		}
 		{
-			title: "Getting Wood"
+			title: "I'm twerkin' 9 to 5..."
 			icon: "minecraft:oak_log"
 			x: -6.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "The Start of Everyone's Journey"
 			description: [
 				"Chop down a tree."
 				""
-				"*Note: Any logs/planks will complete the quest."
+				"*Note: Any logs/planks will complete the quest.  And yes, being a skyblock you can spam crouch to make your trees grow faster"
+				""
 			]
 			dependencies: ["22C568A17B5D1B46"]
 			dependency_requirement: "one_completed"
@@ -114,305 +155,16 @@
 			]
 		}
 		{
-			title: "The (Just to get Stone) Starter Tool"
-			x: -4.5d
-			y: 0.0d
-			subtitle: "&a\"What am I even good for?\" &9\"To get 3 pieces of stone and delete.\""
-			description: ["Get yourself a crafting table and craft this to get yourself some stone."]
-			dependencies: ["3001B2EEE5C6C9AB"]
-			dependency_requirement: "one_completed"
-			id: "34632E58F226ED0B"
-			tasks: [
-				{
-					id: "6AD281F857300748"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1F77F00653C5D948"
-					type: "item"
-					item: "minecraft:crafting_table"
-				}
-			]
-			rewards: [{
-				id: "05F5DDA4B9AC2DAB"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.0d
-			description: ["Get some stone, then craft yourself the vanilla stone tools."]
-			dependencies: ["34632E58F226ED0B"]
-			id: "48CCBB5C39A4ABE7"
-			tasks: [
-				{
-					id: "61E0C6483C86DAE7"
-					type: "item"
-					title: "Stone Age"
-					item: "minecraft:cobblestone"
-					count: 32L
-				}
-				{
-					id: "075BB84D26281DF0"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5C94E7A6F6C613BF"
-					type: "item"
-					item: {
-						id: "minecraft:stone_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "31608E864628764D"
-					type: "item"
-					item: {
-						id: "minecraft:stone_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "1939EFFFF1EF3FD2"
-					type: "item"
-					item: "minecraft:torch"
-					count: 16
-				}
-				{
-					id: "507448ACAD1178E1"
-					type: "xp"
-					xp: 5
-				}
-			]
-		}
-		{
-			title: "Smelting Our First Iron"
-			icon: "minecraft:furnace"
-			x: 1.5d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Or whatever else you found while mining"
-			description: ["Craft a furnace and get yourself some iron!"]
-			dependencies: ["48CCBB5C39A4ABE7"]
-			size: 1.25d
-			id: "3118DD682A054C5F"
-			tasks: [
-				{
-					id: "5A7B935E6FBF15CB"
-					type: "item"
-					item: "minecraft:furnace"
-				}
-				{
-					id: "3C3B19AD35B187D7"
-					type: "item"
-					title: "Any #minecraft:coals"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:coals"
-						}
-					}
-					count: 16L
-				}
-				{
-					id: "323695D281F5DD1E"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "25E695C1868C4FD4"
-					type: "item"
-					item: "minecraft:coal"
-					count: 16
-				}
-				{
-					id: "7D1847B8B12D5236"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "72764D11BBFD56D2"
-					type: "item"
-					item: "minecraft:raw_iron"
-					count: 4
-				}
-			]
-		}
-		{
-			title: "Making a Home"
-			x: 0.5d
-			y: -2.0d
-			subtitle: "Home is where you make it"
-			description: [
-				"Make yourself a starter base and set your spawn point with a bed."
-				""
-				"If you're on a multiplayer server, you can also use the command /sethome (name of home) to set your home point! "
-				""
-				"You can return using the command /home (name of home)"
-				""
-			]
-			dependencies: ["6D9403AE80FF8B4B"]
-			id: "39C364C1D308A36E"
-			tasks: [{
-				id: "117F36B0C3105A55"
-				type: "item"
-				title: "Any #minecraft:beds"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:beds"
-					}
-				}
-			}]
-			rewards: [{
-				id: "571539FD99069C56"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			title: "Converting Logs to Charcoal"
-			x: 0.0d
-			y: 1.5d
-			subtitle: "Starter Coal"
-			description: ["Placing Wood Logs in a furnace smelts them into Charcoal. This is great for starting out!"]
-			dependencies: ["3118DD682A054C5F"]
-			optional: true
-			id: "52D18CDB05357525"
-			tasks: [{
-				id: "64DE1F00F0826CBA"
-				type: "item"
-				item: "minecraft:charcoal"
-				count: 8L
-			}]
-			rewards: [
-				{
-					id: "55ED11E8DF4A851F"
-					type: "item"
-					item: "minecraft:charcoal"
-					count: 8
-				}
-				{
-					id: "4749933F0AC03EB1"
-					type: "xp"
-					xp: 5
-				}
-			]
-		}
-		{
-			title: "Getting an Upgrade"
-			icon: {
-				id: "minecraft:iron_pickaxe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 3.5d
-			y: 0.0d
-			subtitle: "Upgrading our tools"
-			description: ["It's time to upgrade our tools to iron."]
-			dependencies: ["3118DD682A054C5F"]
-			id: "147BC89798F3F925"
-			tasks: [
-				{
-					id: "398AC1E36020082C"
-					type: "item"
-					item: {
-						id: "minecraft:iron_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "31A15170DC702B2D"
-					type: "item"
-					item: {
-						id: "minecraft:iron_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1D0CB27B3BBC4B68"
-					type: "item"
-					item: {
-						id: "minecraft:iron_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "39C640B8AFD78CBF"
-					type: "item"
-					item: {
-						id: "minecraft:iron_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "5137D5DA40D41450"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 8
-				}
-				{
-					id: "7D9E82A58FF438C1"
-					type: "xp"
-					xp: 5
-				}
-			]
-		}
-		{
 			title: "Furnace Upgrade?"
-			x: 3.5d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
 			subtitle: "Does everything get an upgrade in this pack?"
 			description: [
 				"If you surround a furnace with Iron in a crafting table, you can upgrade your furnace to an Iron Furnace."
 				""
 				"These smelt faster and can also be configured to be automated with the cogwheel in the top left of the GUI."
 			]
-			dependencies: ["3118DD682A054C5F"]
+			dependencies: ["231765C07B4A12B7"]
 			id: "376BAC497511F067"
 			tasks: [{
 				id: "405EB586C5ADC0A2"
@@ -433,29 +185,12 @@
 			]
 		}
 		{
-			icon: "minecraft:chest"
-			x: -3.0d
-			y: 5.0d
-			shape: "gear"
-			subtitle: "Put your stuff and things up"
-			description: ["Check out the Chapter &aBasic Storage&r to learn all of the ways you can store your items."]
-			dependencies: ["0352A34ACD22E10B"]
-			size: 2.0d
-			id: "07FFCB61B9F511A1"
-			tasks: [{
-				id: "1CF21CEDFF5F70BD"
-				type: "checkmark"
-				title: "Storage Chapter"
-			}]
-		}
-		{
 			title: "Start a Farm"
 			icon: "minecraft:wheat_seeds"
-			x: 3.5d
-			y: -2.0d
+			x: 2.5d
+			y: -2.5d
 			subtitle: "The basics of food."
-			description: ["Start yourself a small farm for food."]
-			dependencies: ["39C364C1D308A36E"]
+			description: ["Apples cannot feed you forever! Start yourself a small farm for food."]
 			id: "1658780534451E39"
 			tasks: [
 				{
@@ -513,8 +248,8 @@
 		{
 			title: "Food and Farming Chapter"
 			icon: "minecraft:apple"
-			x: 6.0d
-			y: -2.0d
+			x: 5.0d
+			y: -2.5d
 			shape: "gear"
 			subtitle: "Getting Started with Food"
 			description: ["Learn about all things food by checking out the &aFood and Farming&r chapter."]
@@ -535,15 +270,15 @@
 		{
 			title: "Starter Power"
 			icon: "rftoolspower:coalgenerator"
-			x: 3.5d
-			y: 3.0d
+			x: 2.5d
+			y: 1.0d
 			subtitle: "Your First Generator"
 			description: [
 				"There are plenty of ways to generate your first bits of power."
 				""
 				"The RFTools Coal Generator is one of the easiest."
 			]
-			dependencies: ["500BA2C1177DA724"]
+			dependencies: ["231765C07B4A12B7"]
 			id: "25D1363D8890E7C3"
 			tasks: [{
 				id: "39565EF66F300895"
@@ -565,57 +300,10 @@
 			]
 		}
 		{
-			title: "Basic Ingots"
-			x: 1.5d
-			y: 3.0d
-			subtitle: "Gather various ingots."
-			description: ["We'll use these to start creating in other mods."]
-			dependencies: ["3118DD682A054C5F"]
-			id: "500BA2C1177DA724"
-			tasks: [
-				{
-					id: "21FD24E5E2BF99FE"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 16L
-				}
-				{
-					id: "44BD59A2B967F00E"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 8L
-				}
-				{
-					id: "7CDC7225B59508B5"
-					type: "item"
-					item: "alltheores:tin_ingot"
-					count: 16L
-				}
-				{
-					id: "2AED93C7245AD1C1"
-					type: "item"
-					item: "minecraft:redstone"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "7C5F7B3272E7C8A4"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-				{
-					id: "43B7BFD740A5BDE2"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			title: "Getting Started: Part 2"
 			icon: "mekanismgenerators:wind_generator"
-			x: 6.0d
-			y: 2.25d
+			x: 5.0d
+			y: 0.5d
 			shape: "gear"
 			subtitle: "Starting with Power and Beyond"
 			description: [
@@ -641,212 +329,350 @@
 			}]
 		}
 		{
-			title: "Building Materials"
-			icon: "minecraft:stone_bricks"
-			x: -1.0d
-			y: -2.0d
-			subtitle: "Starter Supplies"
-			description: ["Grab some starter supplies to build a house!"]
-			dependencies: ["48CCBB5C39A4ABE7"]
-			id: "6D9403AE80FF8B4B"
-			tasks: [
-				{
-					id: "147D1FD822CE4C7C"
-					type: "item"
-					item: "minecraft:cobblestone"
-					count: 16L
-				}
-				{
-					id: "2447018019B93BB7"
-					type: "item"
-					title: "Any #minecraft:logs"
-					icon: "minecraft:oak_log"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
-					count: 16L
-				}
-				{
-					id: "07F5584697531C74"
-					type: "item"
-					title: "Any #minecraft:planks"
-					icon: "minecraft:oak_planks"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:planks"
-						}
-					}
-					count: 32L
-				}
-				{
-					id: "6EEA50A2B8817EB4"
-					type: "item"
-					item: "minecraft:sand"
-					count: 16L
-				}
-				{
-					id: "25E2380D9066E41B"
-					type: "item"
-					item: "minecraft:gravel"
-					count: 16L
-				}
-				{
-					id: "6D9F6514BC41FAC7"
-					type: "item"
-					item: "minecraft:glass"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "134BCD7C2842CE2B"
-					type: "item"
-					item: "minecraft:stone"
-					count: 32
-				}
-				{
-					id: "4AFD52821DEED578"
-					type: "xp"
-					xp: 10
-				}
-			]
+			title: "Kick Rocks"
+			x: -4.0d
+			y: -1.0d
+			description: ["Just like other skyblocks you can get pebbles from right clicking grass, but here it works slightly different, you get a 50% chance for cobblestone, and a 50% chance to get any of the other pebble variants "]
+			dependencies: ["3001B2EEE5C6C9AB"]
+			id: "3F755A55B2043E5B"
+			tasks: [{
+				id: "4AE51A3A3D9B6E3A"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "42BD8A1CD2A9463A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
-			title: "Storing Stuff"
-			icon: "minecraft:chest"
-			x: -3.0d
-			y: 1.5d
-			description: ["Make your first chest."]
-			dependencies: ["48CCBB5C39A4ABE7"]
-			id: "13C46BACD0A36080"
+			title: "Is that crooked, or are my eyes funny?"
+			x: -4.0d
+			y: 0.5d
+			description: [
+				"Crooks will give you a much better chance of getting saplings and apples, but also will give you silkworms, you will need these to get string for further progression"
+				""
+				"There are custom Ponder tutorials for most (if not all) of the ex nihilo stuff! claim the rewards in this chapter to open the tutorials!"
+			]
+			dependencies: ["3001B2EEE5C6C9AB"]
+			id: "744E757CA323FF46"
 			tasks: [{
-				id: "56CC6703530D3AD8"
+				id: "22FBCA5AA2D1B8B1"
 				type: "item"
-				title: "Any #forge:chests"
-				icon: "minecraft:chest"
 				item: {
-					id: "itemfilters:tag"
+					id: "exnihilosequentia:wooden_crook"
 					Count: 1b
 					tag: {
-						value: "forge:chests"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75B0C73019BCE1E4"
+				type: "command"
+				title: "click for a tutorial!"
+				auto: "disabled"
+				command: "/create ponder exnihilosequentia:wooden_crook"
+				player_command: true
+			}]
+		}
+		{
+			title: "Hammer time! "
+			x: -2.5d
+			y: -1.0d
+			subtitle: "A totally over used joke"
+			dependencies: ["3F755A55B2043E5B"]
+			id: "35EF391AB5344094"
+			tasks: [{
+				id: "596CB9CDB4192339"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
 			rewards: [
 				{
-					id: "350067AECBCFCCE9"
+					id: "48C0C243A6BEF8E9"
 					type: "item"
-					item: "minecraft:chest"
+					item: "croptopia:cucumber_salad"
 				}
 				{
-					id: "0CD74B61C7ED99F1"
-					type: "xp"
-					xp: 5
+					id: "316751A6582293A2"
+					type: "command"
+					title: "Click for a tutorial!"
+					auto: "disabled"
+					command: "/create ponder exnihilosequentia:wooden_hammer"
+					player_command: false
 				}
 			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["Wondering how to get this? claim the reward from the previous quest!"]
+			dependencies: ["744E757CA323FF46"]
+			id: "4A536710A11856F2"
+			tasks: [{
+				id: "41B28C0567C513BC"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [{
+				id: "13BA5B0FB5A2ABA3"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Its like baking a cake!"
+			description: ["Sieving is your most common method of gathering resources in this modpack and most materials can be gotten this way! Different meshes yield different rewards, same for sieving different materials! meshes can also be enchanted with fortune for a higher yield"]
+			dependencies: [
+				"4A536710A11856F2"
+				"11CE392E7A41785F"
+			]
+			id: "768F0E715B05D9E4"
+			tasks: [
+				{
+					id: "50082DE6C1394D74"
+					type: "item"
+					item: "exnihilosequentia:oak_sieve"
+				}
+				{
+					id: "651DD634E79316A1"
+					type: "item"
+					item: "exnihilosequentia:string_mesh"
+				}
+			]
+			rewards: [{
+				id: "58618640C6F97E8F"
+				type: "command"
+				title: "Click for a tutorial!"
+				auto: "disabled"
+				command: "/create ponder exnihilosequentia:oak_sieve"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["35EF391AB5344094"]
+			id: "11CE392E7A41785F"
+			tasks: [{
+				id: "7CF148153F47112C"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["768F0E715B05D9E4"]
+			id: "2CF0EE5C0651F531"
+			tasks: [{
+				id: "4591A7EDAC7584E4"
+				type: "item"
+				item: "exnihilosequentia:flint_mesh"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["2CF0EE5C0651F531"]
+			id: "11097D91EBF2490D"
+			tasks: [{
+				id: "6BB34060F0E0CF88"
+				type: "item"
+				item: "exnihilosequentia:iron_mesh"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["11097D91EBF2490D"]
+			id: "6580DCA54E4C9BC2"
+			tasks: [{
+				id: "2E0FB9514B1670B0"
+				type: "item"
+				item: "exnihilosequentia:diamond_mesh"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Portable Storage!"
-			dependencies: ["13C46BACD0A36080"]
-			id: "0352A34ACD22E10B"
+			dependencies: ["6580DCA54E4C9BC2"]
+			id: "77D00771439F54A2"
 			tasks: [{
-				id: "5E28CA2CA2C2EA80"
+				id: "7DC1D44F7C508713"
 				type: "item"
-				title: "Backpack"
-				item: "sophisticatedbackpacks:backpack"
+				item: "exnihilosequentia:emerald_mesh"
+			}]
+		}
+		{
+			title: "The final mesh"
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["77D00771439F54A2"]
+			id: "01FEB5D4F5ADD557"
+			tasks: [{
+				id: "6786082559455714"
+				type: "item"
+				item: "exnihilosequentia:netherite_mesh"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["11CE392E7A41785F"]
+			id: "36D0417745C747B1"
+			tasks: [{
+				id: "68E91C614AAF5C66"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["36D0417745C747B1"]
+			id: "70063949E831D49E"
+			tasks: [{
+				id: "2809511BE1FC38AF"
+				type: "item"
+				item: "exnihilosequentia:dust"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: ["Compressed hammering is still a thing! with the nature of our automated sieving mod we felt it was best not to allow these to be sieved, but manual hammering is still possible!"]
+			dependencies: ["3F755A55B2043E5B"]
+			id: "0C9B97D2048A1073"
+			tasks: [{
+				id: "0E71F927D6AEFC25"
+				type: "item"
+				item: "allthecompressed:cobblestone_block_1x"
 			}]
 			rewards: [
 				{
-					id: "3345D818BE3FE3CD"
+					id: "5E7B4414825E2D01"
 					type: "item"
-					item: "sophisticatedbackpacks:upgrade_base"
+					item: "allthecompressed:sand_block_1x"
 				}
 				{
-					id: "4E9631B8B888E3F8"
-					type: "xp"
-					xp: 10
+					id: "07F9D00A06EC29C2"
+					type: "item"
+					item: "allthecompressed:gravel_block_2x"
 				}
 			]
 		}
 		{
-			x: 2.0d
+			x: 1.0d
+			y: 0.5d
+			description: ["Once you have a flint mesh you will start to get basic materials from sieving! Combine your ore pieces and make yourself raw ores and throw them in your furnace as normal!"]
+			dependencies: ["768F0E715B05D9E4"]
+			id: "231765C07B4A12B7"
+			tasks: [
+				{
+					id: "3B51E5B051595390"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "567BCA83C8F96D1B"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+			rewards: [{
+				id: "4A7FB7C5ECEFB666"
+				type: "item"
+				item: "croptopia:scrambled_eggs"
+			}]
+		}
+		{
+			x: -2.5d
 			y: -4.0d
 			description: [
-				"It's time to create a team  so we can claim chunks and even force-load them!"
+				"Sand is not only required to get soulsand, it is also required to get the ancient spores to make mycelium! "
 				""
-				"Use the command &a/ftbteams party create&r to create your team."
-				""
-				"To claim chunks, the default key to open the Claim Map is \"M\". To claim a chunk, left click and drag to claim. To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+				"Still unsure on how this all works? check the reward from the barrel quest!"
 			]
-			dependencies: ["39C364C1D308A36E"]
-			id: "5E7C6705CE996BDF"
+			dependencies: [
+				"42240BED17BA0948"
+				"36D0417745C747B1"
+			]
+			id: "1FF2E2B85B9EC00F"
 			tasks: [{
-				id: "642A4BFF2F208D53"
-				type: "checkmark"
-				title: "Creating A Team"
+				id: "418174FF58791819"
+				type: "item"
+				item: "minecraft:soul_sand"
 			}]
 			rewards: [{
-				id: "77B322B39E82234E"
-				type: "xp"
-				xp: 5
+				id: "68025572BB281A4E"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 2
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
-			subtitle: "Portable Crafting!"
-			dependencies: ["34632E58F226ED0B"]
-			optional: true
-			id: "7DBCD01ABA2D029C"
+			x: -4.0d
+			y: -4.0d
+			description: ["The barrel is one of the most important ways to get materials in this pack second only to the sieve, water for clay, witchwater for soulsand, and even dirt from leaves and saplings"]
+			dependencies: ["3001B2EEE5C6C9AB"]
+			id: "42240BED17BA0948"
 			tasks: [{
-				id: "3FB662A53432B6A6"
+				id: "255694580F7FD8B1"
 				type: "item"
-				item: "crafting_on_a_stick:crafting_table"
+				item: "exnihilosequentia:oak_barrel"
 			}]
 			rewards: [{
-				id: "28EC22F3423CF4A6"
-				type: "xp"
-				xp: 10
+				id: "4E0EC78E48BE1525"
+				type: "command"
+				title: "Click for a tutorial!"
+				auto: "disabled"
+				command: "/create ponder exnihilosequentia:oak_sieve"
+				player_command: true
 			}]
 		}
 		{
-			title: "Efficient Smelting!"
-			x: 0.0d
-			y: 3.0d
-			description: [
-				"You can break down Charcoal AND Coal into tiny pieces, which smelt 1 item a piece."
-				""
-				"No more left over fuel burning!"
+			x: -1.0d
+			y: -4.0d
+			dependencies: [
+				"42240BED17BA0948"
+				"70063949E831D49E"
 			]
-			dependencies: ["52D18CDB05357525"]
-			id: "008BA27244838C81"
+			id: "53F7B1EE005A696C"
 			tasks: [{
-				id: "5FA84E05C343D3A9"
+				id: "0AD9E8B171C9ACB7"
 				type: "item"
-				item: "utilitix:tiny_charcoal"
-				count: 8L
+				item: "minecraft:clay"
 			}]
-			rewards: [
-				{
-					id: "5ED7A37C2D4EBEFC"
-					type: "item"
-					item: "minecraft:coal"
-					count: 8
-				}
-				{
-					id: "675AC559B2D13AE0"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "6390E1353E17C31A"
+				type: "item"
+				item: "minecraft:clay"
+				count: 2
+			}]
+		}
+		{
+			title: "All Fired Up"
+			x: 0.5d
+			y: -4.0d
+			description: ["I mean its a skyblock, no matter how many different power generation methods we try to show you in these quests, you will ultimately end up with 20 of these in your base..."]
+			dependencies: ["53F7B1EE005A696C"]
+			id: "40A495FCD317A38D"
+			tasks: [{
+				id: "42E5F173A20CD27C"
+				type: "item"
+				item: "exnihilosequentia:fired_crucible"
+			}]
 		}
 	]
 }
