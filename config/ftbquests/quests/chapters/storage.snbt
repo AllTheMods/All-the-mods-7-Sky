@@ -1387,7 +1387,7 @@
 			tasks: [{
 				id: "417545B7B3386289"
 				type: "item"
-				item: "ironchests:iron_chest"
+				item: "ironchests:copper_chest"
 			}]
 		}
 		{
@@ -1398,7 +1398,7 @@
 			tasks: [{
 				id: "6F8FAE2BE05105D2"
 				type: "item"
-				item: "ironchests:copper_chest"
+				item: "ironchests:iron_chest"
 			}]
 		}
 		{
