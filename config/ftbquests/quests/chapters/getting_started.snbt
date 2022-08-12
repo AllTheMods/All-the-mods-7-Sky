@@ -674,5 +674,42 @@
 				item: "exnihilosequentia:fired_crucible"
 			}]
 		}
+		{
+			x: -9.5d
+			y: -1.0d
+			description: ["Obviously you can complete the pack without it, but here is an \"easy mode\" for the modpack if you feel like it"]
+			id: "2C134DDBF9283407"
+			tasks: [{
+				id: "1C50BB96A8128D96"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3A8D2846CCA65664"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1A0F6683B11513BC"
+					type: "item"
+					item: "minecraft:ice"
+				}
+				{
+					id: "537CE0097B860687"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "1FAD379DEC201699"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "7620CC0A7DC97E85"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+			]
+		}
 	]
 }
