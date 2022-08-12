@@ -214,7 +214,7 @@
 						id: "itemfilters:tag"
 						Count: 1b
 						tag: {
-							value: "forge:tools/hoe"
+							value: "forge:hoes"
 						}
 					}
 				}
