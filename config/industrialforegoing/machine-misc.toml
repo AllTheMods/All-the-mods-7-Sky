@@ -1,0 +1,6 @@
+
+[MachineMiscConfig]
+
+	[MachineMiscConfig.EnchantmentApplicatorConfig]
+		#Ignore max level for enchanting
+		ignoreEnchantMaxLevels = false
