@@ -1,0 +1,9 @@
+minecraft:overworld
+twilightforest:twilight_forest
+allthemodium:the_other
+bloodmagic:dungeon
+minecraft:the_end
+allthemodium:mining
+compactmachines:compact_world
+mythicbotany:alfheim
+minecraft:the_nether

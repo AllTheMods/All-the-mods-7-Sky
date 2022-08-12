@@ -1,0 +1,18 @@
+{
+  "type": "exmachinis:compacting",
+  "input": {
+    "ingredient": {
+      "item": "exnihilomekanism:osmium_pieces"
+    },
+    "count": 4
+  },
+  "output": {
+    "item": "alltheores:raw_osmium"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilomekanism"
+    }
+  ]
+}

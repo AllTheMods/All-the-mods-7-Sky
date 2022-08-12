@@ -1,0 +1,51 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "direction": "south"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "default": [
+      [ 6, 3, 5 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "Farmers Paradise",
+      "desc": "",
+      "file": "farmers_paradise.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },     
+	{
+      "name": "Cobblers Delight",
+      "desc": "Comes with a premade cobblegen!",
+      "file": "cobblers_island.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },    
+	{
+      "name": "Just a Tree",
+      "desc": "Some dirt included",
+      "file": "basic_island.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },	
+	{
+      "name": "Starter Island",
+      "desc": "Comes pre-loaded with a chest of stuff!",
+      "file": "default.nbt",
+      "spawns": "default",
+      "direction": "south"
+    }	
+  ]
+}
+

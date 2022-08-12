@@ -1,0 +1,19 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "item": "exnihilosequentia:zinc_pieces"
+  },
+  "rolls": [
+    {
+      "chance": 0.125,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "diamond"
+    }
+  ]
+}

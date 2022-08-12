@@ -1,0 +1,22 @@
+{
+    "modId": "tconstruct",
+    "group": {
+        "name": "Tinker's Construct Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "tconstruct:earth_slime_sapling"
+        },
+        {
+            "output": "tconstruct:sky_slime_sapling"
+        },
+        {
+            "output": "tconstruct:ender_slime_sapling"
+        }
+    ]
+}

@@ -1,0 +1,616 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:coal",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:redstone",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:diamond",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:emerald",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "emc": 4096
+    },
+    {
+      "item": "alltheores:aluminum_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:zinc_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:tin_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:lead_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:platinum_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "alltheores:nickel_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:osmium_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:silver_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "alltheores:iridium_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:bone",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:leather",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:feather",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:granite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:diorite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:deepslate",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:tuff",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:dripstone_block",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:dirt",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:oak_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:spruce_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:birch_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:jungle_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:acacia_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dark_oak_log",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:crimson_stem",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:warped_stem",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:quartz",
+      "emc": 512
+    },
+    {
+      "item": "ae2:certus_quartz_dust",
+      "emc": 512
+    },
+    {
+      "item": "botania:white_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:black_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:orange_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:magenta_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:light_blue_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:yellow_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:lime_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:pink_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:gray_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:red_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:green_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:brown_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:blue_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:purple_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:light_gray_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "botania:cyan_mystical_flower",
+      "emc": 32
+    },
+    {
+      "item": "allthemodium:demonic_log",
+      "emc": 64
+    },
+    {
+      "item": "allthemodium:soul_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:giant_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:twilight_oak_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:canopy_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:mangrove_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:dark_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:time_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:transformation_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:sorting_log",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:mining_log",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:skyroot_log",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:greenheart_log",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:ender_slime_sapling",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:sky_slime_sapling",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:earth_slime_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:oak_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:spruce_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:birch_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:jungle_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:acacia_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dark_oak_sapling",
+      "emc": 64
+    },
+    {
+      "item": "allthemodium:ancient_sapling",
+      "emc": 64
+    },
+    {
+      "item": "allthemodium:soul_sapling",
+      "emc": 64
+    },
+    {
+      "item": "allthemodium:demonic_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:twilight_oak_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:canopy_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:mangrove_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:darkwood_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:hollow_oak_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:time_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:transformation_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:mining_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:sorting_sapling",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:rainbow_oak_sapling",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:cactus",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:bamboo",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dandelion",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:poppy",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:blue_orchid",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:allium",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:azure_bluet",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:red_tulip",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:orange_tulip",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:white_tulip",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:pink_tulip",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:lily_of_the_valley",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:oxeye_daisy",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:wither_rose",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:cornflower",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:crimson_fungus",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:warped_fungus",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:string",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:sky_slime_ball",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:ender_slime_ball",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:grass_block",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:white_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:orange_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:magenta_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:light_blue_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:yellow_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:lime_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:pink_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:light_gray_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:black_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:red_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:green_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:brown_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:blue_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:purple_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:cyan_concrete",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:blackstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:netherrack",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:mycelium",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:cake",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "emc": 8192
+    }
+  ]
+}

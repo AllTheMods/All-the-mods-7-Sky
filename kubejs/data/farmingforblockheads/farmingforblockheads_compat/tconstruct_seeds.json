@@ -1,0 +1,25 @@
+{
+    "modId": "tconstruct",
+    "group": {
+        "name": "Tinker's Construct Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "tconstruct:earth_slime_grass_seeds"
+        },
+        {
+            "output": "tconstruct:sky_slime_grass_seeds"
+        },
+        {
+            "output": "tconstruct:ender_slime_grass_seeds"
+        },
+        {
+            "output": "tconstruct:blood_slime_grass_seeds"
+        }
+    ]
+}

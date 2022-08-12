@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.004,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.008,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.05,
+      "mesh": "netherite"
+    }
+  ],
+  "input": {
+    "item": "exnihilosequentia:crushed_netherrack"
+  },
+  "result": {
+    "item": "minecraft:netherite_scrap"
+  }
+}
