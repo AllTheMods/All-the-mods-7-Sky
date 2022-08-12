@@ -1,10 +1,9 @@
 minecraft:overworld
-bloodmagic:dungeon
-compactmachines:compact_world
-allthemodium:the_other
 twilightforest:twilight_forest
-mythicbotany:alfheim
-allthemodium:mining
-minecraft:the_nether
-ae2:spatial_storage
+allthemodium:the_other
+bloodmagic:dungeon
 minecraft:the_end
+allthemodium:mining
+compactmachines:compact_world
+mythicbotany:alfheim
+minecraft:the_nether
