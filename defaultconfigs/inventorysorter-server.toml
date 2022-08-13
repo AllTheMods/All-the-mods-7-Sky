@@ -1,0 +1,4 @@
+#Inventory sorter blacklists
+[blacklists]
+    #Slot type blacklist
+    slotBlacklist = ["net.p3pp3rf1y.sophisticatedcore.common.gui.StorageInventorySlot"]
