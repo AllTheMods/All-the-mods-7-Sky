@@ -41,9 +41,8 @@ onEvent('tags.items', e => {
   e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
 })
 onEvent('tags.blocks', e => {
-  e.add('exnihilosequentia:sieves', /exnihilosequentia:\w+_sieve/)
   e.add('minecraft:climbable', ['minecraft:chain', /additionallanterns:.*_chain/])
-  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/])
+  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/])
 })
 onEvent('tags.entity_types', e => {
   e.add('mob_grinding_utils:noswab', [/productivebees:.+/, 'allthemodium:piglich',])
