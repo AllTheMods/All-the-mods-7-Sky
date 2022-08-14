@@ -407,7 +407,7 @@
 					title: "Click for a tutorial!"
 					auto: "disabled"
 					command: "/create ponder exnihilosequentia:wooden_hammer"
-					player_command: false
+					player_command: true
 				}
 			]
 		}
@@ -456,7 +456,7 @@
 				title: "Click for a tutorial!"
 				auto: "disabled"
 				command: "/create ponder exnihilosequentia:oak_sieve"
-				player_command: false
+				player_command: true
 			}]
 		}
 		{
@@ -637,7 +637,7 @@
 				type: "command"
 				title: "Click for a tutorial!"
 				auto: "disabled"
-				command: "/create ponder exnihilosequentia:oak_sieve"
+				command: "/create ponder exnihilosequentia:oak_barrel"
 				player_command: true
 			}]
 		}
