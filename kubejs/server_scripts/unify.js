@@ -738,4 +738,7 @@ onEvent('recipes', e => {
   });
   e.remove({ id: `/honeycomb_aluminium/` });
   e.remove({ id: `/honeycomb_brazen/` });
+
+  //BiR ludicrite from enderium
+  e.replaceInput({id:'biggerreactors:crafting/ludicrite_block_enderium'}, '#forge:storage_blocks/enderium', '#forge:storage_blocks/enderium')
 })
