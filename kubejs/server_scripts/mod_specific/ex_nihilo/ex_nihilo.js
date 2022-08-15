@@ -75,9 +75,6 @@ onEvent(`recipes`, e => {
   //Crucible heating blocks
   heat(`botania:blaze_block`, 8)
   heat(`alltheores:uranium_block`, 20)
-  heat(`minecraft:magma_block`, 3)
-  heat(`minecraft:lava`, 4)
-  heat(`minecraft:fire`, 5)
   heat(`mekanism:superheating_element`, 60)
   heat('projecte:dark_matter_block', 100)
 
