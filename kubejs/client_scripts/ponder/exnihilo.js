@@ -38,7 +38,7 @@ onEvent("ponder.registry", event => {
             scene.world.modifyBlock([0, 4, 0], () => Block.id("minecraft:air"), true)
             let worm = scene.world.createItemEntity(util.vector.centerOf(0, 4, 0), util.vector.of(0, -0.2, 0), "exnihilosequentia:silkworm")
             scene.idle(60)
-            scene.world.modifyEntity(worm, (entity) => entity.discard())
+            scene.world.removeEntity(worm)
             scene.markAsFinished()
         })
         .scene("enscrook2", "Playing with worms", "kubejs:oaktree", (scene, util) => {
@@ -98,8 +98,8 @@ onEvent("ponder.registry", event => {
             let worm = scene.world.createItemEntity(util.vector.centerOf(0, 4, 0), util.vector.of(-0.01, -0.2, -0.01), "exnihilosequentia:silkworm")
             let stringItem = scene.world.createItemEntity(util.vector.centerOf(0, 4, 0), util.vector.of(0.01, -0.2, 0.01), "minecraft:string")
             scene.idle(60)
-            scene.world.modifyEntity(worm, (entity) => entity.discard())
-            scene.world.modifyEntity(stringItem, (entity) => entity.discard())
+            scene.world.removeEntity(worm)
+            scene.world.removeEntity(stringItem)
             scene.markAsFinished()
         })
     event.create([
@@ -141,7 +141,7 @@ onEvent("ponder.registry", event => {
                 }
                 thing = scene.world.createItemEntity(util.vector.of(2, 1, 2), util.vector.of(-0.06, 0.3, -0.06), crush.out)
                 scene.idle(20)
-                scene.world.modifyEntity(thing, (entity) => entity.discard())
+                scene.world.removeEntity(thing)
             })
             scene.idle(10)
             scene.markAsFinished()
@@ -182,14 +182,14 @@ onEvent("ponder.registry", event => {
             scene.overlay.showText(40).text("Until completely sieved").independent(72).placeNearTarget();
             [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].forEach(p => {
                 scene.world.modifyTileNBT([2, 1, 2], nbt => {
-                    nbt.put("block", { id: "minecraft:gravel", Count: 1 })
-                    nbt.putFloat("progress", p)
+                    nbt.block = { id: "minecraft:gravel", Count: 1 }
+                    nbt.progress = p
                 }, true)
                 scene.idle(6)
             })
             scene.world.modifyTileNBT([2, 1, 2], nbt => {
-                nbt.remove("block")
-                nbt.putFloat("progress", 0)
+                nbt.block = {}
+                nbt.progress = 0
             }, true)
             scene.addKeyframe()
             const centerTop = util.vector.topOf(2, 1, 2)
@@ -222,8 +222,8 @@ onEvent("ponder.registry", event => {
                 [0, 1, 2, 3, 4].forEach(x => {
                     [0, 1, 2, 3, 4].forEach(z => {
                         scene.world.modifyTileNBT([x, 1, z], nbt => {
-                            nbt.put("block", { id: "minecraft:sand", Count: 1 })
-                            nbt.putFloat("progress", p)
+                            nbt.block = { id: "minecraft:sand", Count: 1 }
+                            nbt.progress = p
                         }, true)
                     })
                 })
@@ -232,8 +232,8 @@ onEvent("ponder.registry", event => {
             [0, 1, 2, 3, 4].forEach(x => {
                 [0, 1, 2, 3, 4].forEach(z => {
                     scene.world.modifyTileNBT([x, 1, z], nbt => {
-                        nbt.remove("block")
-                        nbt.putFloat("progress", 0)
+                        nbt.block = {}
+                        nbt.progress = 0
                     }, true)
                 })
             })
@@ -271,8 +271,8 @@ onEvent("ponder.registry", event => {
                 .withItem("minecraft:oak_leaves");
             [1, 2, 3, 4].forEach(ct => {
                 scene.world.modifyTileNBT([1, 1, 2], nbt => {
-                    nbt.put("currentItem", { id: "minecraft:oak_leaves", Count: ct })
-                    nbt.putInt("solidAmount", ct * 250)
+                    nbt.currentItem = { id: "minecraft:oak_leaves", Count: ct }
+                    nbt.solidAmount = ct * 250
                 }, true)
                 scene.idle(10)
             })
@@ -283,21 +283,21 @@ onEvent("ponder.registry", event => {
                 .withItem("minecraft:cobblestone");
             [1, 2, 3, 4].forEach(ct => {
                 scene.world.modifyTileNBT([3, 1, 2], nbt => {
-                    nbt.put("currentItem", { id: "minecraft:cobblestone", Count: ct })
-                    nbt.putInt("solidAmount", ct * 250)
+                    nbt.currentItem = { id: "minecraft:cobblestone", Count: ct }
+                    nbt.solidAmount = ct * 250
                 }, true)
                 scene.world.modifyTileNBT([1, 1, 2], nbt => {
-                    nbt.put("currentItem", { id: "minecraft:oak_leaves", Count: ct })
-                    nbt.putInt("solidAmount", 1000 - ct * 250)
-                    nbt.put("tank", { FluidName: "minecraft:water", Amount: 1000 * ct })
+                    nbt.currentItem = { id: "minecraft:oak_leaves", Count: ct }
+                    nbt.solidAmount = 1000 - ct * 250
+                    nbt.tank = { FluidName: "minecraft:water", Amount: 1000 * ct }
                 }, true)
                 scene.idle(10)
             });
             [1, 2, 3, 4].forEach(ct => {
                 scene.world.modifyTileNBT([3, 1, 2], nbt => {
-                    nbt.put("currentItem", { id: "minecraft:cobblestone", Count: ct })
-                    nbt.putInt("solidAmount", 1000 - ct * 250)
-                    nbt.put("tank", { FluidName: "minecraft:lava", Amount: 1000 * ct })
+                    nbt.currentItem = { id: "minecraft:cobblestone", Count: ct }
+                    nbt.solidAmount = 1000 - ct * 250
+                    nbt.tank = { FluidName: "minecraft:lava", Amount: 1000 * ct }
                 }, true)
                 scene.idle(10)
             })
@@ -340,17 +340,17 @@ onEvent("ponder.registry", event => {
             [1, 2, 3, 4, 5, 6, 7, 8].forEach((amt) => {
                 scene.idle(10)
                 scene.world.modifyTileNBT([2, 1, 2], nbt => {
-                    nbt.put("barrelMode", "compost")
-                    nbt.putInt("solidAmount", amt * 125)
+                    nbt.barrelMode = "compost"
+                    nbt.solidAmount = amt * 125
                 }, true)
             })
             scene.idle(10)
             scene.particles.simple(40, "ash", [2.5, 2.2, 2.5]).withinBlockSpace()
             scene.idle(50)
             scene.world.modifyTileNBT([2, 1, 2], nbt => {
-                nbt.put("barrelMode", "block")
-                nbt.putInt("solidAmount", 0)
-                nbt.put("inventory", { Size: 1, Items: [{ Slot: 0, id: "minecraft:dirt", Count: 1 }] })
+                nbt.barrelMode = "block"
+                nbt.solidAmount = 0
+                nbt.inventory = { Size: 1, Items: [{ Slot: 0, id: "minecraft:dirt", Count: 1 }] }
             }, true)
             scene.markAsFinished()
         })
@@ -375,29 +375,29 @@ onEvent("ponder.registry", event => {
                 .withItem("minecraft:water_bucket");
             scene.idle(10)
             scene.world.modifyTileNBT([3, 2, 2], nbt => {
-                nbt.put("blockMode", "fluid")
-                nbt.put("tank", { FluidName: "minecraft:water", Amount: 1000 })
+                nbt.blockMode = "fluid"
+                nbt.tank = { FluidName: "minecraft:water", Amount: 1000 }
             }, true)
             scene.showControls(20, [1.5, 3, 2.5], "down")
                 .rightClick()
                 .withItem("minecraft:water_bucket");
             scene.idle(10)
             scene.world.modifyTileNBT([1, 2, 2], nbt => {
-                nbt.put("blockMode", "fluid")
-                nbt.put("tank", { FluidName: "minecraft:water", Amount: 1000 })
+                nbt.blockMode = "fluid"
+                nbt.tank = { FluidName: "minecraft:water", Amount: 1000 }
             }, true)
             scene.particles.simple(30, "effect", [3.5, 2, 2.5]).density(5)
             scene.idle(10)
             scene.particles.simple(30, "effect", [1.5, 2, 2.5]).density(5)
             scene.idle(40)
             scene.world.modifyTileNBT([3, 2, 2], nbt => {
-                nbt.put("blockMode", "fluid")
-                nbt.put("tank", { FluidName: "exnihilosequentia:witch_water", Amount: 1000 })
+                nbt.blockMode = "fluid"
+                nbt.tank = { FluidName: "exnihilosequentia:witch_water", Amount: 1000 }
             }, true)
             scene.idle(10)
             scene.world.modifyTileNBT([1, 2, 2], nbt => {
-                nbt.put("blockMode", "fluid")
-                nbt.put("tank", { FluidName: "exnihilosequentia:sea_water", Amount: 1000 })
+                nbt.blockMode = "fluid"
+                nbt.tank = { FluidName: "exnihilosequentia:sea_water", Amount: 1000 }
             }, true)
         })
     event.create([
@@ -413,8 +413,8 @@ onEvent("ponder.registry", event => {
             scene.world.setBlock([2, 1, 2], "exnihilosequentia:stone_barrel", false)
             scene.world.showSection([2, 1, 2], Facing.up)
             scene.world.modifyTileNBT([2, 1, 2], nbt => {
-                nbt.put("blockMode", "fluid")
-                nbt.put("tank", { FluidName: "minecraft:lava", Amount: 1000 })
+                nbt.blockMode = "fluid"
+                nbt.tank = { FluidName: "minecraft:lava", Amount: 1000 }
             }, true)
             scene.showControls(30, [2.5, 2, 2.5], "down")
                 .rightClick()
@@ -429,8 +429,8 @@ onEvent("ponder.registry", event => {
             scene.overlay.showText(40).text("will spawn a mob").independent(110).placeNearTarget()
             scene.idle(50)
             scene.world.modifyTileNBT([2, 1, 2], nbt => {
-                nbt.put("tank", { FluidName: "minecraft:empty", Amount: 0 })
-                nbt.put("blockMode", "empty")
+                nbt.tank = { FluidName: "minecraft:empty", Amount: 0 }
+                nbt.blockMode = "empty"
             }, true)
             scene.idle(10)
             const blaze = scene.world.createEntity("blaze", util.vector.topOf(2, 1, 2))

@@ -17,4 +17,5 @@ onEvent('recipes', event => {
     addRecipeRockGen('minecraft:water','minecraft:polished_granite','minecraft:granite','kubejs:rock_gen/rock_gen_granite')
     addRecipeRockGen('exnihilosequentia:witch_water','minecraft:redstone_block','minecraft:netherrack','kubejs:rock_gen/rock_gen_netherrack')
     addRecipeRockGen('exnihilosequentia:witch_water','minecraft:glowstone','minecraft:end_stone','kubejs:rock_gen/rock_gen_endstone')
+    addRecipeRockGen('exnihilosequentia:witch_water','mysticalagriculture:soulium_block','mysticalagriculture:soulstone','kubejs:rock_gen/rock_gen_soulstone')
 })

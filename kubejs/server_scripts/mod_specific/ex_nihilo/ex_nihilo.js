@@ -25,6 +25,15 @@ onEvent(`recipes`, e => {
     })
   }
 
+  function fluidItem(fluid, input, result) {
+    e.custom({
+      type: `exnihilosequentia:fluid_item`,
+      fluid: Fluid.of(fluid).toJson(),
+      input: Ingredient.of(input).toJson(),
+      result: Item.of(result).toResultJson()
+    })
+  }
+
   function heat(block, heat) {
     e.custom({
       type: `exnihilosequentia:heat`,
@@ -66,9 +75,6 @@ onEvent(`recipes`, e => {
   //Crucible heating blocks
   heat(`botania:blaze_block`, 8)
   heat(`alltheores:uranium_block`, 20)
-  heat(`minecraft:magma_block`, 3)
-  heat(`minecraft:lava`, 4)
-  heat(`minecraft:fire`, 5)
   heat(`mekanism:superheating_element`, 60)
   heat('projecte:dark_matter_block', 100)
 
@@ -115,6 +121,9 @@ onEvent(`recipes`, e => {
   crushEm(exDust, `#minecraft:sand`)
   crushEm(exRack, `#forge:netherrack`)
   crushEm(exEnd, `#forge:end_stones`)
+
+  // Fluid Item Transformation
+  fluidItem(`exnihilosequentia:witch_water`,`mysticalagriculture:soulium_dust`,`mysticalagriculture:soulstone`)
 
   e.remove({id:`minecraft:ens_ancient_debris`})
   e.remove({id:`/exnihilosequentia:ens_raw/`})
