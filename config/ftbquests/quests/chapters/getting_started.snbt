@@ -538,8 +538,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.5d
+			x: -1.0d
+			y: -4.0d
 			dependencies: ["36D0417745C747B1"]
 			id: "70063949E831D49E"
 			tasks: [{
@@ -598,7 +598,7 @@
 		}
 		{
 			x: -2.5d
-			y: -4.0d
+			y: -2.5d
 			description: [
 				"Sand is not only required to get soulsand, it is also required to get the ancient spores to make mycelium! "
 				""
@@ -642,7 +642,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -2.5d
 			y: -4.0d
 			dependencies: [
 				"42240BED17BA0948"
@@ -663,8 +663,8 @@
 		}
 		{
 			title: "All Fired Up"
-			x: 0.5d
-			y: -4.0d
+			x: -1.0d
+			y: -5.5d
 			description: ["I mean its a skyblock, no matter how many different power generation methods we try to show you in these quests, you will ultimately end up with 20 of these in your base..."]
 			dependencies: ["53F7B1EE005A696C"]
 			id: "40A495FCD317A38D"
