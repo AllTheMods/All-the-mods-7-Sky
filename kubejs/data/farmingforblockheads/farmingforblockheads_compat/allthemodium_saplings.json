@@ -1,0 +1,22 @@
+{
+    "modId": "allthemodium",
+    "group": {
+        "name": "Allthemodium Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "allthemodium:ancient_sapling"
+        },
+        {
+            "output": "allthemodium:demonic_sapling"
+        },
+        {
+            "output": "allthemodium:soul_sapling"
+        }
+    ]
+}
