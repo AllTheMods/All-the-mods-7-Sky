@@ -143,25 +143,15 @@
 			]
 		}
 		{
+			title: "Stop the Presses"
 			icon: "ae2:sky_compass"
 			x: -6.0d
 			y: 0.5d
 			subtitle: "\"COMIC #42: shearching 4 bobby [Fischer]\""
-			description: [
-				"Now that you have your first Charged Certus Quartz Crystal, it's time to put it to use on the final important step towards getting up and running with AE2."
-				""
-				"The &bMeteorite Compass&f will point towards the nearest chunk it can find containing &bSky Stone&f, which generate naturally as part of large &eMeteorites&f. These can be either on the surface or underground, and contain a core of &bFluix Blocks&f with a &bSky Stone Chest&f in its center."
-				""
-				"This chest usually contains at least one of the four different &ePresses&f used in the Inscriber to make AE2's special crafting components. In this pack, however, instead of needing to find multiple meteorites to complete the set, it is possible to craft the remaining ones using some of the Sky Stone mined from the meteorites."
-			]
+			description: ["In this pack, instead of needing to find meteorites to complete the set, it is possible to craft the presses using some of the Sky Stone Dust sieved from Dust. Check the inscriber in JEI for recipes."]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "51236544BFEF487B"
 			tasks: [
-				{
-					id: "6D55655551690784"
-					type: "item"
-					item: "ae2:sky_compass"
-				}
 				{
 					id: "616E037C2D135DEE"
 					type: "item"
