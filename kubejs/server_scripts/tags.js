@@ -42,7 +42,7 @@ onEvent('tags.items', e => {
 })
 onEvent('tags.blocks', e => {
   e.add('minecraft:climbable', ['minecraft:chain', /additionallanterns:.*_chain/])
-  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/])
+  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/, /compactmachines:.+/])
 })
 onEvent('tags.entity_types', e => {
   e.add('mob_grinding_utils:noswab', [/productivebees:.+/, 'allthemodium:piglich',])
