@@ -4,7 +4,10 @@ onEvent('tags.blocks', e => {
   e.add('minecraft:mineable/shovel',['snad:snad','snad:red_snad','snad:suol_snad'])
   e.add('minecraft:mineable/pickaxe',['cobblefordays:tier_1','cobblefordays:tier_2','cobblefordays:tier_3','cobblefordays:tier_4','cobblefordays:tier_5','enderstorage:ender_chest','enderstorage:ender_tank'])
   e.add('exnihilosequentia:mineable/hammer',['allthecompressed:cobblestone_block_1x','allthecompressed:gravel_block_1x','allthecompressed:sand_block_1x'])
-  })
+  e.add('minecraft:climbable', ['minecraft:chain', /additionallanterns:.*_chain/])
+  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/,'botania:spark'])
+  e.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
+})
 
 onEvent('tags.items', e => {
   e.add('misctags:farmland/tier6', ['mysticalagradditions:insanium_farmland'])
@@ -24,6 +27,7 @@ onEvent('tags.items', e => {
   e.remove('forge:silicon', 'ftbic:silicon')
 
   e.add('forge:melons','minecraft:melon_slice')
+  e.add('forbidden_arcanus:modifier/eternal_incompatible',['#alltheores:ore_hammers','@ftbic','#tconstruct:modifiable','minecraft:nether_star','mythicbotany:faded_nether_star'])
 
   // fix raw block crafting for other mods
   e.add('forge:raw_ores/zinc', 'create:raw_zinc')
@@ -40,10 +44,7 @@ onEvent('tags.items', e => {
 
   e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
 })
-onEvent('tags.blocks', e => {
-  e.add('minecraft:climbable', ['minecraft:chain', /additionallanterns:.*_chain/])
-  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/])
-})
+
 onEvent('tags.entity_types', e => {
   e.add('mob_grinding_utils:noswab', [/productivebees:.+/, 'allthemodium:piglich',])
   e.add('mob_grinding_utils:no_spawn', '#mob_grinding_utils:noswab')
