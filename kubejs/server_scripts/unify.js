@@ -693,7 +693,8 @@ onEvent('recipes', e => {
     'ftbic:separating/silicon_from_sand',
     'notenoughwands:protection_wand',
     'notenoughwands:moving_wand',
-    'notenoughwands:swapping_wand'
+    'notenoughwands:swapping_wand',
+    'notenoughwands:displacement_wand'
   ]);
 
   removeRecipeByOutput(e, [
