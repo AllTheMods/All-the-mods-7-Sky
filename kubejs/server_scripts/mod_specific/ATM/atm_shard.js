@@ -1,13 +1,7 @@
 onEvent('recipes', e => {
   let shard = ('allthetweaks:atm_star_shard')
 
-//#Pipez
-  e.shaped('16x pipez:infinity_upgrade', ['ABA', 'BCB', 'ADA'], {
-    A: 'allthemodium:unobtainium_ingot',
-    B: 'allthecompressed:redstone_block_3x',
-    C: 'pipez:ultimate_upgrade',
-    D: shard
-  })
+
 //#Thermal
   e.shaped('thermal:machine_efficiency_creative_augment', ['ABA', 'CDC', 'AEA'], {
     A: 'thermal:upgrade_augment_3',
