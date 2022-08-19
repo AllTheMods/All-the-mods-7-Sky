@@ -1,0 +1,22 @@
+{
+    "modId": "forbidden_arcanus",
+    "group": {
+        "name": "Forbidden & Arcanus Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "forbidden_arcanus:cherrywood_sapling"
+        },
+        {
+            "output": "forbidden_arcanus:mysterywood_sapling"
+        },
+        {
+            "output": "forbidden_arcanus:growing_edelwood"
+        }
+    ]
+}
