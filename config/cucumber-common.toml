@@ -2,5 +2,5 @@
 #General configuration options.
 [General]
 	#Mod ids (in order) to prioritize using items for when generating the cucumber-tags.json file.
-	modTagPriorities = ["minecraft", "alltheores", "immersiveengineering", "thermal", "create", "mekanism", "kubejs", "ae2", "pneumaticcraft", "occultism", "industrialforegoing", "botania"]
+	modTagPriorities = ["minecraft", "alltheores", "immersiveengineering", "thermal", "create", "mekanism", "kubejs", "ae2", "pneumaticcraft", "occultism", "industrialforegoing", "botania", "ftbic", "chemlib"]
 
