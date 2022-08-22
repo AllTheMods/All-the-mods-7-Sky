@@ -1,10 +1,16 @@
 onEvent('jei.information', event => {
     event.add('occultism:iesnium_ore',['Throwing Netherrack Block 1x in §5Spiritfire§r will turn it into Netherrack with Iesnium in it'])
-})
-onEvent('item.tooltip', event => {
-    event.add('allthemodium:teleport_pad',[
-        Text.of('Place the pad down in the specified Dimension'), 
-        Text.of('Sneak Right Click with both hands empty to teleport'),
-        Text.of('§aOverworld TO §mMining Dimension§4 DISABLED').red(),
-        Text.of('§cThe Nether TO The Other').red()])
+    event.add('productivebees:sand_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
+    event.add('productivebees:snow_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
+    event.add('productivebees:gravel_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
+    
+    e.add('mekanism:creative_energy_cube',[
+        'Needs to be energized in a Powah energizing rod with a ATM star.',
+        'Otherwise acts as an expensive energy trash can.',
+    ])
+      
+    e.add('pylons:infusion_pylon',[ 
+        'Chunkloads a single chunk. Only one pylon per player will load at a time, and only while the player is online.',
+    ])
+    
 })

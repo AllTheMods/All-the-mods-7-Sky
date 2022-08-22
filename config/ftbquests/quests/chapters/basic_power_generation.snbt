@@ -1436,6 +1436,7 @@
 		{
 			x: -8.5d
 			y: -1.0d
+			description: ["gold and diamond upgrades stack to 3, hover over the upgrade to see the numbers for each!"]
 			dependencies: ["2D9F5CEB4AC30A39"]
 			id: "24B47CB1A222846A"
 			tasks: [{
@@ -1454,6 +1455,11 @@
 				type: "item"
 				item: "exmachinis:diamond_upgrade"
 			}]
+			rewards: [{
+				id: "2D99CF1271EDBA6E"
+				type: "item"
+				item: "exmachinis:gold_upgrade"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1464,6 +1470,11 @@
 				id: "6ED0C511C0C2EFEA"
 				type: "item"
 				item: "exmachinis:netherite_upgrade"
+			}]
+			rewards: [{
+				id: "07612134A4CBBBBB"
+				type: "item"
+				item: "exmachinis:diamond_upgrade"
 			}]
 		}
 	]
