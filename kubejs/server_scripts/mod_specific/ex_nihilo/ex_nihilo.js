@@ -83,7 +83,6 @@ onEvent(`recipes`, e => {
   sieve(`diamond`, 0.2, `#minecraft:sand`, 'powah:uraninite_raw', null) 
   sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
   sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
-  sieve(`iron`, 0.02, `minecraft:sand`, `mekanism:salt`, null)
   sieve(`emerald`, 0.25, `#minecraft:sand`, `forbidden_arcanus:arcane_crystal`, null)
   sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
 
