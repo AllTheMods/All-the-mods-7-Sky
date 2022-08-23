@@ -38,7 +38,10 @@ onEvent('jei.hide.items', e => {
     'notenoughwands:moving_wand',
     'notenoughwands:swapping_wand',
     'notenoughwands:displacement_wand',
-    'reliquary:rod_of_lyssa'
+    'reliquary:rod_of_lyssa',
+    'apotheosis:iron_mining_arrow',
+    'apotheosis:diamond_mining_arrow',
+    'apotheosis:explosive_arrow'
   ])
 
   ftbicMetals.forEach(metal => {
