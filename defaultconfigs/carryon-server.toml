@@ -79,7 +79,9 @@
 		"#exnihilosequentia:sieves",
 		"sophisticatedbackpacks:*",
 		"framedblocks:*",
-		"myrtrees:*"
+		"myrtrees:*",
+		"mekanism:*",
+		"mekanismgenerators:*"
 	]
 	#Entities that cannot be picked up
 	forbiddenEntities = ["minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*"]
