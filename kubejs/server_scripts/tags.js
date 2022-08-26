@@ -5,7 +5,7 @@ onEvent('tags.blocks', e => {
   e.add('minecraft:mineable/pickaxe',['cobblefordays:tier_1','cobblefordays:tier_2','cobblefordays:tier_3','cobblefordays:tier_4','cobblefordays:tier_5','enderstorage:ender_chest','enderstorage:ender_tank'])
   e.add('exnihilosequentia:mineable/hammer',['allthecompressed:cobblestone_block_1x','allthecompressed:gravel_block_1x','allthecompressed:sand_block_1x'])
   e.add('minecraft:climbable', ['minecraft:chain', /additionallanterns:.*_chain/])
-  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/, /botania:.+/, /compactmachines:.+/, /pipez:.*_pipe/])
+  e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/, /botania:.+/, /compactmachines:.+/, /pipez:.*_pipe/, 'rftoolsutility:screen'])
   e.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
 })
 
@@ -43,6 +43,9 @@ onEvent('tags.items', e => {
   e.add('exnihilosequentia:pieces', 'kubejs:cobalt_pieces')
 
   e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
+
+  e.add('forge:bows',[/twilightforest:.*_bow/])
+  e.add('forge:armor',[/mekanismtools:.*_helmet/, /mekanismtools:.*_chestplate/, /mekanismtools:.*_leggings/, /mekanismtools:.*_boots/])
 })
 
 onEvent('tags.entity_types', e => {
