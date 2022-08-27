@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:enriching",
+	"input": {
+		"ingredient": {
+			"tag": "forge:storage_blocks/raw_zinc"
+		}
+	},
+	"output": {
+		"item": "alltheores:zinc_dust",
+		"count": 12
+	}
+}
