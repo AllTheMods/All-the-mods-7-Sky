@@ -691,10 +691,6 @@ onEvent('recipes', e => {
     'ftbic:shaped/enderium_dust_2',
     'ftbic:separating/silicon_from_quartz',
     'ftbic:separating/silicon_from_sand',
-    'notenoughwands:protection_wand',
-    'notenoughwands:moving_wand',
-    'notenoughwands:swapping_wand',
-    'notenoughwands:displacement_wand'
   ]);
 
   removeRecipeByOutput(e, [

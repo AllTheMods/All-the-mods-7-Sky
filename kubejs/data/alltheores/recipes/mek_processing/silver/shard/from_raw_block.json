@@ -1,0 +1,16 @@
+{
+	"type": "mekanism:injecting",
+	"itemInput": {
+		"ingredient": {
+			"tag": "forge:storage_blocks/raw_silver"
+		}
+	},
+	"chemicalInput": {
+		"amount": 2,
+		"gas": "mekanism:hydrogen_chloride"
+	},
+	"output": {
+		"item": "alltheores:silver_shard",
+		"count": 24
+	}
+}
