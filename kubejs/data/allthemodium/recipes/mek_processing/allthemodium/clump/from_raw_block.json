@@ -1,0 +1,16 @@
+{
+	"type": "mekanism:purifying",
+	"itemInput": {
+		"ingredient": {
+			"tag": "forge:storage_blocks/raw_allthemodium"
+		}
+	},
+	"chemicalInput": {
+		"amount": 2,
+		"gas": "mekanism:oxygen"
+	},
+	"output": {
+		"item": "allthemodium:allthemodium_clump",
+		"count": 18
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "mekanism:dissolution",
+	"output": {
+		"slurry": "allthemodium:dirty_allthemodium",
+		"amount": 6000,
+		"chemicalType": "slurry"
+	},
+	"gasInput": {
+		"amount": 2,
+		"gas": "mekanism:sulfuric_acid"
+	},
+	"itemInput": {
+		"ingredient": {
+			"tag": "forge:storage_blocks/raw_allthemodium"
+		}
+	}
+}
