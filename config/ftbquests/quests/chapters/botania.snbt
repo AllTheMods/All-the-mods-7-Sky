@@ -124,7 +124,7 @@
 				{
 					id: "313583FEFA45E388"
 					type: "item"
-					item: "botania:livingwood"
+					item: "botania:livingwood_log"
 				}
 			]
 			rewards: [{

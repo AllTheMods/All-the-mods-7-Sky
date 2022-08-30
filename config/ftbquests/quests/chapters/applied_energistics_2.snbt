@@ -987,11 +987,7 @@
 			x: 10.5d
 			y: 1.5d
 			shape: "rsquare"
-			description: [
-				"New to 1.18 versions of Applied Energistics 2 is direct support for Mekanism chemicals, provided by AE2's official integration add-on &dApplied Mekanistics&f. These cells can hold most chemicals from Mekanism, including gases, pigments and ore slurries, but they will &o&lnot&r hold anything radioactive such as nuclear waste."
-				""
-				"&dMEGA Cells&f also in turn integrates directly with Applied Mekanistics to provide higher tiers of chemical cells, though with the same radioactivity restriction as the standard cells."
-			]
+			description: ["New to 1.18 versions of Applied Energistics 2 is direct support for Mekanism chemicals, provided by AE2's official integration add-on &dApplied Mekanistics&f. These cells can hold most chemicals from Mekanism, including gases, pigments and ore slurries, but they will &o&lnot&r hold anything radioactive such as nuclear waste."]
 			dependencies: ["5E24012A3D9B72A1"]
 			id: "397165BB305A887E"
 			tasks: [{
@@ -2133,7 +2129,7 @@
 			description: [
 				"The &bCrafting Co-Processing Unit&f helps speed up crafting jobs by allowing pattern providers to either send items out to their connected devices faster or to work concurrently to make multiple required ingredients."
 				""
-				"The base AE2 co-processor provides one co-processor \"thread\" to assist this, while the co-processing unit from &dMEGA Cells&f provides 4 threads in a single such block."
+				"The base AE2 co-processor provides one co-processor \"thread\" to assist this."
 			]
 			dependencies: ["30E853CE699E669B"]
 			id: "69B7DE2283B4EE6C"
@@ -2167,11 +2163,7 @@
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "Download more VRAM"
-			description: [
-				"The &bCrafting Monitor&f displays the overall item being crafted, along with the remaining quantity of that item still being crafted."
-				""
-				"Both the base AE2 monitor and the MEGA monitor function identically, but are provided for aesthetic purposes."
-			]
+			description: ["The &bCrafting Monitor&f displays the overall item being crafted, along with the remaining quantity of that item still being crafted."]
 			dependencies: ["69B7DE2283B4EE6C"]
 			id: "1348995F64A94396"
 			tasks: [{
