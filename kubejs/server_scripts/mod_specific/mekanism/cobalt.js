@@ -280,4 +280,7 @@ onEvent('recipes', event => {
             "item": "kubejs:dust_cobalt"
         }
     }).id('kubejs:processing/cobalt/dust/from_ingot')
+    event.blasting('tconstruct:cobalt_ingot', `#forge:dusts/cobalt`).xp(0.2).id(`kubejs:blasting/cobalt_ingot_from_dust`)
+    event.smelting('tconstruct:cobalt_ingot', `#forge:dusts/cobalt`).xp(0.2).id(`kubejs:smelting/cobalt_ingot_from_dust`)
+
 })
