@@ -5,9 +5,9 @@ onEvent('recipes', e => {
     // WorldTransmutation.register(BlockState original, BlockState result, (@Nullable) BlockState sneakResult)
 
     function PhiloList(idList) {
-        for (i = 0; i < idList.length; i++) {
-            forward = (i + 1) >= idList.length ? 0 : (i + 1)
-            backward = (i - 1) < 0 ? idList.length - 1 : (i - 1)
+        for (let i = 0; i < idList.length; i++) {
+            let forward = (i + 1) >= idList.length ? 0 : (i + 1)
+            let backward = (i - 1) < 0 ? idList.length - 1 : (i - 1)
             WorldTransmutation.register(
                 Block.id(idList[i]).getBlockState(),
                 Block.id(idList[forward]).getBlockState(),
