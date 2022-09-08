@@ -775,10 +775,16 @@
 			}]
 		}
 		{
+			title: "Soul Sand"
+			icon: "minecraft:soul_sand"
 			x: -2.5d
 			y: -2.5d
 			description: [
-				"Sand is not only required to get soulsand, it is also required to get the ancient spores to make mycelium! "
+				"Mycelium Spores, gotten from sieving dirt, will convert dirt to mycelium when used on it."
+				""
+				"A barrel, placed on top of mycelium, will convert water to witch water."
+				""
+				"Sand used on witch water is converted to Soul Sand"
 				""
 				"Still unsure on how this all works? check the reward from the barrel quest!"
 			]
@@ -787,11 +793,18 @@
 				"36D0417745C747B1"
 			]
 			id: "1FF2E2B85B9EC00F"
-			tasks: [{
-				id: "418174FF58791819"
-				type: "item"
-				item: "minecraft:soul_sand"
-			}]
+			tasks: [
+				{
+					id: "418174FF58791819"
+					type: "item"
+					item: "exnihilosequentia:mycelium_spores"
+				}
+				{
+					id: "2985C3F0C405582A"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
 			rewards: [{
 				id: "68025572BB281A4E"
 				type: "item"
@@ -864,7 +877,7 @@
 		}
 		{
 			title: "All Fired Up"
-			x: -2.5d
+			x: -1.0d
 			y: -5.5d
 			description: [
 				"I mean its a skyblock, no matter how many different power generation methods we try to show you in these quests, you will ultimately end up with 20 of these in your base..."
@@ -936,7 +949,7 @@
 		}
 		{
 			title: "Cobblestone Generator Mk1"
-			x: -1.0d
+			x: 0.5d
 			y: -5.5d
 			description: [
 				"If you don't want to be right-clicking the floor for the rest of eternity, make you one of these."
@@ -971,7 +984,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: 0.5d
 			y: -7.0d
 			dependencies: ["647E94E2156CB596"]
 			id: "27187D13B58AC79C"
@@ -982,8 +995,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -7.0d
+			x: 2.0d
+			y: -5.5d
 			dependencies: ["27187D13B58AC79C"]
 			id: "10B71AD29063471F"
 			tasks: [{
@@ -1016,12 +1029,12 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -1.0d
 			y: -7.0d
 			description: [
 				"Crucible heat sources are important as they make your lava production faster! This modpack has a few changes to the norm, so I thought I would add a list into the guidebook for you to show you the options"
 				""
-				"Botania blaze block: 8"
+				"Blaze Mesh: 8"
 				"Uranium block: 20"
 				"Mekanism superheating element: 60"
 				"Dark matter block: 100"
@@ -1045,6 +1058,39 @@
 				id: "2019707AE4DAC703"
 				type: "checkmark"
 				title: "Emergency Saplings"
+			}]
+		}
+		{
+			title: "Slimeball"
+			icon: "minecraft:slime_ball"
+			x: -2.5d
+			y: -5.5d
+			description: [
+				"Mycelium Spores, when used on witch water, will turn into a brown mushroom block."
+				""
+				"Place the mushroom block down and break it for a chance at a brown mushroom."
+				""
+				"A Brown Mushroom, when used on witch water, will turn into a slime block. This can then be crafted down to 9 slime balls."
+			]
+			dependencies: ["42240BED17BA0948"]
+			id: "40A3726417C13F83"
+			tasks: [
+				{
+					id: "4B2B4ECCAB499E6A"
+					type: "item"
+					item: "minecraft:brown_mushroom_block"
+				}
+				{
+					id: "54859420D904A6AC"
+					type: "item"
+					item: "minecraft:slime_block"
+				}
+			]
+			rewards: [{
+				id: "0CE1884C5B451E96"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 9
 			}]
 		}
 	]

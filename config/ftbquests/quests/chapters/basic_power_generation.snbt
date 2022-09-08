@@ -755,13 +755,23 @@
 					item: "minecraft:brewing_stand"
 				}
 				{
-					id: "6F44EE1448CC129B"
+					id: "4ABBA7E0F03D6347"
 					type: "item"
-					item: {
+					title: "3x Mundane Potion"
+					icon: {
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
 							Potion: "minecraft:mundane"
+						}
+					}
+					item: {
+						id: "itemfilters:strong_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								Potion: "minecraft:mundane"
+							}
 						}
 					}
 					count: 3L
@@ -800,13 +810,23 @@
 			dependencies: ["424202C5D36CC1C2"]
 			id: "339FCC2A29AF2383"
 			tasks: [{
-				id: "7D280336B99F6A2D"
+				id: "5517558520E5FC3D"
 				type: "item"
-				item: {
+				title: "3x DiamondSight"
+				icon: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
 						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:diamond_sight"
+						}
 					}
 				}
 				count: 3L
@@ -896,14 +916,25 @@
 			dependencies: ["339FCC2A29AF2383"]
 			id: "12896E050F9F27E8"
 			tasks: [{
-				id: "2EE756B107D7F88F"
+				id: "215DF326A14D0DC0"
 				type: "item"
-				item: {
+				title: "Charm of DiamondSight"
+				icon: {
 					id: "apotheosis:potion_charm"
 					Count: 1b
 					tag: {
 						Damage: 0
 						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:diamond_sight"
+						}
 					}
 				}
 			}]
