@@ -16,7 +16,6 @@ onEvent('recipes', e => {
     unobtainium: 'allthemodium',
     compressed_iron: 'pneumaticcraft',
     iesnium: 'occultism',
-    iridium: 'ftbic',
   }
   function mekUnifyOres(metal, type) {
     let input = '';
@@ -86,8 +85,6 @@ onEvent('recipes', e => {
       time = 350;
       input = `#forge:ores/${metal}`;
       let out = `${oreOverride[metal] ?? 'alltheores'}:raw_${metal}`;
-      // override until ATO iridium is available
-      if (out === 'ftbic:raw_iridium') out = 'ftbic:iridium_chunk';
 
       outputs.push({
         item: out
@@ -373,7 +370,7 @@ onEvent('recipes', e => {
       e.remove({type:'thermal:pulverizer', id: `/${metal}_ore/`})
       outputs.push(Item.of(`${craftOverride[metal] ?? 'alltheores'}:${metal}_dust`).withChance(2.0))
       if (metal in thermalSecondaries) {
-        extraItem = thermalSecondaries[metal]
+        let extraItem = thermalSecondaries[metal]
         if (extraItem.includes('thermal')) {
           outputs.push(Item.of(extraItem).withChance(0.1))
         } else {
@@ -386,7 +383,7 @@ onEvent('recipes', e => {
       e.remove({type:'thermal:pulverizer', id: `/raw_${metal}/`})
       outputs.push(Item.of(`${craftOverride[metal] ?? 'alltheores'}:${metal}_dust`).withChance(1.25))
       if (metal in thermalSecondaries) {
-        extraItem = thermalSecondaries[metal]
+        let extraItem = thermalSecondaries[metal]
         if (extraItem.includes('thermal')) {
           outputs.push(Item.of(extraItem).withChance(0.05))
         } else {
@@ -537,7 +534,7 @@ onEvent('recipes', e => {
     thermalUnifyPulverizer(alloy, 'ingot');
     mekUnifyOres(alloy, 'ingot');
     createPressing(alloy);
-  })
+  });
 
   vanillaMetals.concat(mekanismMetals).forEach(ore => {
     ['ore', 'raw_ore', 'ingot', 'dirty_dust'].forEach(type => mekUnifyOres(ore, type));
@@ -611,6 +608,11 @@ onEvent('recipes', e => {
     ['ore', 'raw_ore', 'ingot'].forEach(type => occultismUnifyCrusher(ore, type));
     ['ore', 'raw_ore', 'ingot'].forEach(type => ftbicUnifyOres(ore, type));
   });
+
+    // add iridium recipes
+    ['plate', 'gear', 'rod'].forEach(type => ieUnifyPress('iridium', type));
+    ['plate', 'gear', 'rod'].forEach(type => ftbicUnifyPress('iridium', type));
+    ['plate', 'gear', 'unpacking', 'packing'].forEach(type => thermalUnifyPress('iridium', type));
 
   e.custom({
     "type": "immersiveengineering:crusher",

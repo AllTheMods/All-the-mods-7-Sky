@@ -106,13 +106,23 @@
 			description: ["This potion will allow you to see the respective ore through the walls."]
 			id: "3EE9F242794CD95F"
 			tasks: [{
-				id: "03F9DE34E4C766D8"
+				id: "15F5B24545C0D42F"
 				type: "item"
-				item: {
+				title: "IronSight"
+				icon: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
 						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:iron_sight"
+						}
 					}
 				}
 			}]
@@ -331,14 +341,25 @@
 			dependencies: ["3EE9F242794CD95F"]
 			id: "6396AA6918B47DDC"
 			tasks: [{
-				id: "3611DE52B33035E8"
+				id: "3F38B1E12C1ADEF1"
 				type: "item"
-				item: {
+				title: "Charm of IronSight"
+				icon: {
 					id: "apotheosis:potion_charm"
 					Count: 1b
 					tag: {
 						Damage: 0
 						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:iron_sight"
+						}
 					}
 				}
 			}]

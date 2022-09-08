@@ -95,17 +95,27 @@
 		{
 			x: -2.5d
 			y: 2.0d
-			description: ["t is recommended to craft this potion with your first ingot."]
+			description: ["It is recommended to craft this potion with your first ingot."]
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "04AB01C841CD3E3F"
 			tasks: [{
-				id: "2F97DA30FE1982CF"
+				id: "4D07DFEC577A1D69"
 				type: "item"
-				item: {
+				title: "AllthemodiumSight"
+				icon: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
 						Potion: "potionsmaster:allthemodium_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:allthemodium_sight"
+						}
 					}
 				}
 			}]
@@ -147,13 +157,23 @@
 			dependencies: ["61FDABF2C7CC1F9D"]
 			id: "7496DB58411060AE"
 			tasks: [{
-				id: "0C83388DB2387448"
+				id: "5636AA97D48DBB62"
 				type: "item"
-				item: {
+				title: "VibraniumSight"
+				icon: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
 						Potion: "potionsmaster:vibranium_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:vibranium_sight"
+						}
 					}
 				}
 			}]
@@ -176,13 +196,23 @@
 			dependencies: ["44760B819EB3CA68"]
 			id: "76016E5C8C9397D2"
 			tasks: [{
-				id: "238E353C6A05F0A3"
+				id: "4AB603FED6BCC0D0"
 				type: "item"
-				item: {
+				title: "UnobtainiumSight"
+				icon: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
 						Potion: "potionsmaster:unobtainium_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:unobtainium_sight"
+						}
 					}
 				}
 			}]
@@ -252,14 +282,25 @@
 			dependencies: ["04AB01C841CD3E3F"]
 			id: "6CDAE6626ACA1897"
 			tasks: [{
-				id: "0F12B54714A6E502"
+				id: "09F8A304D1726099"
 				type: "item"
-				item: {
+				title: "Charm of AllthemodiumSight"
+				icon: {
 					id: "apotheosis:potion_charm"
 					Count: 1b
 					tag: {
 						Damage: 0
 						Potion: "potionsmaster:allthemodium_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:allthemodium_sight"
+						}
 					}
 				}
 			}]
@@ -276,14 +317,25 @@
 			dependencies: ["7496DB58411060AE"]
 			id: "479B9579742354E1"
 			tasks: [{
-				id: "52C5601FBBA7966C"
+				id: "5A8A3CA3B471126F"
 				type: "item"
-				item: {
+				title: "Charm of VibraniumSight"
+				icon: {
 					id: "apotheosis:potion_charm"
 					Count: 1b
 					tag: {
 						Damage: 0
 						Potion: "potionsmaster:vibranium_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:vibranium_sight"
+						}
 					}
 				}
 			}]
@@ -300,14 +352,25 @@
 			dependencies: ["76016E5C8C9397D2"]
 			id: "2D76BDEC76B0C788"
 			tasks: [{
-				id: "7EBAE80EDF561AF2"
+				id: "3AE3A68455900EDF"
 				type: "item"
-				item: {
+				title: "Charm of UnobtainiumSight"
+				icon: {
 					id: "apotheosis:potion_charm"
 					Count: 1b
 					tag: {
 						Damage: 0
 						Potion: "potionsmaster:unobtainium_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:unobtainium_sight"
+						}
 					}
 				}
 			}]

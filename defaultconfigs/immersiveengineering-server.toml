@@ -1,0 +1,146 @@
+[ores]
+	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
+	#Change this in combination with the retrogen booleans to regen only some of the ores.
+	retrogen_key = "DEFAULT"
+	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
+	retrogen_log_flagChunk = true
+	#Set this to false to disable the logging of the chunks that are still left to retrogen.
+	retrogen_log_remaining = true
+
+	#Ore generation config - bauxite
+	[ores.bauxite]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 32
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 112
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 16
+		#Set this to true to allow retro-generation of bauxite Ore.
+		retrogen_enable = false
+
+	#Ore generation config - lead
+	[ores.lead]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -32
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 80
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 8
+		#Set this to true to allow retro-generation of lead Ore.
+		retrogen_enable = false
+
+	#Ore generation config - silver
+	[ores.silver]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.25
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -48
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 32
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 6
+		#Set this to true to allow retro-generation of silver Ore.
+		retrogen_enable = false
+
+	#Ore generation config - nickel
+	[ores.nickel]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "UNIFORM"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -64
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 24
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 7
+		#Set this to true to allow retro-generation of nickel Ore.
+		retrogen_enable = false
+
+	#Ore generation config - deep_nickel
+	[ores.deep_nickel]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -120
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = -8
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 8
+		#Set this to true to allow retro-generation of deep_nickel Ore.
+		retrogen_enable = false
+
+	#Ore generation config - uranium
+	[ores.uranium]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.5
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -64
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = -16
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 9
+		#Set this to true to allow retro-generation of uranium Ore.
+		retrogen_enable = false
