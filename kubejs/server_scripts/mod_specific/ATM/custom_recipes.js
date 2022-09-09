@@ -15,4 +15,8 @@ onEvent(`recipes`, e => {
   }
 
   customBlock(`kubejs:lithium_block`, `mekanism:dust_lithium`)
+
+  // take tag recipe off nether star block
+  e.remove({id:'allthetweaks:nether_star_block'})
+  e.shaped('allthetweaks:nether_star_block', ['NNN','NNN','NNN'], {N:'minecraft:nether_star'}).id('kubejs:nether_star_block')
 })
