@@ -139,7 +139,7 @@ onEvent("ponder.registry", event => {
                     scene.world.incrementBlockBreakingProgress([2, 1, 2])
                     scene.idle(4)
                 }
-                thing = scene.world.createItemEntity(util.vector.of(2, 1, 2), util.vector.of(-0.06, 0.3, -0.06), crush.out)
+                let thing = scene.world.createItemEntity(util.vector.of(2, 1, 2), util.vector.of(-0.06, 0.3, -0.06), crush.out)
                 scene.idle(20)
                 scene.world.removeEntity(thing)
             })
