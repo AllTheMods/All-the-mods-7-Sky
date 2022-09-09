@@ -11,8 +11,8 @@ onEvent('block.right_click', event => {
               "exnihilosequentia:diorite_pebble",
               "exnihilosequentia:granite_pebble"
           ]
-          random = Math.floor(Math.random() * 2 * loot.length)
-          dropItem = Item.of(loot[random] ?? "exnihilosequentia:stone_pebble")
+          let random = Math.floor(Math.random() * 2 * loot.length)
+          let dropItem = Item.of(loot[random] ?? "exnihilosequentia:stone_pebble")
           block.popItemFromFace(dropItem,event.facing)
           //player.addExhaustion(1)
           player.swingArm(event.hand)
