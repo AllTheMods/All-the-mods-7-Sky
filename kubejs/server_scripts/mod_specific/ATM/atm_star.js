@@ -48,24 +48,27 @@ onEvent('recipes', e => {
   }).id('kubejs:allthetweaks/philosophers_fuel')
   //#endregion
   //#region Improbable Probaility Device
-  e.shaped('allthetweaks:improbable_probability_device', ['AAB', 'CGE', 'FDF'], {
+  e.shaped('allthetweaks:improbable_probability_device', ['AHB', 'CGE', 'FDF'], {
     A: 'computercraft:monitor_advanced',
     B: 'mekanismgenerators:module_solar_recharging_unit',
     C: 'ae2:cell_component_256k',
     D: 'forbidden_arcanus:eternal_obsidian_skull',
     E: Item.of('apotheosis:potion_charm', { Damage: 0, Potion: "apotheosis:strong_knowledge" }),
     F: 'allthecompressed:enderium_block_3x',
-    G: 'ftbic:nuke'
+    G: 'ftbic:nuke',
+    H: 'solargeneration:solar_panel_ultimate'   
   }).id('kubejs:allthetweaks/improbable_probability_device')
   //#endregion
   //#region Nexium Emitter
-  e.shaped('allthetweaks:nexium_emitter', ['A C', ' BF', 'CED'], {
+  e.shaped('allthetweaks:nexium_emitter', ['AGC', 'HBF', 'CED'], {
     A: 'ftbic:ev_solar_panel',
-    B: ['ae2:wireless_terminal', 'ae2:wireless_crafting_terminal', 'refinedstorageaddons:wireless_crafting_grid', 'refinedstorage:wireless_grid', 'refinedstorage:wireless_fluid_grid'],
+    B: 'ae2:dense_energy_cell',
     C: 'alltheores:platinum_block',
     D: 'allthecompressed:netherite_block_5x',
     E: 'ae2:singularity',
-    F: 'mekanismgenerators:module_solar_recharging_unit'
+    F: 'mekanismgenerators:module_solar_recharging_unit',
+    G: 'ae2:wireless_receiver',
+    H: 'ae2:crafting_terminal'
   }).id('kubejs:allthetweaks/nexium_emitter')
   //#endregion
 
@@ -122,15 +125,15 @@ onEvent('recipes', e => {
   //#endregion
   //#region ATM Star
   e.recipes.create.mechanical_crafting('allthetweaks:atm_star', [
-    '    A    ',
+    '    O    ',
     '   AJA   ',
-    'AAAJFJAAA',
+    'OAAJFJAAO',
     'AJJCDEJJA',
     ' ANBIHMA ',
     '  AKGLA  ',
     ' AJJAJJA ',
     'AJJA AJJA',
-    'AAA   AAA'
+    'OAA   AAO'
   ], {
     A: 'allthemodium:unobtainium_allthemodium_alloy_block',
     B: 'allthetweaks:nexium_emitter',
@@ -145,7 +148,8 @@ onEvent('recipes', e => {
     K: 'allthetweaks:philosophers_fuel',
     L: 'mysticalagradditions:creative_essence',
     M: 'mythicbotany:muspelheim_rune',
-    N: 'mythicbotany:nidavellir_rune'
+    N: 'mythicbotany:nidavellir_rune',
+    O: 'projecte:red_matter_block'
   }).id('kubejs:allthetweaks/atm_star')
   //#endregion
   //#endregion
