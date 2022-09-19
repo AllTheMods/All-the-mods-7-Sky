@@ -1618,5 +1618,29 @@
 				item: "mysticalagriculture:cobalt_seeds"
 			}]
 		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "7E3CFCA1FA24035B"
+			tasks: [{
+				id: "2225914577A74566"
+				type: "item"
+				item: "mysticalagriculture:limestone_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "2DA32E581C358329"
+			tasks: [{
+				id: "5C5704B545B046CD"
+				type: "item"
+				item: "mysticalagriculture:deepslate_seeds"
+			}]
+		}
 	]
 }
