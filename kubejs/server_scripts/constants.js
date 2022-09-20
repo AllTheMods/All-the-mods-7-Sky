@@ -13,6 +13,8 @@ let ftbicMetals = ['tin', 'lead', 'uranium', 'iridium', 'aluminum']
 let ftbicAlloys = ['enderium', 'bronze']
 let thermalMetals = ['tin', 'lead', 'silver', 'nickel']
 let thermalAlloys = ['bronze', 'electrum', 'invar', 'constantan', 'signalum', 'lumium', 'enderium']
+//  jq '.elements[] | select((.metal_type==\"metal\") and (has(\"artificial\") | not)) | .name' elements.json
+let chemlibMetals = ['lithium', 'beryllium', 'sodium', 'magnesium', 'aluminum', 'potassium', 'calcium', 'scandium', 'titanium', 'vanadium', 'chromium', 'manganese', 'cobalt', 'nickel', 'zinc', 'gallium', 'rubidium', 'strontium', 'yttrium', 'zirconium', 'niobium', 'molybdenum', 'ruthenium', 'rhodium', 'palladium', 'silver', 'cadmium', 'indium', 'tin', 'cesium', 'barium', 'lanthanum', 'cerium', 'praseodymium', 'neodymium', 'samarium', 'europium', 'gadolinium', 'terbium', 'dysprosium', 'holmium', 'erbium', 'thulium', 'ytterbium', 'lutetium', 'hafnium', 'tantalum', 'tungsten', 'rhenium', 'osmium', 'iridium', 'platinum', 'thallium', 'lead', 'bismuth', 'polonium', 'francium', 'radium', 'actinium', 'thorium', 'protactinium', 'uranium']
 
 let modifyShaped = (e, result, count, pattern, ingredients) => {
   e.remove({ output: result, type: 'minecraft:crafting_shaped' })
