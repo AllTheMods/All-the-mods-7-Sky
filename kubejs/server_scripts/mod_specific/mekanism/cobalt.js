@@ -7,8 +7,8 @@ onEvent('tags.items', event => {
     event.add('mekanism:crystals/cobalt', 'kubejs:crystal_cobalt')
     event.add('mekanism:dirty_dusts', 'kubejs:dirty_dust_cobalt')
     event.add('mekanism:dirty_dusts/cobalt', 'kubejs:dirty_dust_cobalt')
-    event.add('forge:dusts', 'kubejs:dust_cobalt')
-    event.add('forge:dusts/cobalt', 'kubejs:dust_cobalt')
+    event.add('forge:dusts', 'chemlib:cobalt_dust')
+    event.add('forge:dusts/cobalt', 'chemlib:cobalt_dust')
 })
 
 onEvent('recipes', event => {
@@ -224,25 +224,12 @@ onEvent('recipes', event => {
     event.custom({
         "type": "mekanism:enriching",
         "input": {
-            "amount": 3,
-            "ingredient": {
-                "tag": "forge:raw_materials/cobalt"
-            }
-        },
-        "output": {
-            "item": "kubejs:dust_cobalt",
-            "count": 4
-        }
-    }).id('kubejs:processing/cobalt/dust/from_raw_ore')
-    event.custom({
-        "type": "mekanism:enriching",
-        "input": {
             "ingredient": {
                 "tag": "mekanism:dirty_dusts/cobalt"
             }
         },
         "output": {
-            "item": "kubejs:dust_cobalt"
+            "item": "chemlib:cobalt_dust"
         }
     }).id('kubejs:processing/cobalt/dust/from_dirty_dust')
     event.custom({
@@ -253,33 +240,10 @@ onEvent('recipes', event => {
             }
         },
         "output": {
-            "item": "kubejs:dust_cobalt",
+            "item": "chemlib:cobalt_dust",
             "count": 12
         }
     }).id('kubejs:processing/cobalt/dust/from_raw_block')
-    event.custom({
-        "type": "mekanism:enriching",
-        "input": {
-            "ingredient": {
-                "tag": "forge:ores/cobalt"
-            }
-        },
-        "output": {
-            "item": "kubejs:dust_cobalt",
-            "count": 2
-        }
-    }).id('kubejs:processing/cobalt/dust/from_ore')
-    event.custom({
-        "type": "mekanism:crushing",
-        "input": {
-            "ingredient": {
-                "tag": "forge:ingots/cobalt"
-            }
-        },
-        "output": {
-            "item": "kubejs:dust_cobalt"
-        }
-    }).id('kubejs:processing/cobalt/dust/from_ingot')
     event.blasting('tconstruct:cobalt_ingot', `#forge:dusts/cobalt`).xp(0.2).id(`kubejs:blasting/cobalt_ingot_from_dust`)
     event.smelting('tconstruct:cobalt_ingot', `#forge:dusts/cobalt`).xp(0.2).id(`kubejs:smelting/cobalt_ingot_from_dust`)
 
