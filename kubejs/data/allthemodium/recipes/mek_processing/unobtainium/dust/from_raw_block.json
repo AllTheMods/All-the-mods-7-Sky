@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:enriching",
+	"input": {
+		"ingredient": {
+			"tag": "forge:storage_blocks/raw_unobtainium"
+		}
+	},
+	"output": {
+		"item": "allthemodium:unobtainium_dust",
+		"count": 12
+	}
+}
