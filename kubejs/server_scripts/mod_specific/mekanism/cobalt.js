@@ -7,8 +7,8 @@ onEvent('tags.items', event => {
     event.add('mekanism:crystals/cobalt', 'kubejs:crystal_cobalt')
     event.add('mekanism:dirty_dusts', 'kubejs:dirty_dust_cobalt')
     event.add('mekanism:dirty_dusts/cobalt', 'kubejs:dirty_dust_cobalt')
-    event.add('forge:dusts', 'chemlib:cobalt_dust')
-    event.add('forge:dusts/cobalt', 'chemlib:cobalt_dust')
+    event.add('forge:dusts', 'kubejs:dust_cobalt')
+    event.add('forge:dusts/cobalt', 'kubejs:dust_cobalt')
 })
 
 onEvent('recipes', event => {
