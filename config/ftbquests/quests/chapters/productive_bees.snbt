@@ -2068,46 +2068,6 @@
 			}]
 		}
 		{
-			title: "Quartz Enriched Iron Bees"
-			icon: "refinedstorage:quartz_enriched_iron"
-			x: 3.0d
-			y: 14.5d
-			subtitle: "Crystalline + Iron"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "7EF552BC18CFA494"
-			tasks: [{
-				id: "70C081613574CFA8"
-				type: "item"
-				title: "Quartz Enriched Iron Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:quartz_enriched_iron"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:quartz_enriched_iron"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "799BB5BB9EBA83AC"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "Electrum Bees"
 			icon: "alltheores:electrum_ingot"
 			x: 0.0d
@@ -3244,8 +3204,8 @@
 		{
 			title: "Plastic Bee"
 			icon: "industrialforegoing:plastic"
-			x: 1.0d
-			y: 18.5d
+			x: 3.0d
+			y: 14.5d
 			subtitle: "Resin + Lumber"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3496,7 +3456,7 @@
 		}
 		{
 			title: "Silicon Bee"
-			icon: "refinedstorage:silicon"
+			icon: "ae2:silicon"
 			x: 2.0d
 			y: 16.0d
 			subtitle: "Nomad + Reed"
