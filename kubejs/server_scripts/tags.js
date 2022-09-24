@@ -53,6 +53,7 @@ onEvent('tags.items', e => {
   e.add('minecraft:logs', ['integrateddynamics:menril_log_stripped', 'integrateddynamics:menril_wood_stripped', /allthemodium:stripped_\w+_log/])
   e.add('forge:stripped_logs', [/allthemodium:stripped_\w+_log/])
 
+  e.add('forge:hoes',[/twilightforest:.*_hoe/, /mekanismtools:.*_hoe/, /projecte:.*_hoe/, /mysticalagriculture:.*_hoe/, /allthemodium:.*_hoe/, /botania:.*_hoe/, /ae2:.*_hoe/])
   e.add('forge:bows',[/twilightforest:.*_bow/])
   e.add('forge:armor',[/mekanismtools:.*_helmet/, /mekanismtools:.*_chestplate/, /mekanismtools:.*_leggings/, /mekanismtools:.*_boots/])
 })
