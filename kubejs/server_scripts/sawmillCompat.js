@@ -266,9 +266,9 @@ onEvent('recipes', e => {
                 addRecipeCreateCutting(stripped, [createOutput], 50, id2)
             }
             logs.forEach(log => {
-                logitem = log.item.toString()
+                let logitem = log.item.toString()
                 stripped.forEach(strip => {
-                    match = `stripped_${logitem}`
+                    let match = `stripped_${logitem}`
                     if (parsed[0] == 'botania' && logitem.contains('glimmering')) {
                         match = `glimmering_stripped_${logitem.slice(11)}`
                     }
@@ -295,14 +295,14 @@ onEvent('recipes', e => {
         } else {
             let found = false
             e.forEachRecipe({type: 'thermal:sawmill'}, recipe => {
-                recipeId = recipe.getId()
-                regex = new RegExp(`${parsed[1]}_[log|stem]`)
+                let recipeId = recipe.getId()
+                let regex = new RegExp(`${parsed[1]}_[log|stem]`)
                 if (regex.test(recipeId)) {
                     if (parsed[0] == 'minecraft') {
                         found = true
                         return;
                     }
-                    regex2 = new RegExp(parsed[0])
+                    let regex2 = new RegExp(parsed[0])
                     if (regex2.test(recipeId)) {
                         found = true
                     }
