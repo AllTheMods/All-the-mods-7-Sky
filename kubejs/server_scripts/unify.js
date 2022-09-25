@@ -681,6 +681,35 @@ onEvent('recipes', e => {
     e.smelting(`${oreOverride[ore] ?? 'alltheores'}:${ore}_ingot`, `#forge:raw_materials/${ore}`).xp(0.7).id(`kubejs:smelting/${ore}_ingot_from_raw`)
   }
 
+  function tconstructUnifyCasting(ore, type) {
+    if (type == 'storage_block') {
+      e.forEachRecipe({type:"tconstruct:casting_basin", id: `/casting/metal/${ore}/`}, recipe => {
+        let result = recipe.json.get('result')
+        if (Ingredient.of(`#forge:${type}s/${ore}`).anyStackMatches(Ingredient.of(result))) {
+          result = `${oreOverride[ore] ?? 'alltheores'}:${ore}_block`
+          recipe.json.add('result', result)
+          recipe.json.remove('conditions')
+        }
+      })
+    } else {
+      e.forEachRecipe({type:"tconstruct:casting_table", id: `/casting/metal/${ore}/${type}`}, recipe => {
+        let result = recipe.json.get('result')
+        if (Ingredient.of(`#forge:${type}s/${ore}`).anyStackMatches(Ingredient.of(result))) {
+          result = `${oreOverride[ore] ?? 'alltheores'}:${ore}_${type}`
+          if (vanillaMetals.includes(ore)) {
+            if (ore == "copper" && type == "nugget") {
+              result = `alltheores:${ore}_${type}`
+            } else if (type != "nugget" && type != "ingot") {
+              result = `alltheores:${ore}_${type}`
+            }
+          }
+          recipe.json.add('result', result)
+          recipe.json.remove('conditions')
+        }
+      })
+    }
+  }
+
   vanillaMetals.forEach(metal => {
     removeRecipeByID(e, [
       `bloodmagic:smelting/ingot_${metal}`,
@@ -698,6 +727,7 @@ onEvent('recipes', e => {
     ['ore', 'raw_ore', 'ingot'].forEach(type => occultismUnifyCrusher(ore, type));
     ['plate', 'gear', 'rod'].forEach(type => ieUnifyPress(ore, type));
     ['plate', 'gear', 'rod'].forEach(type => ftbicUnifyPress(ore, type));
+    ['plate', 'gear', 'rod', 'ingot', 'nugget', 'storage_block'].forEach(type => tconstructUnifyCasting(ore, type));
     ['plate', 'gear', 'unpacking', 'packing', 'raw_unpacking', 'raw_packing', 'nugget_unpacking', 'nugget_packing'].forEach(type => thermalUnifyPress(ore, type));
     createPressing(ore);
     createAdditionsUnifyRolling(ore);
@@ -711,6 +741,7 @@ onEvent('recipes', e => {
   atoAlloys.forEach(alloy => {
     ['plate', 'gear', 'rod'].forEach(type => ieUnifyPress(alloy, type));
     ['plate', 'gear', 'rod'].forEach(type => ftbicUnifyPress(alloy, type));
+    ['plate', 'gear', 'rod', 'ingot', 'nugget', 'storage_block'].forEach(type => tconstructUnifyCasting(alloy, type));
     ['plate', 'gear', 'unpacking', 'packing', 'nugget_unpacking', 'nugget_packing'].forEach(type => thermalUnifyPress(alloy, type));
     ftbicUnifyOres(alloy, 'ingot');
     thermalUnifyPulverizer(alloy, 'ingot');
