@@ -553,8 +553,8 @@
 		{
 			title: "Iron Bees"
 			icon: "minecraft:iron_ingot"
-			x: 1.0d
-			y: 9.5d
+			x: 2.0d
+			y: 10.0d
 			subtitle: "Ashy Mining + Crystalline"
 			description: [""]
 			hide_dependency_lines: true
@@ -2193,8 +2193,8 @@
 		{
 			title: "Blazing Bee"
 			icon: "minecraft:blaze_rod"
-			x: -1.0d
-			y: 10.5d
+			x: 0.0d
+			y: 18.0d
 			subtitle: "Magmatic + Nomad"
 			description: [""]
 			hide_dependency_lines: true
@@ -2585,8 +2585,8 @@
 		{
 			title: "Coal Bee"
 			icon: "minecraft:coal"
-			x: 2.0d
-			y: 10.0d
+			x: -1.0d
+			y: 10.5d
 			subtitle: "Blazing + Leafcutter"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3152,54 +3152,6 @@
 			}]
 			rewards: [{
 				id: "30C7803BBB6B7F56"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Pepto Beesmol Bee"
-			icon: {
-				id: "productivebees:configurable_comb"
-				Count: 1b
-				tag: {
-					EntityTag: {
-						type: "productivebees:pepto_bismol"
-					}
-				}
-			}
-			x: 0.0d
-			y: 18.0d
-			subtitle: "Sugarbag + Neon Cuckoo"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "2B1985B5774B977B"
-			tasks: [{
-				id: "4C8BCD20A4DF8353"
-				type: "item"
-				title: "Pepto Bismol Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:pepto_bismol"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:pepto_bismol"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "16918EC0704ED7D2"
 				type: "xp"
 				xp: 100
 			}]
@@ -3820,8 +3772,8 @@
 		{
 			title: "Amethyst Bee"
 			icon: "minecraft:amethyst_cluster"
-			x: 6.0d
-			y: 11.0d
+			x: 7.0d
+			y: 12.5d
 			subtitle: "Feed a Diamond Bee Amethyst"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3860,8 +3812,8 @@
 		{
 			title: "Apatite Bee"
 			icon: "thermal:apatite"
-			x: 5.0d
-			y: 11.5d
+			x: 7.0d
+			y: 14.5d
 			subtitle: "Feed a Diamond Bee Apatite!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3893,46 +3845,6 @@
 			}]
 			rewards: [{
 				id: "7480C69F90A56B15"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Brown Shroombee"
-			icon: "minecraft:brown_mushroom"
-			x: 7.0d
-			y: 11.5d
-			subtitle: "Feed a Shroombee a Brown Mushroom!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "01F7F3589EBD8872"
-			tasks: [{
-				id: "30FE30A7FA067459"
-				type: "item"
-				title: "Brown Shroombee Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:brown_shroom"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:brown_shroom"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "52ABD90406552164"
 				type: "xp"
 				xp: 100
 			}]
@@ -4018,47 +3930,6 @@
 			}]
 			rewards: [{
 				id: "4C709117DECA0969"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Crimson Shroombee"
-			icon: "minecraft:crimson_fungus"
-			x: 7.0d
-			y: 12.5d
-			subtitle: "Feed a Shroombee a Crimson Fungus!"
-			description: [""]
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "176ACC61DC206E55"
-			tasks: [{
-				id: "3B35F86B42989063"
-				type: "item"
-				title: "Crimson Shroombee Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:crimson"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:crimson"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "138D9A13CD9CBC15"
 				type: "xp"
 				xp: 100
 			}]
@@ -4187,7 +4058,7 @@
 			title: "Hoarder Bee"
 			icon: "minecraft:shulker_box"
 			x: 6.0d
-			y: 17.0d
+			y: 16.0d
 			subtitle: "Feed a Collector Bee a Shulker Shell!"
 			description: ["Collects items on the ground and brings it back to its nest."]
 			hide_dependency_lines: true
@@ -4280,46 +4151,6 @@
 			}]
 			rewards: [{
 				id: "677634D163F8DDDB"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Red Shroombee"
-			icon: "minecraft:red_mushroom"
-			x: 7.0d
-			y: 14.5d
-			subtitle: "Feed a Shroombee a Red Mushroom!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "37CD9BF281903F56"
-			tasks: [{
-				id: "39899761508BFACE"
-				type: "item"
-				title: "Red Shroombee Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:red_shroom"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:red_shroom"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7AB48FA4789D87C9"
 				type: "xp"
 				xp: 100
 			}]
@@ -4480,46 +4311,6 @@
 			}]
 			rewards: [{
 				id: "208C7CC2B4283F0F"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Warped Shroombee"
-			icon: "minecraft:warped_fungus"
-			x: 6.0d
-			y: 16.0d
-			subtitle: "Feed a Shroombee Warped Fungus!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "2982D38BD5EE6349"
-			tasks: [{
-				id: "094F0FCF9A64EE00"
-				type: "item"
-				title: "Warped Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:warped"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:warped"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1D2DDC683FE6A9C3"
 				type: "xp"
 				xp: 100
 			}]
