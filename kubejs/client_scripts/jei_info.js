@@ -3,6 +3,7 @@ onEvent('jei.information', event => {
     event.add('productivebees:sand_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
     event.add('productivebees:snow_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
     event.add('productivebees:gravel_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
+    event.add('productivebees:slimy_nest', 'In this Skyblock, this nest will attract bees in any overworld biome.')
     
     event.add('mekanism:creative_energy_cube',[
         'Needs to be energized in a Powah energizing rod with a ATM star.',
