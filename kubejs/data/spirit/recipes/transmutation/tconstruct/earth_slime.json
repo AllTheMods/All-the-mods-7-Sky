@@ -30,5 +30,8 @@
     ],
     "entityOutput": "tconstruct:earth_slime",
     "duration": 60,
-    "shouldSummonMob": true
+    "shouldSummonMob": true,
+    "outputNbt": {
+        "size": 3
+    }
 }

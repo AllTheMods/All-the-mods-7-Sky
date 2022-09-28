@@ -95,8 +95,13 @@
 				""
 				"Find yourself a nest, but don't break it! Let the Bees do their thing, and harvest some Honeycombs with Shears, and Honey Bottles with a Glass Bottle. We'll need them!"
 			]
-			dependencies: ["13AA91D39A2CABF2"]
+			dependencies: [
+				"13AA91D39A2CABF2"
+				"59EFBCCB8CEE9954"
+				"27D92D7128C52F26"
+			]
 			hide: true
+			dependency_requirement: "one_completed"
 			id: "1A0130101413F55F"
 			tasks: [{
 				id: "73C0DA2CE5D4110C"
@@ -225,8 +230,8 @@
 		}
 		{
 			title: "Wood Nest"
-			x: -4.0d
-			y: 5.0d
+			x: -8.0d
+			y: 3.5d
 			subtitle: "Can be used in any Overworld biome"
 			description: [
 				"Wood Nests are used to lure Carpenter Bees and the Blue Banded Bee."
@@ -235,6 +240,7 @@
 				""
 				"These can be placed in any Overworld Biome."
 			]
+			hide_dependency_lines: true
 			dependencies: ["120BDCB70AD352AC"]
 			hide: false
 			id: "00A17728A387B426"
@@ -277,8 +283,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 5.5d
+			x: -6.0d
+			y: 3.5d
 			subtitle: "Lures Bees in any Overworld Biome"
 			description: ["The Stone Nest can be placed in any overworld biome to lure in a Mason Bee or Digger Bee."]
 			hide_dependency_lines: true
@@ -298,7 +304,7 @@
 		}
 		{
 			x: -4.0d
-			y: 4.0d
+			y: 3.5d
 			subtitle: "Any Overworld Biome"
 			description: [
 				"The &eDirt Nest&r can be placed in any overworld biome to lure in bees."
@@ -320,8 +326,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 4.5d
+			x: -7.0d
+			y: 3.5d
 			subtitle: "Lures bees in Desert Biomes"
 			description: ["When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee."]
 			hide_dependency_lines: true
@@ -340,8 +346,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.5d
+			x: -6.5d
+			y: 4.5d
 			subtitle: "Lures the Sweat Bee in Cold Biomes"
 			description: ["Placing a Snow Nest in a snowy biome will lure in a Sweat Bee."]
 			hide_dependency_lines: true
@@ -384,7 +390,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -7.5d
 			y: 4.5d
 			subtitle: "Lures bees in any Overworld Biome"
 			description: ["A Reed Nest will work in any overworld biome, and will lure in a Mason Bee or a Reed Bee."]
@@ -404,8 +410,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 5.5d
+			x: -8.5d
+			y: 4.5d
 			subtitle: "Lures in a Slimy Bee in a Swamp Biome"
 			description: ["When placed in a swamp biome, the Slimy Nest will lure in Slimy Bees."]
 			hide_dependency_lines: true
@@ -424,7 +430,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -5.0d
 			y: 5.5d
 			subtitle: "Lures a Glowing Bee in the Nether"
 			description: ["When placed in the Nether, the Glowstone Nest will lure in a Glowing Bee."]
@@ -444,7 +450,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -6.0d
 			y: 5.5d
 			subtitle: "Lures in Ghostly Bees when placed in the Nether"
 			hide_dependency_lines: true
@@ -463,17 +469,15 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 3.5d
+			x: -4.0d
+			y: 5.5d
 			subtitle: "Lures in Crystalline Bees in the Nether"
 			description: [
-				"This nest attracts &eCrystalline Bees&r."
+				"This nest attracts &eCrystalline Bees&r. This will probably be your starting bee for breeding."
 				""
-				"The easiest way to get a quartz block is by mining it with a Silk Touch pick."
+				"Check JEI carefully, the quartz block necessary for this nest can be crafted."
 				""
-				"Tip: Brass has the Silk Touch trait when making a Silent Gear tool."
 			]
-			hide_dependency_lines: true
 			dependencies: ["120BDCB70AD352AC"]
 			hide: false
 			id: "6D484150536536B9"
@@ -490,7 +494,7 @@
 		}
 		{
 			x: -7.0d
-			y: 4.5d
+			y: 5.5d
 			subtitle: "Lures in a Magmatic Bee when placed in the Nether"
 			description: ["Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee."]
 			hide_dependency_lines: true
@@ -509,7 +513,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -4.5d
 			y: 4.5d
 			subtitle: "Lures in Ender Bees when placed in the End"
 			hide_dependency_lines: true
@@ -528,11 +532,10 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 3.5d
+			x: -3.5d
+			y: 4.5d
 			subtitle: "Lures a Draconic Bee in the End"
 			description: ["The Obsidian Nest will lure in Draconic Bees when placed in the End."]
-			hide_dependency_lines: true
 			dependencies: ["120BDCB70AD352AC"]
 			hide: false
 			id: "3155E4212045BC8E"
@@ -550,8 +553,8 @@
 		{
 			title: "Iron Bees"
 			icon: "minecraft:iron_ingot"
-			x: 1.0d
-			y: 9.5d
+			x: 2.0d
+			y: 10.0d
 			subtitle: "Ashy Mining + Crystalline"
 			description: [""]
 			hide_dependency_lines: true
@@ -2190,8 +2193,8 @@
 		{
 			title: "Blazing Bee"
 			icon: "minecraft:blaze_rod"
-			x: -1.0d
-			y: 10.5d
+			x: 0.0d
+			y: 18.0d
 			subtitle: "Magmatic + Nomad"
 			description: [""]
 			hide_dependency_lines: true
@@ -2582,8 +2585,8 @@
 		{
 			title: "Coal Bee"
 			icon: "minecraft:coal"
-			x: 2.0d
-			y: 10.0d
+			x: -1.0d
+			y: 10.5d
 			subtitle: "Blazing + Leafcutter"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3149,54 +3152,6 @@
 			}]
 			rewards: [{
 				id: "30C7803BBB6B7F56"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Pepto Beesmol Bee"
-			icon: {
-				id: "productivebees:configurable_comb"
-				Count: 1b
-				tag: {
-					EntityTag: {
-						type: "productivebees:pepto_bismol"
-					}
-				}
-			}
-			x: 0.0d
-			y: 18.0d
-			subtitle: "Sugarbag + Neon Cuckoo"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "2B1985B5774B977B"
-			tasks: [{
-				id: "4C8BCD20A4DF8353"
-				type: "item"
-				title: "Pepto Bismol Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:pepto_bismol"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:pepto_bismol"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "16918EC0704ED7D2"
 				type: "xp"
 				xp: 100
 			}]
@@ -3817,8 +3772,8 @@
 		{
 			title: "Amethyst Bee"
 			icon: "minecraft:amethyst_cluster"
-			x: 6.0d
-			y: 11.0d
+			x: 7.0d
+			y: 12.5d
 			subtitle: "Feed a Diamond Bee Amethyst"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3857,8 +3812,8 @@
 		{
 			title: "Apatite Bee"
 			icon: "thermal:apatite"
-			x: 5.0d
-			y: 11.5d
+			x: 7.0d
+			y: 14.5d
 			subtitle: "Feed a Diamond Bee Apatite!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3890,46 +3845,6 @@
 			}]
 			rewards: [{
 				id: "7480C69F90A56B15"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Brown Shroombee"
-			icon: "minecraft:brown_mushroom"
-			x: 7.0d
-			y: 11.5d
-			subtitle: "Feed a Shroombee a Brown Mushroom!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "01F7F3589EBD8872"
-			tasks: [{
-				id: "30FE30A7FA067459"
-				type: "item"
-				title: "Brown Shroombee Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:brown_shroom"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:brown_shroom"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "52ABD90406552164"
 				type: "xp"
 				xp: 100
 			}]
@@ -4015,47 +3930,6 @@
 			}]
 			rewards: [{
 				id: "4C709117DECA0969"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Crimson Shroombee"
-			icon: "minecraft:crimson_fungus"
-			x: 7.0d
-			y: 12.5d
-			subtitle: "Feed a Shroombee a Crimson Fungus!"
-			description: [""]
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "176ACC61DC206E55"
-			tasks: [{
-				id: "3B35F86B42989063"
-				type: "item"
-				title: "Crimson Shroombee Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:crimson"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:crimson"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "138D9A13CD9CBC15"
 				type: "xp"
 				xp: 100
 			}]
@@ -4184,7 +4058,7 @@
 			title: "Hoarder Bee"
 			icon: "minecraft:shulker_box"
 			x: 6.0d
-			y: 17.0d
+			y: 16.0d
 			subtitle: "Feed a Collector Bee a Shulker Shell!"
 			description: ["Collects items on the ground and brings it back to its nest."]
 			hide_dependency_lines: true
@@ -4277,46 +4151,6 @@
 			}]
 			rewards: [{
 				id: "677634D163F8DDDB"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Red Shroombee"
-			icon: "minecraft:red_mushroom"
-			x: 7.0d
-			y: 14.5d
-			subtitle: "Feed a Shroombee a Red Mushroom!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "37CD9BF281903F56"
-			tasks: [{
-				id: "39899761508BFACE"
-				type: "item"
-				title: "Red Shroombee Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:red_shroom"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:red_shroom"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7AB48FA4789D87C9"
 				type: "xp"
 				xp: 100
 			}]
@@ -4482,46 +4316,6 @@
 			}]
 		}
 		{
-			title: "Warped Shroombee"
-			icon: "minecraft:warped_fungus"
-			x: 6.0d
-			y: 16.0d
-			subtitle: "Feed a Shroombee Warped Fungus!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "2982D38BD5EE6349"
-			tasks: [{
-				id: "094F0FCF9A64EE00"
-				type: "item"
-				title: "Warped Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:warped"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:warped"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1D2DDC683FE6A9C3"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "Breeding and Converting Bees"
 			x: 1.0d
 			y: 7.5d
@@ -4553,7 +4347,7 @@
 			description: [
 				"If you want to turn your Bee Farm into a factory for resources, you'll need to start by spawning in Bees with &6Nests&r."
 				""
-				"The nests must be placed in specific biomes, which you can find in the JEI for it (look for the I icon at the top)."
+				"While normally nests would need to be placed in specific biomes, these restrictions have been removed for skyblock"
 				""
 				"To lure in a bee to the nest, right click on it with a &9Honey Treat&r. Nests will not work without the treats!!"
 				""
@@ -4823,11 +4617,13 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: 4.5d
+			x: -8.0d
+			y: 5.5d
 			subtitle: "Lures a Gold Bee when placed in the Nether"
+			description: ["The Gold Bee can be bred and as such this nest isn't required."]
 			hide_dependency_lines: true
 			dependencies: ["120BDCB70AD352AC"]
+			optional: true
 			id: "160BD0185954C891"
 			tasks: [{
 				id: "4EE84594A8A996AF"
@@ -4838,6 +4634,106 @@
 				id: "76C1F3990EFECFDB"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			title: "The Vanilla Way"
+			icon: "minecraft:bee_nest"
+			x: 2.0d
+			y: -6.0d
+			description: ["A Birch or Oak Sapling grown within 2 blocks of a flower has a 5% chance to grow with a hive"]
+			hide_dependency_lines: true
+			dependencies: ["13AA91D39A2CABF2"]
+			hide: true
+			optional: true
+			id: "59EFBCCB8CEE9954"
+			tasks: [
+				{
+					id: "1E5EFBE9A33C44D8"
+					type: "item"
+					title: "Flower"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+				}
+				{
+					id: "04BF06D02B8544BF"
+					type: "item"
+					title: "Birch/Oak Sapling"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:oak_sapling"
+									Count: 1b
+								}
+								{
+									id: "minecraft:birch_sapling"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "732D7D122156F3C5"
+					type: "observation"
+					title: "Bee Nest"
+					icon: "minecraft:bee_nest"
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:bee_nest"
+				}
+			]
+			rewards: [{
+				id: "0A66445554982849"
+				type: "item"
+				item: "minecraft:bee_spawn_egg"
+			}]
+		}
+		{
+			title: "The Ex Nihilo Way"
+			icon: "minecraft:beehive"
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"Ex Nihilo lets you make a hive without any honeycomb. A few pieces of string and some sticks will get you started on your quest."
+				""
+				"Toss that buzzing doll into witch water to spawn your first bee."
+			]
+			hide_dependency_lines: true
+			dependencies: ["13AA91D39A2CABF2"]
+			hide: true
+			optional: true
+			id: "27D92D7128C52F26"
+			tasks: [
+				{
+					id: "0592B821B4C72030"
+					type: "item"
+					item: "exnihilosequentia:beehive_frame"
+					count: 3L
+				}
+				{
+					id: "020D3BC1C7FD68CE"
+					type: "item"
+					item: "minecraft:beehive"
+				}
+				{
+					id: "7D58C86C4C212D19"
+					type: "item"
+					item: "exnihilosequentia:bee_doll"
+				}
+			]
+			rewards: [{
+				id: "34B3D85B1CF7D77F"
+				type: "item"
+				item: "minecraft:bee_spawn_egg"
 			}]
 		}
 	]
