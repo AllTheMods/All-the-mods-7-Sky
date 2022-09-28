@@ -2263,6 +2263,7 @@
 			x: 9.5d
 			y: -3.0d
 			shape: "diamond"
+			description: ["In this skyblock, &dAmethyst Geodes&r can be found underground in &7Ancient Soul Sand Valleys&r in &2The Other"]
 			dependencies: ["1D86B2E553503E53"]
 			optional: true
 			id: "6CEAA86EEAAC1203"
