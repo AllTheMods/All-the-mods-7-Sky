@@ -1,0 +1,27 @@
+{
+    "output": {
+      "tag": "forge:raw_materials/allthemodium"
+    },
+    "rarity": [
+      {
+        "whitelist": {
+          "type": "minecraft:worldgen/biome",
+          "values": [
+            "twilightforest:forest",
+            "twilightforest:oak_savannah",
+            "twilightforest:mushroom_forest",
+            "twilightforest:firefly_forest"
+          ]
+        },
+        "blacklist": {},
+        "depth_min": 32,
+        "depth_max": 80,
+        "weight": 4
+      }
+    ],
+    "pointer": 0,
+    "catalyst": {
+      "item": "industrialforegoing:laser_lens4"
+    },
+    "type": "industrialforegoing:laser_drill_ore"
+  }

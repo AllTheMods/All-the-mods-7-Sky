@@ -462,7 +462,7 @@
 				""
 				"Different meshes yield different resources, same for sieving different materials! Meshes can also be enchanted with fortune for a higher yield."
 				""
-				"You can also sieve blocks 9 at a time by making 9 Oak Sieves, and placing them in a 3x3. Right-clicking the middle Sieve with the item you want to sieve will use 9 instead of 1. Each of them do need meshes."
+				"You can also sieve blocks 25 at a time by making 25 Oak Sieves, and placing them in a 5x5. Right-clicking the middle Sieve with the item you want to sieve will use 25 instead of 1. Each of them do need meshes."
 			]
 			dependencies: [
 				"4A536710A11856F2"

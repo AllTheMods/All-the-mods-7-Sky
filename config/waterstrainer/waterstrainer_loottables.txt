@@ -39,5 +39,3 @@
 
 <copy> <child>strainer_fisherman_solid</child> <parent>strainer_fisherman</parent> </copy>
 <copy> <child>strainer_fisherman_reinforced</child> <parent>strainer_fisherman</parent> </copy>
-<add> <strainer>strainer_fisherman_reinforced</strainer> <chance>1</chance> <item>productivebees:spawn_egg_configurable_bee</item> <nbt>{EntityTag:{type:"productivebees:prismarine"}}</nbt> </add>
-<add> <strainer>strainer_fisherman_reinforced</strainer> <chance>1</chance> <item>productivebees:spawn_egg_configurable_bee</item> <nbt>{EntityTag:{type:"productivebees:oily"}}</nbt> </add>

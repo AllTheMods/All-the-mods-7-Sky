@@ -7,18 +7,6 @@
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 1.5d
-		y: 1.0d
-		width: 100.0d
-		height: 100.0d
-		rotation: 0.0d
-		image: "atm:textures/clouds.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			icon: "thermal:upgrade_augment_3"
@@ -328,7 +316,11 @@
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Tier 1 Base Upgrade"
-			description: ["This is a base upgrade for all machines and items. It does not stack with itself."]
+			description: [
+				"This is a base upgrade for all machines and items."
+				""
+				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+			]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "76084BE1BBCF941F"
@@ -337,6 +329,19 @@
 				type: "item"
 				item: "thermal:upgrade_augment_1"
 			}]
+			rewards: [
+				{
+					id: "6F6FE7215CE5F711"
+					type: "item"
+					item: "alltheores:invar_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "7CD91CF01EAA7BCD"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -346,7 +351,7 @@
 			description: [
 				"This is a tier 2 upgrade for Thermal Series items and machines."
 				""
-				"It does not stack with itself, but can stack with other tier upgrades."
+				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
@@ -356,6 +361,19 @@
 				type: "item"
 				item: "thermal:upgrade_augment_2"
 			}]
+			rewards: [
+				{
+					id: "7B0C61173C1E385F"
+					type: "item"
+					item: "alltheores:electrum_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "723FE016CAA6566D"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -365,7 +383,7 @@
 			description: [
 				"This is the highest base tier upgrade for Thermal Series items and machines."
 				""
-				"It cannot stack with itself, but can stack with other base tier upgrades."
+				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
@@ -375,6 +393,19 @@
 				type: "item"
 				item: "thermal:upgrade_augment_3"
 			}]
+			rewards: [
+				{
+					id: "73069B8BEF917238"
+					type: "item"
+					item: "alltheores:enderium_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "6724D7DE6CC92091"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -1299,156 +1330,6 @@
 					id: "539EF1C8332A468C"
 					type: "xp"
 					xp: 100
-				}
-			]
-		}
-		{
-			x: -3.0d
-			y: -4.5d
-			dependencies: ["5D40E02A23EDDF22"]
-			id: "452202656BD6E862"
-			tasks: [{
-				id: "3DBE8DBBD1BF2CE0"
-				type: "item"
-				item: "solargeneration:solar_panel_hardened"
-			}]
-			rewards: [
-				{
-					id: "33AA0670FDB1DCB1"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7CE203E153EBCCF6"
-					type: "item"
-					item: "solargeneration:solar_panel_leadstone"
-					count: 2
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: -4.5d
-			description: ["Yes you are seeing this correctly, thermal solars! these start low but can get very overpowered further down the line"]
-			dependency_requirement: "one_completed"
-			id: "5D40E02A23EDDF22"
-			tasks: [{
-				id: "29CA9EE761556502"
-				type: "item"
-				item: "solargeneration:solar_panel_leadstone"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -4.5d
-			dependencies: ["452202656BD6E862"]
-			id: "1D486433DE8BCE38"
-			tasks: [{
-				id: "69B01FDF4E8BFC3F"
-				type: "item"
-				item: "solargeneration:solar_panel_redstone"
-			}]
-			rewards: [
-				{
-					id: "14764E8440421F29"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "61D5E51D1A633A18"
-					type: "item"
-					item: "solargeneration:solar_panel_hardened"
-					count: 2
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -4.5d
-			dependencies: ["1D486433DE8BCE38"]
-			id: "0DC2A6F200A17E8E"
-			tasks: [{
-				id: "7D0B8A4F53875A98"
-				type: "item"
-				item: "solargeneration:solar_panel_signalum"
-			}]
-			rewards: [
-				{
-					id: "151F625FE308D197"
-					type: "item"
-					item: "solargeneration:solar_panel_redstone"
-					count: 2
-				}
-				{
-					id: "32603FE6BBC5FBA6"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: -4.5d
-			dependencies: ["0DC2A6F200A17E8E"]
-			id: "216F4BCB3DA0AD1B"
-			tasks: [{
-				id: "46F1B655C9A5BA59"
-				type: "item"
-				item: "solargeneration:solar_panel_resonant"
-			}]
-			rewards: [
-				{
-					id: "68D5EF772CB5B960"
-					type: "item"
-					item: "solargeneration:solar_panel_signalum"
-					count: 2
-				}
-				{
-					id: "5082CF3FCE5EF0CF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: -4.5d
-			dependencies: ["216F4BCB3DA0AD1B"]
-			id: "176A8D8FB8B07EF5"
-			tasks: [{
-				id: "7EAFC291DC8FE238"
-				type: "item"
-				item: "solargeneration:solar_panel_advanced"
-			}]
-			rewards: [{
-				id: "6AD5CDDB9997FFA4"
-				type: "item"
-				item: "solargeneration:solar_panel_resonant"
-				count: 2
-			}]
-		}
-		{
-			title: "The truly ULTIMATE solar, no arguments"
-			x: 4.5d
-			y: -4.5d
-			dependencies: ["176A8D8FB8B07EF5"]
-			id: "4B57DAC8E85ABBE4"
-			tasks: [{
-				id: "49A82DA9FB6131B9"
-				type: "item"
-				item: "solargeneration:solar_panel_ultimate"
-			}]
-			rewards: [
-				{
-					id: "4C025F476C2C5732"
-					type: "item"
-					item: "solargeneration:solar_panel_advanced"
-					count: 2
-				}
-				{
-					id: "34DD9005FEA3049D"
-					type: "xp_levels"
-					xp_levels: 2
 				}
 			]
 		}

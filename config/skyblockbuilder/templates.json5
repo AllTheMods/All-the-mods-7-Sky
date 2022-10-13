@@ -8,11 +8,20 @@
   //     "spawns": "default",
   //     "direction": "south"
   // }
-  "spawn": null,
+  "spawn": {
+      "name": "Spawn",
+      "desc": "",
+      "file": "spawn.nbt",
+      "spawns": "spawn",
+      "direction": "south"
+    },
   
   "spawns": {
     "default": [
       [ 6, 3, 5 ]
+    ],
+    "spawn": [
+      [ 8, 0, 8 ]
     ]
   },
   

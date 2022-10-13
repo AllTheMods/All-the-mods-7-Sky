@@ -1478,7 +1478,7 @@
 			description: [
 				"This machine combines two gases to create a new gas."
 				""
-				"You'll need this to combine Chlorine with Hydrogen to create Hyrdogen Chloride, which is then used in our Chemical Injection Chamber."
+				"You'll need this to combine Chlorine with Hydrogen to create Hydrogen Chloride, which is then used in our Chemical Injection Chamber."
 			]
 			dependencies: ["603877AB96321F1A"]
 			id: "04E2D539E33B7B0F"
@@ -1651,7 +1651,14 @@
 				{
 					id: "4FFA4CDB37CDFCC8"
 					type: "item"
-					item: "mekanism:dust_sulfur"
+					title: "Any #forge:dusts/sulfur"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
 				}
 			]
 			rewards: [
