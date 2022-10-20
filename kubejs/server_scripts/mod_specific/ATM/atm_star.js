@@ -39,7 +39,7 @@ onEvent('recipes', e => {
     A: 'mysticalagradditions:insanium_coal_block',
     B: Item.of('ftbic:quad_uranium_fuel_rod', '{Damage:0}'),
     C: 'mekanism:pellet_antimatter',
-    D: 'projecte:red_matter',
+    D: 'projecte:rm_furnace',
     E: 'mysticalagriculture:supremium_furnace',
     F: Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:phoenix"}}'),
     G: 'allthecompressed:uranium_block_5x',
