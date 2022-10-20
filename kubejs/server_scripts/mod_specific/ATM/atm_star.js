@@ -20,7 +20,7 @@ onEvent('recipes', e => {
     D: 'allthecompressed:clay_block_4x',
     E: 'allthecompressed:emerald_block_4x',
     F: 'allthecompressed:soul_sand_block_4x',
-    G: 'allthecompressed:red_sand_block_4x',
+    G: 'allthecompressed:gravel_block_4x',
     H: 'allthecompressed:red_sand_block_4x',
     I: 'allthecompressed:obsidian_block_4x'
   }).id('kubejs:allthetweaks/dimensional_seed')
