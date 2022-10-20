@@ -127,13 +127,13 @@ onEvent('recipes', e => {
   e.recipes.create.mechanical_crafting('allthetweaks:atm_star', [
     '    O    ',
     '   AJA   ',
-    'OAAJFJAAO',
-    'AJJCDEJJA',
+    'OOAJFJAOO',
+    'OJJCDEJJO',
     ' ANBIHMA ',
     '  AKGLA  ',
     ' AJJAJJA ',
-    'AJJA AJJA',
-    'OAA   AAO'
+    'OJJA AJJO',
+    'OOA   AOO'
   ], {
     A: 'allthemodium:unobtainium_allthemodium_alloy_block',
     B: 'allthetweaks:nexium_emitter',
@@ -149,7 +149,7 @@ onEvent('recipes', e => {
     L: 'mysticalagradditions:creative_essence',
     M: 'mythicbotany:muspelheim_rune',
     N: 'mythicbotany:nidavellir_rune',
-    O: 'projecte:red_matter_block'
+    O: 'projecte:dark_matter_block'
   }).id('kubejs:allthetweaks/atm_star')
   //#endregion
   //#endregion
