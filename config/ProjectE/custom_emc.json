@@ -2,7 +2,7 @@
   "entries": [
     {
       "item": "minecraft:coal",
-      "emc": 32
+      "emc": 128
     },
     {
       "item": "minecraft:lapis_lazuli",
@@ -34,7 +34,7 @@
     },
     {
       "item": "minecraft:amethyst_shard",
-      "emc": 4096
+      "emc": 1024
     },
     {
       "item": "alltheores:aluminum_ingot",
@@ -611,6 +611,18 @@
     {
       "item": "minecraft:netherite_ingot",
       "emc": 8192
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
     }
   ]
 }
