@@ -79,8 +79,8 @@ onEvent('recipes', e => {
     B: 'ftbic:antimatter',
     C: 'ftbic:nuke',
     D: 'mekanism:quantum_entangloporter',
-    E: 'allthecompressed:unobtainium_block_3x',
-    F: 'allthecompressed:unobtainium_block_3x',
+    E: 'allthecompressed:unobtainium_block_2x',
+    F: 'allthecompressed:unobtainium_block_2x',
     G: 'ae2:quantum_ring',
     H: 'forbidden_arcanus:quantum_catcher',
     I: 'forbidden_arcanus:quantum_catcher'
