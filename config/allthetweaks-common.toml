@@ -16,10 +16,10 @@
 [packversionmin]
 	#Pack Minor Version : X
 	#Range: 0 ~ 32768
-	minor = 0
+	minor = 1
 
 [packversionminrev]
 	#Pack Minor Version Revision : X
 	#Range: 0 ~ 32768
-	minorrev = 5
+	minorrev = 3
 
