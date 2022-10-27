@@ -70,15 +70,16 @@ onEvent('recipes', e => {
     E: Item.of('apotheosis:potion_charm', { Damage: 0, Potion: "apotheosis:strong_knowledge" }),
     F: 'allthecompressed:enderium_block_3x',
     G: 'ftbic:nuke',
-    H: 'solargeneration:solar_panel_ultimate'   
+    H: 'solargeneration:solar_panel_advanced'  
   }).id('kubejs:allthetweaks/improbable_probability_device')
   //#endregion
+
   //#region Nexium Emitter
   e.shaped('allthetweaks:nexium_emitter', ['AGC', 'HBF', 'CED'], {
     A: 'ftbic:ev_solar_panel',
     B: 'ae2:dense_energy_cell',
     C: 'alltheores:platinum_block',
-    D: 'allthecompressed:netherite_block_5x',
+    D: 'allthecompressed:netherite_block_4x',
     E: 'ae2:singularity',
     F: 'mekanismgenerators:module_solar_recharging_unit',
     G: 'ae2:wireless_receiver',
