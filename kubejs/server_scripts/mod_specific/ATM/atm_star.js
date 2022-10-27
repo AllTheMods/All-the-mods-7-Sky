@@ -34,18 +34,32 @@ onEvent('recipes', e => {
     E: 'mekanism:module_gravitational_modulating_unit'
   }).id('kubejs:allthetweaks/withers_compass')
   //#endregion
-  //#region Philosopher's Fuel
-  e.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
-    A: 'mysticalagradditions:insanium_coal_block',
-    B: Item.of('ftbic:quad_uranium_fuel_rod', '{Damage:0}'),
-    C: 'mekanism:pellet_antimatter',
-    D: 'projecte:rm_furnace',
-    E: 'mysticalagriculture:supremium_furnace',
-    F: Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:phoenix"}}'),
-    G: 'allthecompressed:uranium_block_5x',
-    H: 'projecte:aeternalis_fuel_block',
-    I: 'ftbic:nuclear_reactor'
+
+//#region philosopher's fuel
+    e.custom({
+    type: 'pneumaticcraft:pressure_chamber',
+    inputs: [
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'mysticalagradditions:insanium_coal_block', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'mekanism:pellet_antimatter', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'projecte:rm_furnace', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'mysticalagriculture:supremium_furnace', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:uranium_block_4x', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'projecte:aeternalis_fuel_block', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthemodium:soul_lava_bucket', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'ftbic:nuclear_reactor', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'ftbic:antimatter', 'count': 1 }
+    ],
+    pressure: 4.9,
+    results: [
+      {
+        'item': 'allthetweaks:philosophers_fuel'
+      }
+    ]
   }).id('kubejs:allthetweaks/philosophers_fuel')
+
+//    B: Item.of('ftbic:quad_uranium_fuel_rod', '{Damage:0}'),
+//    F: Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:phoenix"}}'),
+
   //#endregion
   //#region Improbable Probaility Device
   e.shaped('allthetweaks:improbable_probability_device', ['AHB', 'CGE', 'FDF'], {
