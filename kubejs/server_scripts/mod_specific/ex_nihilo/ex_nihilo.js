@@ -112,10 +112,18 @@ onEvent(`recipes`, e => {
 
   //Heavy hammer
   hammer(`allthecompressed:cobblestone_block_1x`, `allthecompressed:gravel_block_1x`)
+  hammer(`allthecompressed:cobblestone_block_2x`, `allthecompressed:gravel_block_2x`)
+  hammer(`allthecompressed:cobblestone_block_3x`, `allthecompressed:gravel_block_3x`)
   hammer(`allthecompressed:gravel_block_1x`, `allthecompressed:sand_block_1x`)
+  hammer(`allthecompressed:gravel_block_2x`, `allthecompressed:sand_block_2x`)
+  hammer(`allthecompressed:gravel_block_3x`, `allthecompressed:sand_block_3x`)
   hhammer(`allthecompressed:sand_block_1x`, exDust, 9)
+  hhammer(`allthecompressed:sand_block_2x`, exDust, 54)
+  hhammer(`allthecompressed:sand_block_3x`, exDust, 486)
   hhammer(`allthecompressed:netherrack_block_1x`, exRack, 9)
+  hhammer(`allthecompressed:netherrack_block_2x`, exRack, 54)
   hhammer(`allthecompressed:end_stone_block_1x`, exEnd, 9)
+  hhammer(`allthecompressed:end_stone_block_2x`, exEnd, 54)
 
   crushEm(exDust, `#minecraft:sand`)
   crushEm(exRack, `#forge:netherrack`)
