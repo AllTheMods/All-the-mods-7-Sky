@@ -15,6 +15,18 @@
 	}
 	default_quest_shape: "square"
 	default_hide_dependency_lines: true
+	images: [{
+		x: -4.5d
+		y: 4.5d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			icon: {
