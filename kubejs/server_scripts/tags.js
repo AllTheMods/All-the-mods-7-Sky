@@ -10,6 +10,7 @@ onEvent('tags.blocks', e => {
   e.add('minecraft:climbable', ['minecraft:chain', /additionallanterns:.*_chain/])
   e.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, /exnihilosequentia:.+/, /botania:.+/, /compactmachines:.+/, /pipez:.*_pipe/, /functionalstorage:.+/, 'rftoolsutility:screen'])
   e.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
+  e.add('forge:ores', 'forbidden_arcanus:arcane_crystal_ore')
 })
 
 onEvent('tags.items', e => {
