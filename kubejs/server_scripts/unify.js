@@ -881,6 +881,11 @@ onEvent('recipes', e => {
   ['plate', 'gear', 'rod'].forEach(type => ftbicUnifyPress('iridium', type));
   ['plate', 'gear', 'unpacking', 'packing'].forEach(type => thermalUnifyPress('iridium', type));
 
+  // add diamond recipes
+  ['gear'].forEach(type => ieUnifyPress('minecraft:diamond', type));
+  ['gear'].forEach(type => ftbicUnifyPress('minecraft:diamond', type));
+  ['gear'].forEach(type => thermalUnifyPress('minecraft:diamond', type));
+
   ['cobalt', 'iridium'].forEach(ore => {
     ieUnifyOres(ore, 'raw_block');
     createUnifyOres(ore, 'raw_block');
