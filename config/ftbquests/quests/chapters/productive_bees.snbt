@@ -1009,8 +1009,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 1.9d
+			x: -3.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Making Babies"
 			description: [

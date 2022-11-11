@@ -83,26 +83,6 @@
 	]
 	quests: [
 		{
-			icon: "mekanism:upgrade_energy"
-			x: -5.500000000000002d
-			y: 0.5d
-			shape: "square"
-			subtitle: "The Basics"
-			description: ["You should have a Coal Generator ready to go!"]
-			dependencies: ["162AB6F9257EB71E"]
-			id: "65F6E7412B71DFB2"
-			tasks: [{
-				id: "2E3E8BDA6EFBD0C5"
-				type: "checkmark"
-				title: "Getting Started: Part 2 - Basic Power"
-			}]
-			rewards: [{
-				id: "2A6FF8DEB3D7A9B5"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
 			title: "Using Our Power"
 			x: -5.500000000000002d
 			y: 2.0d
@@ -112,9 +92,7 @@
 				""
 				"This machine allows us to make several materials that can be used for power and more machines in the future"
 				""
-				"Place the Infuser beside the Coal Generator to give it power."
 			]
-			dependencies: ["65F6E7412B71DFB2"]
 			id: "59B3C2AF620547E0"
 			tasks: [{
 				id: "512F3539FAE93680"
@@ -1413,7 +1391,6 @@
 				"Being a skyblock, everybody knows about lava power, its always going to happen, and some people will even use it till the very end"
 				"TIP: You can use an ore hammer from AlltheOres to make your ingots into dusts and get yourself invar blend until you have a machine that can do so"
 			]
-			dependencies: ["65F6E7412B71DFB2"]
 			id: "2D0AC4CC9992E3C8"
 			tasks: [{
 				id: "4E55681CE0738191"
