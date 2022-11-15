@@ -53,11 +53,14 @@ onEvent('tags.items', e => {
   e.add('minecraft:logs', ['integrateddynamics:menril_log_stripped', 'integrateddynamics:menril_wood_stripped', /allthemodium:stripped_\w+_log/])
   e.add('forge:stripped_logs', [/allthemodium:stripped_\w+_log/])
 
-  e.add('forge:hoes',[/twilightforest:.*_hoe/, /mekanismtools:.*_hoe/, /projecte:.*_hoe/, /mysticalagriculture:.*_hoe/, /allthemodium:.*_hoe/, /botania:.*_hoe/, /ae2:.*_hoe/])
-  e.add('forge:bows',[/twilightforest:.*_bow/])
+  e.add('forge:hoes',[/twilightforest:.*_hoe/, /mekanismtools:.*_hoe/, /projecte:.*_hoe/, /mysticalagriculture:.*_hoe/, /allthemodium:.*_hoe/, /botania:.*_hoe/, /ae2:.*_hoe/, /forbidden_arcanus:.*_sword/])
+  e.add('forge:bows',[/twilightforest:.*_bow/, /mysticalagriculture:.*_bow/])
   e.add('forge:armor',[/mekanismtools:.*_helmet/, /mekanismtools:.*_chestplate/, /mekanismtools:.*_leggings/, /mekanismtools:.*_boots/])
-
+  e.add('forge:swords', [/mekanismtools:.*_sword/, /mysticalagriculture:.*_sword/, /allthemodium:.*_sword/, /ae2:.*_sword/, /twilightforest:*_sword/, /projecte:*_sword/, /redstone_arsenal:.*_sword/])
+  e.add('forge:pickaxes', [/mekanismtools:.*_pickaxe/, /forbidden_arcanus:.*_pickaxe/, /mysticalagriculture:.*_pickaxe/, "botania:manasteel_pick", /botania:.*_pickaxe/, /allthemodium:.*_pickaxe/, /ae2:.*_pickaxe/, /twilightforest:.*_pickaxe/, /projecte:*_pickaxe/, /redstone_arsenal:.*_pickaxe/, /occultism:.*_pickaxe/, /spirit:*_pickaxe/, /immersiveengineering:pickaxe_.*/])
+  e.add('forge:axes', [/botania:.*_axe/, /allthemodium:.*_axe/, /ae2:.*_axe/, /mysticalagriculture:.*_axe/, /twilightforest:.*_axe/, /redstone_arsenal:.*_axe/, /forbidden_arcanus:.*_axe/, /mekanismtools:.*_axe/, /spirit:*_axe/])
   e.add('forge:cheese',['#forge:cheeses','thermal:cheese_wedge'])
+
 })
 
 onEvent('tags.entity_types', e => {
