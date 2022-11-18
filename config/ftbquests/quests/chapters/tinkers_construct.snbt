@@ -98,7 +98,7 @@
 				""
 				"Note: If you place these beside each other, you can access them all from one block! This also works for other TC workbenches or anvils."
 			]
-			dependencies: ["4E3BAD0EE3974503"]
+			dependencies: ["63318C8E26E28F58"]
 			id: "4E0F952F75FBC1C9"
 			tasks: [
 				{
@@ -140,7 +140,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: -2.0d
 			subtitle: "Storing Parts"
 			description: ["The Part Chest is used to store extra parts that you might need in the future."]
@@ -167,7 +167,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 			subtitle: "Even More Storage"
 			description: ["The Tinker's Chest allows you to store even more parts!"]
@@ -702,22 +702,21 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			title: "Materials and you"
+			icon: "tconstruct:materials_and_you"
+			x: -4.0d
+			y: -2.0d
 			subtitle: "The Starter Guide"
 			description: [
 				"&eMaterials and You&r is the starter guide for Tinkers' Construct."
 				""
-				"You can also just use the Eccentric Tome that you started with, as it should have this book inside of it."
 				""
-				"You might be wondering why you're getting one in return. You'll need it to upgrade the book to the next tier!"
 			]
-			dependencies: ["63318C8E26E28F58"]
+			dependencies: ["4E0F952F75FBC1C9"]
 			id: "4E3BAD0EE3974503"
 			tasks: [{
-				id: "3470A9B8D6C75484"
-				type: "item"
-				item: "tconstruct:materials_and_you"
+				id: "5927B6C69CF7127C"
+				type: "checkmark"
 			}]
 			rewards: [
 				{
@@ -1356,45 +1355,11 @@
 			}]
 		}
 		{
-			title: "Nether Grout"
-			x: 15.0d
-			y: -0.5d
-			subtitle: "I am Nether Grout."
-			description: [
-				"If we want to make a TC Foundry, we'll need something stronger than Seared Bricks."
-				""
-				"Head to the Nether for Magma Cream and Soul Sand. You'll need these to craft you some &9Nether Grout&r."
-			]
-			dependencies: ["1E35D97AF9B2A0C8"]
-			id: "085239E88B85820C"
-			tasks: [{
-				id: "7E9F548868BEB2FA"
-				type: "item"
-				item: "tconstruct:nether_grout"
-				count: 32L
-			}]
-			rewards: [
-				{
-					id: "26561404443098F2"
-					type: "item"
-					item: "tconstruct:nether_grout"
-					count: 6
-					random_bonus: 6
-				}
-				{
-					id: "6C21856552B78399"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
 			x: 16.5d
-			y: -0.5d
+			y: 0.5d
 			subtitle: "How-To Foundry"
 			description: ["This book contains all of the information needed to create and use a Foundry, as well as a list of Tier 4 Materials and how to create Plate Armor."]
-			dependencies: ["085239E88B85820C"]
-			optional: true
+			dependencies: ["5FAFAEC103BE62DD"]
 			id: "7675F195F6D5F8B4"
 			tasks: [{
 				id: "42232A516F1FD4F6"
@@ -1411,13 +1376,13 @@
 			title: "Creating a Foundry Controller"
 			icon: "tconstruct:scorched_bricks"
 			x: 15.0d
-			y: 2.5d
+			y: 0.5d
 			description: [
 				"To create the Foundry, we'll need the &6Foundry Controller&r."
 				""
 				"To get this, place a Scorched Brick in a Casting Basin, then pour at least 1 block's worth of Obsidian over it."
 			]
-			dependencies: ["5F6D253B5D900724"]
+			dependencies: ["1E35D97AF9B2A0C8"]
 			id: "5FAFAEC103BE62DD"
 			tasks: [
 				{
@@ -1448,34 +1413,6 @@
 					id: "5AC46217F06A5C61"
 					type: "xp"
 					xp: 10
-				}
-			]
-		}
-		{
-			title: "Nether Smelting"
-			x: 15.0d
-			y: 1.0d
-			description: ["Smelting Nether Grout will give us &6Scorched Bricks&r, which is what we'll use to create our Foundry."]
-			dependencies: ["085239E88B85820C"]
-			id: "5F6D253B5D900724"
-			tasks: [{
-				id: "319C6349A20B7C7A"
-				type: "item"
-				item: "tconstruct:scorched_brick"
-				count: 16L
-			}]
-			rewards: [
-				{
-					id: "56A8465D58C6D65F"
-					type: "item"
-					item: "tconstruct:scorched_brick"
-					count: 8
-					random_bonus: 8
-				}
-				{
-					id: "67758A26C5EF748E"
-					type: "xp"
-					xp: 100
 				}
 			]
 		}
