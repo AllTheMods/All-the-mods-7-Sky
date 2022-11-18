@@ -873,6 +873,7 @@ onEvent('recipes', e => {
     ['ore', 'raw_ore', 'ingot'].forEach(type => mekUnifyOres(ore, type));
     ['ore', 'raw_ore', 'ingot'].forEach(type => occultismUnifyCrusher(ore, type));
     ['ore', 'raw_ore', 'ingot'].forEach(type => ftbicUnifyOres(ore, type));
+    ['ore', 'raw_ore', 'ingot'].forEach(type => thermalUnifyPulverizer(ore, type));
     blastingUnifyOres(ore);
   });
 
