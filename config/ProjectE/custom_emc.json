@@ -101,6 +101,10 @@
       "emc": 1
     },
     {
+      "item": "minecraft:gravel",
+      "emc": 4
+    },
+    {
       "item": "minecraft:stone",
       "emc": 1
     },
