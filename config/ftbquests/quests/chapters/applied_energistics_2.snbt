@@ -46,7 +46,6 @@
 				""
 				"Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame."
 				""
-				"To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f. Its ore most frequently drops Certus Quartz &eDust&f, but you may be able to find a &eCrystal&f from it every once in a while."
 				""
 				"For more information on AE2 beyond this chapter, consult the wiki over at &o&bappliedenergistics.github.io&f&r."
 			]
@@ -109,9 +108,8 @@
 			y: 0.5d
 			subtitle: "Some basic machines"
 			description: [
-				"Two of the very first things you will need to get started in AE2 are the &bCharger&f and the &bInscriber&f."
+				"The very first thing you will need to get started in AE2 is the &bInscriber&f."
 				""
-				"The &bCharger&f, when supplied with power, will take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power."
 				""
 				"The &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest."
 			]
@@ -536,7 +534,6 @@
 			description: [
 				"Arguably the most important aspect of Applied Energistics 2 is its storage system, making use of digital &eStorage Cells&f. These cells are accessible through either an &eME Chest&r for single cells, or an &eME Drive&r for multiple cells."
 				""
-				"The &bME Chest&f holds a single Cell at a time, which can then be read from and written to from any other terminal on the same network. The ME Chest itself also provides its own terminal screen on the top with specific access only to the cell it contains."
 				""
 				"The &bME Drive&f can hold up to 10 assorted Storage Cells in the space of a single block and a single ME channel. However, it does not provide its own terminal screen, requiring some external terminal elsewhere on the network for storage access."
 			]
@@ -546,18 +543,11 @@
 			]
 			size: 1.5d
 			id: "4E8A05C3BFA80540"
-			tasks: [
-				{
-					id: "74AA3FA06B3574A8"
-					type: "item"
-					item: "ae2:chest"
-				}
-				{
-					id: "58C4DF6CFBDF8577"
-					type: "item"
-					item: "ae2:drive"
-				}
-			]
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				type: "item"
+				item: "ae2:drive"
+			}]
 			rewards: [
 				{
 					id: "107B36337206758B"
@@ -909,9 +899,9 @@
 				""
 				"ME Item Storage Cells can each hold up to 63 different types of items. Each new type of item added to a cell will take up a certain fraction of the storage cell's total capacity in bytes, typically 1/64th. For each type already present, 1 \"byte\" counts for 8 items of that same type."
 				""
-				"As an example, a 1k Item Storage Cell containing only cobblestone can hold up to 8128 cobblestone (8*1024b - 8b/type * 1 type)."
 				""
 				"If a cell is empty, it can be repurposed by disassembling it into its respective component and housing. This is done by sneaking and right-clicking in the air with the cell in your hand."
+				""
 			]
 			dependencies: ["2FB231069D2E4E77"]
 			id: "361CCBD353D6FF34"
@@ -935,11 +925,6 @@
 					id: "318D3CF0DD1E3A58"
 					type: "xp"
 					xp: 10
-				}
-				{
-					id: "06150B632CA535D8"
-					type: "item"
-					item: "ae2:item_cell_housing"
 				}
 			]
 		}

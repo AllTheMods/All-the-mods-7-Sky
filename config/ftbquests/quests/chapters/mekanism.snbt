@@ -58,7 +58,7 @@
 			]
 		}
 		{
-			x: -4.125d
+			x: -4.100000000000001d
 			y: -3.5d
 			subtitle: "Breaks Raw Ores into Dusts"
 			description: [
@@ -68,7 +68,6 @@
 				""
 				"This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use."
 			]
-			dependencies: ["488DBE69595F38F8"]
 			id: "08DDE018A804BFE7"
 			tasks: [{
 				id: "1AE233B4CCFE99F7"
@@ -1324,41 +1323,6 @@
 				}
 				{
 					id: "2AF72C7C24D94674"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: -5.625d
-			y: -3.5d
-			subtitle: "Mekanism's Powered Furnace"
-			description: [
-				"This machine smelts items."
-				""
-				"It can be upgraded into a Smelting Factory, increasing the total number of smelting slots up to a maximum of 9."
-			]
-			dependencies: ["162CE44400A63575"]
-			id: "488DBE69595F38F8"
-			tasks: [{
-				id: "5A081977DB9407EA"
-				type: "item"
-				item: "mekanism:energized_smelter"
-			}]
-			rewards: [
-				{
-					id: "43FE96E4A4A00D5C"
-					type: "item"
-					item: "minecraft:raw_iron"
-					count: 2
-				}
-				{
-					id: "699241EB28E47F5E"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "40AB668F74703AC6"
 					type: "xp"
 					xp: 10
 				}
