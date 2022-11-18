@@ -91,6 +91,7 @@ onEvent('recipes', e => {
   ], 1750, '#misctags:farmland/tier2', 2)
   //Tier 3 Crops
   tier([
+    'amethyst_bronze',
     'certus_quartz',
     'creeper',
     'glowstone',
