@@ -24,7 +24,7 @@
 			title: "Allthemodium Ore"
 			x: -3.5d
 			y: 1.5d
-			description: ["Found in Mountainous biomes inside cave ceilings and walls, with additional deposits in peaks above Y170."]
+			description: ["Found in the Twilight forest! Varying amounts are found inside of the hollow hills depending on the size of them, dont forget to make potions to find ore that is hidden out of sight!"]
 			hide_dependency_lines: false
 			dependencies: ["731686C758AD9A99"]
 			hide: false
