@@ -51,18 +51,11 @@
 			]
 			size: 1.5d
 			id: "2893F483C10293E6"
-			tasks: [
-				{
-					id: "43FD619EF9A41E76"
-					type: "item"
-					item: "ae2:certus_quartz_dust"
-				}
-				{
-					id: "7B9519E1AF53A9A3"
-					type: "item"
-					item: "ae2:certus_quartz_crystal"
-				}
-			]
+			tasks: [{
+				id: "43FD619EF9A41E76"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
 			rewards: [
 				{
 					id: "705C55E801A67B8C"
@@ -902,18 +895,13 @@
 				""
 				"If a cell is empty, it can be repurposed by disassembling it into its respective component and housing. This is done by sneaking and right-clicking in the air with the cell in your hand."
 				""
+				""
 			]
 			dependencies: ["2FB231069D2E4E77"]
 			id: "361CCBD353D6FF34"
 			tasks: [{
-				id: "52521FCD58B2FEF0"
-				type: "item"
-				title: "ME Item Storage Cell"
-				item: {
-					id: "ae2:item_storage_cell_1k"
-					Count: 1b
-					tag: { }
-				}
+				id: "08C87C31FF51A2AE"
+				type: "checkmark"
 			}]
 			rewards: [
 				{
@@ -1392,7 +1380,7 @@
 			shape: "circle"
 			subtitle: "Crystalline aquaculture"
 			description: [
-				"Rather than having to constantly mine Certus Quartz ore to obtain more &eCrystals&f, the easiest way to obtain them will be using all of the &eDust&f you've gathered so far to make &eSeeds&f."
+				"The easiest way to obtain them will be using all of the &eDust&f you've gathered so far to make &eSeeds&f."
 				""
 				"To grow the seeds into full crystals, simply drop them in water and wait for them to grow. They will not despawn as they grow. In the beginning, these will take a &olong&r time to grow, so consider making these in bulk. "
 				""
