@@ -6,7 +6,7 @@
 	infusionCrystalUses = 250
 	#The amount of time in seconds between each Growth Accelerator growth tick.
 	#Range: > 1
-	growthAcceleratorCooldown = 50
+	growthAcceleratorCooldown = 10
 	#Should vanilla crafting recipes for seeds be generated?
 	seedCraftingRecipes = false
 	#Should fake players be able to use watering cans?
@@ -37,6 +37,7 @@
 	#Range: -64 ~ 319
 	prosperitySpawnMinY = -60
 	#The list of biome IDs that Prosperity Ore veins can spawn in.
+	#Leaving this value empty will result in the default spawn behavior.
 	prosperityBiomeWhitelist = []
 	#The maximum Y level that Inferium Ore veins can spawn.
 	#Range: -64 ~ 319
@@ -52,6 +53,7 @@
 	#Range: 0 ~ 128
 	soulstoneSpawnRate = 3
 	#The list of biome IDs that Inferium Ore veins can spawn in.
+	#Leaving this value empty will result in the default spawn behavior.
 	inferiumBiomeWhitelist = []
 	#The maximum amount of Prosperity Ore blocks that can spawn in a vein.
 	#Range: 0 ~ 64
@@ -80,5 +82,6 @@
 	#Should Prosperity Ore generate in the world?
 	generateProsperityOre = true
 	#The list of biome IDs that Soulstone veins can spawn in.
+	#Leaving this value empty will result in the default spawn behavior.
 	soulstoneBiomeWhitelist = []
 
