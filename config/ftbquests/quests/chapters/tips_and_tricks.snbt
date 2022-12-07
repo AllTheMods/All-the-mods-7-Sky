@@ -449,5 +449,48 @@
 				}
 			]
 		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Can be used to find structures"
+			description: [
+				"Structures' compass allows a player to quickly locate a specific structure."
+				""
+				"Obtain corals by sieving sand in a waterlogged sieve."
+				"Coral larvae, when used on sea water, will turn into a coral block."
+			]
+			id: "62D9648D1BA54CCA"
+			tasks: [{
+				id: "50DAB04F94CB67F2"
+				type: "item"
+				item: "structures_compass:structures_compass"
+			}]
+			rewards: [{
+				id: "1E6189AFA40F8F35"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "Can be used to search for a biome's location"
+			description: ["Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."]
+			id: "3E235A6A006694A1"
+			tasks: [{
+				id: "0044BD58084BFB4E"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "18A39F21FDC40EC6"
+				type: "xp"
+				xp: 10
+			}]
+		}
 	]
 }
